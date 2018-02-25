@@ -5,7 +5,7 @@
 [![dependencies Status](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter/status.svg)](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter)
 [![devDependencies Status](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter/dev-status.svg)](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter?type=dev)
 
-[Windows EXE](https://github.com/Shyam-Chen/Electron-Desktop-Starter/raw/master/Electron-Desktop-Starter.exe) | macOS AppImage | Linux DMG
+Windows EXE | macOS AppImage | Linux DMG
 
 ## Getting Started
 
@@ -19,19 +19,14 @@ $ cd <PROJECT_NAME>
 2. Install Dependencies
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 3. Run the Application
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
 Reload: Ctrl/Cmd + R
-
-4. Build the Application
-
-```bash
-$ npm run build-windows
-```
+Close: Ctrl + C
