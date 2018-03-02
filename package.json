@@ -1,14 +1,15 @@
 {
-  "name": "Electron-Desktop-Starter",
+  "name": "Electron-Chromium-Starter",
   "version": "1.0.0",
   "description": "A boilerplate for Electron, Material, Parcel, Babel, PostHTML, and PostCSS.",
   "main": "main.js",
   "scripts": {
-    "start": "concurrently --kill-others \"parcel src/index.html -d www\" \"electron .\""
+    "start": "concurrently --kill-others \"parcel src/index.html -d www\" \"electron .\"",
+    "build": "parcel build src/index.html --public-url /www && electron-builder"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shyam-Chen/Electron-Desktop-Starter.git"
+    "url": "git+https://github.com/Shyam-Chen/Electron-Chromium-Starter.git"
   },
   "keywords": [
     "Electron"
@@ -16,11 +17,10 @@
   "author": "Yen-cheng Chen, 陳彥澄",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Shyam-Chen/Electron-Desktop-Starter/issues"
+    "url": "https://github.com/Shyam-Chen/Electron-Chromium-Starter/issues"
   },
-  "homepage": "https://github.com/Shyam-Chen/Electron-Desktop-Starter#readme",
+  "homepage": "https://github.com/Shyam-Chen/Electron-Chromium-Starter#readme",
   "dependencies": {
-    "electron": "1.8.2",
     "material-components-web": "0.31.0"
   },
   "devDependencies": {
@@ -28,6 +28,7 @@
     "babel-preset-env": "1.6.1",
     "concurrently": "3.5.1",
     "cssnano": "3.10.0",
+    "electron": "^1.8.2",
     "electron-builder": "20.2.0",
     "eslint": "4.18.1",
     "eslint-config-airbnb": "16.1.0",

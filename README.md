@@ -1,9 +1,9 @@
-# Electron Desktop Starter
+# Electron Chromium Starter
 
 :zap: A boilerplate for Electron, Material, Parcel, Babel, PostHTML, and PostCSS.
 
-[![dependencies Status](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter/status.svg)](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter)
-[![devDependencies Status](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter/dev-status.svg)](https://david-dm.org/Shyam-Chen/Electron-Desktop-Starter?type=dev)
+[![dependencies Status](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter/status.svg)](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter)
+[![devDependencies Status](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter/dev-status.svg)](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter?type=dev)
 
 Windows EXE | macOS AppImage | Linux DMG
 
@@ -12,7 +12,7 @@ Windows EXE | macOS AppImage | Linux DMG
 1. Clone this Boilerplate
 
 ```bash
-$ git clone --depth 1 https://github.com/Shyam-Chen/Electron-Desktop-Starter.git <PROJECT_NAME>
+$ git clone --depth 1 https://github.com/Shyam-Chen/Electron-Chromium-Starter.git <PROJECT_NAME>
 $ cd <PROJECT_NAME>
 ```
 
@@ -28,5 +28,11 @@ $ yarn install
 $ yarn start
 ```
 
-Reload: Ctrl/Cmd + R
+Reload: Cmd + R <br>
 Close: Ctrl + C
+
+4. Build the Application
+
+```bash
+$ yarn build
+```
