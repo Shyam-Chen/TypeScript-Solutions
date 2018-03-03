@@ -31,6 +31,12 @@ $ yarn start
 Reload: Cmd + R <br>
 Close: Ctrl + C
 
+```js
+// main.js
+// Enable Chromium DevTools
+mainWindow.webContents.openDevTools();
+```
+
 4. Build the Application
 
 ```bash
