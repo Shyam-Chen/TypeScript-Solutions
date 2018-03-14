@@ -2,6 +2,10 @@
 
 :zap: A boilerplate for Electron, Material, Parcel, Babel, PostHTML, and PostCSS.
 
+| Windows (AppVeyor) | macOS (Travis CI) | Linux (CircleCI) |
+|:------------------:|:-----------------:|:----------------:|
+|                    |                   |                  |
+
 [![dependencies Status](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter/status.svg)](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter)
 [![devDependencies Status](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter/dev-status.svg)](https://david-dm.org/Shyam-Chen/Electron-Chromium-Starter?type=dev)
 
