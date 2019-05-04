@@ -1,0 +1,32 @@
+version: 2
+
+base: &base
+  working_directory: ~/ECMAScript-LeetCode
+  docker:
+    - image: circleci/node:10
+
+jobs:
+
+  test:
+    <<: *base
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Combat Preparation
+          command: docker-compose up -d leetcode
+      - run:
+          name: Code Quality
+          command: docker-compose exec leetcode yarn lint
+      - run:
+          name: Code Specification
+          command: docker-compose exec leetcode yarn test
+      - run:
+          name: Code Coverage
+          command: docker-compose exec leetcode yarn codecov --token=$CODECOV_TOKEN
+
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - test
