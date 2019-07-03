@@ -2,7 +2,7 @@ export const commonChars = (A: string[]): string[] => {
   const result = [];
   const charsArr = [];
 
-  A.forEach((item) => {
+  A.forEach(item => {
     charsArr.push([...new Set(Array.from(item))]);
   });
 
@@ -23,15 +23,20 @@ export const commonChars = (A: string[]): string[] => {
   });
 
   // including duplicates
-  result.forEach((alphabet) => {
+  result.forEach(alphabet => {
     const same = new Set();
+
     A.forEach(item => {
-      const num = Array.from(item).filter(i => i === alphabet).length;
+      // number of duplicate alphabets
+      const num = Array.from(item).filter(letter => letter === alphabet)
+        .length;
+
       same.add(num);
     });
 
+    // duplicate numbers are the same
     if (same.size === 1) {
-      for (let index = 1; index < same.values().next().value; index++) {
+      for (let i = 1; i < same.values().next().value; i++) {
         result.push(alphabet);
       }
     }
