@@ -8,14 +8,14 @@ export const commonChars = (A: string[]): string[] => {
 
   const flattened = charsArr.reduce((acc, cur) => [...acc, ...cur], []);
 
-  const counted = flattened.reduce((all: Object, str: string) => {
-    if (str in all) {
-      all[str] += 1;
+  const counted = flattened.reduce((acc: object, str: string) => {
+    if (str in acc) {
+      acc[str] += 1;
     } else {
-      all[str] = 1;
+      acc[str] = 1;
     }
 
-    return all;
+    return acc;
   }, {});
 
   Object.entries(counted).forEach(([key, value]) => {
@@ -28,15 +28,13 @@ export const commonChars = (A: string[]): string[] => {
 
     A.forEach(item => {
       // number of duplicate alphabets
-      const num = Array.from(item).filter(letter => letter === alphabet)
-        .length;
-
+      const num = Array.from(item).filter(letter => letter === alphabet).length;
       same.add(num);
     });
 
     // duplicate numbers are the same
     if (same.size === 1) {
-      for (let i = 1; i < same.values().next().value; i++) {
+      for (let i = 1; i < same.values().next().value; i += 1) {
         result.push(alphabet);
       }
     }
