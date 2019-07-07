@@ -1,4 +1,4 @@
-export const searchRangeS1 = <T extends number>(nums: T[], target: T): number[] => {
+export const searchRange = <T extends number>(nums: T[], target: T): number[] => {
   const res = [-1, -1];
 
   // left
@@ -29,6 +29,6 @@ export const searchRangeS1 = <T extends number>(nums: T[], target: T): number[] 
   return res;
 };
 
-export const searchRangeS2 = <T extends number>(nums: T[], target: T): number[] => (
+export const searchRange2 = <T extends number>(nums: T[], target: T): number[] => (
   [nums.indexOf(target), nums.lastIndexOf(target)]
 );
