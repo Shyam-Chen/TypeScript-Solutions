@@ -241,6 +241,7 @@
 * [x] 1002. Find Common Characters
 * [ ] 1005. Maximize Sum Of Array After K Negations
 * [ ] 1009. Complement of Base 10 Integer
+* [ ] 1010. Pairs of Songs With Total Durations Divisible by 60
 * [ ] 1013. Partition Array Into Three Parts With Equal Sum
 * [ ] 1018. Binary Prefix Divisible By 5
 * [ ] 1021. Remove Outermost Parentheses
@@ -258,5 +259,5 @@
 * [ ] 1071. Greatest Common Divisor of Strings
 * [ ] 1078. Occurrences After Bigram
 * [ ] 1089. Duplicate Zeros
-* [ ] 1010. Pairs of Songs With Total Durations Divisible by 60
 * [ ] 1103. Distribute Candies to People
+* [ ] 1108. Defanging an IP Address
