@@ -30,7 +30,7 @@
 * [x] 54. Spiral Matrix
 * [ ] 55. Jump Game
 * [ ] 56. Merge Intervals
-* [ ] 59. Spiral Matrix II
+* [x] 59. Spiral Matrix II
 * [ ] 60. Permutation Sequence
 * [ ] 61. Rotate List
 * [ ] 62. Unique Paths

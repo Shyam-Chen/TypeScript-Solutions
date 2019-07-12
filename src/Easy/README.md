@@ -2,7 +2,7 @@
 
 * [x] 1. Two Sum
 * [x] 7. Reverse Integer
-* [ ] 9. Palindrome Number
+* [x] 9. Palindrome Number
 * [x] 13. Roman to Integer
 * [ ] 14. Longest Common Prefix
 * [ ] 20. Valid Parentheses

@@ -14,7 +14,7 @@
 * [ ] 51. N-Queens
 * [ ] 52. N-Queens II
 * [ ] 57. Insert Interval
-* [ ] 65. Valid Number
+* [x] 65. Valid Number
 * [ ] 68. Text Justification
 * [ ] 72. Edit Distance
 * [ ] 76. Minimum Window Substring
