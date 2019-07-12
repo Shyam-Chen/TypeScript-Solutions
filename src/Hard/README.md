@@ -100,3 +100,85 @@
 * [ ] 691. Stickers to Spell Word
 * [ ] 699. Falling Squares
 * [ ] 710. Random Pick with Blacklist
+* [ ] 715. Range Module
+* [ ] 719. Find K-th Smallest Pair Distance
+* [ ] 726. Number of Atoms
+* [ ] 730. Count Different Palindromic Subsequences
+* [ ] 732. My Calendar III
+* [ ] 736. Parse Lisp Expression
+* [ ] 741. Cherry Pickup
+* [ ] 745. Prefix and Suffix Search
+* [ ] 749. Contain Virus
+* [ ] 753. Cracking the Safe
+* [ ] 757. Set Intersection Size At Least Two
+* [ ] 761. Special Binary String
+* [ ] 765. Couples Holding Hands
+* [ ] 768. Max Chunks To Make Sorted II
+* [ ] 770. Basic Calculator IV
+* [ ] 773. Sliding Puzzle
+* [ ] 778. Swim in Rising Water
+* [ ] 780. Reaching Points
+* [ ] 782. Transform to Chessboard
+* [ ] 786. K-th Smallest Prime Fraction
+* [ ] 793. Preimage Size of Factorial Zeroes Function
+* [ ] 798. Smallest Rotation with Highest Score
+* [ ] 803. Bricks Falling When Hit
+* [ ] 805. Split Array With Same Average
+* [ ] 810. Chalkboard XOR Game
+* [ ] 815. Bus Routes
+* [ ] 818. Race Car
+* [ ] 827. Making A Large Island
+* [ ] 828. Unique Letter String
+* [ ] 829. Consecutive Numbers Sum
+* [ ] 834. Sum of Distances in Tree
+* [ ] 839. Similar String Groups
+* [ ] 843. Guess the Word
+* [ ] 847. Shortest Path Visiting All Nodes
+* [ ] 850. Rectangle Area II
+* [ ] 854. K-Similar Strings
+* [ ] 857. Minimum Cost to Hire K Workers
+* [ ] 862. Shortest Subarray with Sum at Least K
+* [ ] 864. Shortest Path to Get All Keys
+* [ ] 871. Minimum Number of Refueling Stops
+* [ ] 878. Nth Magical Number
+* [ ] 879. Profitable Schemes
+* [ ] 882. Reachable Nodes In Subdivided Graph
+* [ ] 887. Super Egg Drop
+* [ ] 891. Sum of Subsequence Widths
+* [ ] 895. Maximum Frequency Stack
+* [ ] 899. Orderly Queue
+* [ ] 902. Numbers At Most N Given Digit Set
+* [ ] 903. Valid Permutations for DI Sequence
+* [ ] 906. Super Palindromes
+* [ ] 913. Cat and Mouse
+* [ ] 920. Number of Music Playlists
+* [ ] 924. Minimize Malware Spread
+* [ ] 927. Three Equal Parts
+* [ ] 928. Minimize Malware Spread II
+* [ ] 936. Stamping The Sequence
+* [ ] 940. Distinct Subsequences II
+* [ ] 943. Find the Shortest Superstring
+* [ ] 952. Largest Component Size by Common Factor
+* [ ] 956. Tallest Billboard
+* [ ] 960. Delete Columns to Make Sorted III
+* [ ] 964. Least Operators to Express Number
+* [ ] 968. Binary Tree Cameras
+* [ ] 972. Equal Rational Numbers
+* [ ] 975. Odd Even Jump
+* [ ] 980. Unique Paths III
+* [ ] 982. Triples with Bitwise AND Equal To Zero
+* [ ] 992. Subarrays with K Different Integers
+* [ ] 995. Minimum Number of K Consecutive Bit Flips
+* [ ] 996. Number of Squareful Arrays
+* [ ] 1000. Minimum Cost to Merge Stones
+* [ ] 1001. Grid Illumination
+* [ ] 1012. Numbers With Repeated Digits
+* [ ] 1028. Recover a Tree From Preorder Traversal
+* [ ] 1032. Stream of Characters
+* [ ] 1036. Escape a Large Maze
+* [ ] 1044. Longest Duplicate Substring
+* [ ] 1074. Number of Submatrices That Sum to Target
+* [ ] 1092. Shortest Common Supersequence
+* [ ] 1095. Find in Mountain Array
+* [ ] 1096. Brace Expansion II
+* [ ] 1106. Parsing A Boolean Expression

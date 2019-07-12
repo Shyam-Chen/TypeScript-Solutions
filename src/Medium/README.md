@@ -214,3 +214,232 @@
 * [ ] 516. Longest Palindromic Subsequence
 * [ ] 518. Coin Change 2
 * [ ] 519. Random Flip Matrix
+* [ ] 522. Longest Uncommon Subsequence II
+* [ ] 523. Continuous Subarray Sum
+* [ ] 524. Longest Word in Dictionary through Deleting
+* [ ] 525. Contiguous Array
+* [ ] 526. Beautiful Arrangement
+* [ ] 528. Random Pick with Weight
+* [ ] 529. Minesweeper
+* [ ] 535. Encode and Decode TinyURL
+* [ ] 537. Complex Number Multiplication
+* [ ] 539. Minimum Time Difference
+* [ ] 540. Single Element in a Sorted Array
+* [ ] 542. 01 Matrix
+* [ ] 547. Friend Circles
+* [ ] 553. Optimal Division
+* [ ] 554. Brick Wall
+* [ ] 556. Next Greater Element III
+* [ ] 560. Subarray Sum Equals K
+* [ ] 565. Array Nesting
+* [ ] 567. Permutation in String
+* [ ] 576. Out of Boundary Paths
+* [ ] 583. Delete Operation for Two Strings
+* [ ] 592. Fraction Addition and Subtraction
+* [ ] 593. Valid Square
+* [ ] 609. Find Duplicate File in System
+* [ ] 611. Valid Triangle Number
+* [ ] 621. Task Scheduler
+* [ ] 622. Design Circular Queue
+* [ ] 623. Add One Row to Tree
+* [ ] 636. Exclusive Time of Functions
+* [ ] 638. Shopping Offers
+* [ ] 640. Solve the Equation
+* [ ] 641. Design Circular Deque
+* [ ] 646. Maximum Length of Pair Chain
+* [ ] 647. Palindromic Substrings
+* [ ] 648. Replace Words
+* [ ] 649. Dota2 Senate
+* [ ] 650. 2 Keys Keyboard
+* [ ] 652. Find Duplicate Subtrees
+* [ ] 654. Maximum Binary Tree
+* [ ] 655. Print Binary Tree
+* [ ] 658. Find K Closest Elements
+* [ ] 659. Split Array into Consecutive Subsequences
+* [ ] 662. Maximum Width of Binary Tree
+* [ ] 667. Beautiful Arrangement II
+* [ ] 670. Maximum Swap
+* [ ] 672. Bulb Switcher II
+* [ ] 673. Number of Longest Increasing Subsequence
+* [ ] 676. Implement Magic Dictionary
+* [ ] 677. Map Sum Pairs
+* [ ] 678. Valid Parenthesis String
+* [ ] 684. Redundant Connection
+* [ ] 688. Knight Probability in Chessboard
+* [ ] 692. Top K Frequent Words
+* [ ] 695. Max Area of Island
+* [ ] 698. Partition to K Equal Sum Subsets
+* [ ] 701. Insert into a Binary Search Tree
+* [ ] 712. Minimum ASCII Delete Sum for Two Strings
+* [ ] 713. Subarray Product Less Than K
+* [ ] 714. Best Time to Buy and Sell Stock with Transaction Fee
+* [ ] 718. Maximum Length of Repeated Subarray
+* [ ] 721. Accounts Merge
+* [ ] 722. Remove Comments
+* [ ] 725. Split Linked List in Parts
+* [ ] 729. My Calendar I
+* [ ] 731. My Calendar II
+* [ ] 735. Asteroid Collision
+* [ ] 738. Monotone Increasing Digits
+* [ ] 739. Daily Temperatures
+* [ ] 740. Delete and Earn
+* [ ] 743. Network Delay Time
+* [ ] 752. Open the Lock
+* [ ] 756. Pyramid Transition Matrix
+* [ ] 763. Partition Labels
+* [ ] 764. Largest Plus Sign
+* [ ] 767. Reorganize String
+* [ ] 769. Max Chunks To Make Sorted
+* [ ] 775. Global and Local Inversions
+* [ ] 777. Swap Adjacent in LR String
+* [ ] 779. K-th Symbol in Grammar
+* [ ] 781. Rabbits in Forest
+* [ ] 785. Is Graph Bipartite?
+* [ ] 787. Cheapest Flights Within K Stops
+* [ ] 789. Escape The Ghosts
+* [ ] 790. Domino and Tromino Tiling
+* [ ] 791. Custom Sort String
+* [ ] 792. Number of Matching Subsequences
+* [ ] 794. Valid Tic-Tac-Toe State
+* [ ] 795. Number of Subarrays with Bounded Maximum
+* [ ] 797. All Paths From Source to Target
+* [ ] 799. Champagne Tower
+* [ ] 801. Minimum Swaps To Make Sequences Increasing
+* [ ] 802. Find Eventual Safe States
+* [ ] 807. Max Increase to Keep City Skyline
+* [ ] 808. Soup Servings
+* [ ] 809. Expressive Words
+* [ ] 813. Largest Sum of Averages
+* [ ] 814. Binary Tree Pruning
+* [ ] 816. Ambiguous Coordinates
+* [ ] 817. Linked List Components
+* [ ] 820. Short Encoding of Words
+* [ ] 822. Card Flipping Game
+* [ ] 823. Binary Trees With Factors
+* [ ] 825. Friends Of Appropriate Ages
+* [ ] 826. Most Profit Assigning Work
+* [ ] 831. Masking Personal Information
+* [ ] 833. Find And Replace in String
+* [ ] 835. Image Overlap
+* [ ] 837. New 21 Game
+* [ ] 838. Push Dominoes
+* [ ] 841. Keys and Rooms
+* [ ] 842. Split Array into Fibonacci Sequence
+* [ ] 845. Longest Mountain in Array
+* [ ] 846. Hand of Straights
+* [ ] 848. Shifting Letters
+* [ ] 851. Loud and Rich
+* [ ] 853. Car Fleet
+* [ ] 855. Exam Room
+* [ ] 856. Score of Parentheses
+* [ ] 858. Mirror Reflection
+* [ ] 861. Score After Flipping Matrix
+* [ ] 863. All Nodes Distance K in Binary Tree
+* [ ] 865. Smallest Subtree with all the Deepest Nodes
+* [ ] 866. Prime Palindrome
+* [ ] 869. Reordered Power of 2
+* [ ] 870. Advantage Shuffle
+* [ ] 873. Length of Longest Fibonacci Subsequence
+* [ ] 875. Koko Eating Bananas
+* [ ] 877. Stone Game
+* [ ] 880. Decoded String at Index
+* [ ] 881. Boats to Save People
+* [ ] 885. Spiral Matrix III
+* [ ] 886. Possible Bipartition
+* [ ] 889. Construct Binary Tree from Preorder and Postorder Traversal
+* [ ] 890. Find and Replace Pattern
+* [ ] 894. All Possible Full Binary Trees
+* [ ] 898. Bitwise ORs of Subarrays
+* [ ] 900. RLE Iterator
+* [ ] 901. Online Stock Span
+* [ ] 904. Fruit Into Baskets
+* [ ] 907. Sum of Subarray Minimums
+* [ ] 909. Snakes and Ladders
+* [ ] 910. Smallest Range II
+* [ ] 911. Online Election
+* [ ] 912. Sort an Array
+* [ ] 915. Partition Array into Disjoint Intervals
+* [ ] 916. Word Subsets
+* [ ] 918. Maximum Sum Circular Subarray
+* [ ] 919. Complete Binary Tree Inserter
+* [ ] 921. Minimum Add to Make Parentheses Valid
+* [ ] 923. 3Sum With Multiplicity
+* [ ] 926. Flip String to Monotone Increasing
+* [ ] 930. Binary Subarrays With Sum
+* [ ] 931. Minimum Falling Path Sum
+* [ ] 932. Beautiful Array
+* [ ] 934. Shortest Bridge
+* [ ] 935. Knight Dialer
+* [ ] 939. Minimum Area Rectangle
+* [ ] 945. Minimum Increment to Make Array Unique
+* [ ] 946. Validate Stack Sequences
+* [ ] 947. Most Stones Removed with Same Row or Column
+* [ ] 948. Bag of Tokens
+* [ ] 950. Reveal Cards In Increasing Order
+* [ ] 951. Flip Equivalent Binary Trees
+* [ ] 954. Array of Doubled Pairs
+* [ ] 955. Delete Columns to Make Sorted II
+* [ ] 957. Prison Cells After N Days
+* [ ] 958. Check Completeness of a Binary Tree
+* [ ] 959. Regions Cut By Slashes
+* [ ] 962. Maximum Width Ramp
+* [ ] 963. Minimum Area Rectangle II
+* [ ] 966. Vowel Spellchecker
+* [ ] 967. Numbers With Same Consecutive Differences
+* [ ] 969. Pancake Sorting
+* [ ] 971. Flip Binary Tree To Match Preorder Traversal
+* [ ] 973. K Closest Points to Origin
+* [ ] 974. Subarray Sums Divisible by K
+* [ ] 978. Longest Turbulent Subarray
+* [ ] 979. Distribute Coins in Binary Tree
+* [ ] 981. Time Based Key-Value Store
+* [ ] 983. Minimum Cost For Tickets
+* [ ] 984. String Without AAA or BBB
+* [ ] 986. Interval List Intersections
+* [ ] 987. Vertical Order Traversal of a Binary Tree
+* [ ] 988. Smallest String Starting From Leaf
+* [ ] 990. Satisfiability of Equality Equations
+* [ ] 991. Broken Calculator
+* [ ] 998. Maximum Binary Tree II
+* [ ] 1003. Check If Word Is Valid After Substitutions
+* [ ] 1004. Max Consecutive Ones III
+* [ ] 1006. Clumsy Factorial
+* [ ] 1007. Minimum Domino Rotations For Equal Row
+* [ ] 1008. Construct Binary Search Tree from Preorder Traversal
+* [ ] 1011. Capacity To Ship Packages Within D Days
+* [ ] 1014. Best Sightseeing Pair
+* [ ] 1015. Smallest Integer Divisible by K
+* [ ] 1016. Binary String With Substrings Representing 1 To N
+* [ ] 1017. Convert to Base -2
+* [ ] 1019. Next Greater Node In Linked List
+* [ ] 1020. Number of Enclaves
+* [ ] 1023. Camelcase Matching
+* [ ] 1024. Video Stitching
+* [ ] 1026. Maximum Difference Between Node and Ancestor
+* [ ] 1027. Longest Arithmetic Sequence
+* [ ] 1031. Maximum Sum of Two Non-Overlapping Subarrays
+* [ ] 1034. Coloring A Border
+* [ ] 1035. Uncrossed Lines
+* [ ] 1038. Binary Search Tree to Greater Sum Tree
+* [ ] 1039. Minimum Score Triangulation of Polygon
+* [ ] 1040. Moving Stones Until Consecutive II
+* [ ] 1043. Partition Array for Maximum Sum
+* [ ] 1048. Longest String Chain
+* [ ] 1049. Last Stone Weight II
+* [ ] 1052. Grumpy Bookstore Owner
+* [ ] 1053. Previous Permutation With One Swap
+* [ ] 1054. Distant Barcodes
+* [ ] 1072. Flip Columns For Maximum Number of Equal Rows
+* [ ] 1073. Adding Two Negabinary Numbers
+* [ ] 1079. Letter Tile Possibilities
+* [ ] 1080. Insufficient Nodes in Root to Leaf Paths
+* [ ] 1081. Smallest Subsequence of Distinct Characters
+* [ ] 1090. Largest Values From Labels
+* [ ] 1091. Shortest Path in Binary Matrix
+* [ ] 1093. Statistics from a Large Sample
+* [ ] 1094. Car Pooling
+* [ ] 1104. Path In Zigzag Labelled Binary Tree
+* [ ] 1105. Filling Bookcase Shelves
+* [ ] 1109.Corporate Flight Bookings
+* [ ] 1110. Delete Nodes And Return Forest
+* [ ] 1111.Maximum Nesting Depth of Two Valid Parentheses Strings
