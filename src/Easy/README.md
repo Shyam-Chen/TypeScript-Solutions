@@ -11,7 +11,7 @@
 * [x] 27. Remove Element
 * [ ] 28. Implement strStr()
 * [ ] 35. Search Insert Position
-* [ ] 38. Count and Say
+* [x] 38. Count and Say
 * [ ] 53. Maximum Subarray
 * [x] 58. Length of Last Word
 * [x] 66. Plus One
@@ -51,7 +51,7 @@
 * [ ] 204. Count Primes
 * [ ] 205. Isomorphic Strings
 * [ ] 206. Reverse Linked List
-* [ ] 217. Contains Duplicate
+* [x] 217. Contains Duplicate
 * [ ] 219. Contains Duplicate II
 * [ ] 225. Implement Stack using Queues
 * [ ] 226. Invert Binary Tree
