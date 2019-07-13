@@ -1,11 +1,11 @@
-import { reverseBitsS1, reverseBitsS2 } from './reverse-bits';
+import { reverseBits, reverseBits2 } from './reverse-bits';
 
-describe('reverseBits', () => {
-  it('reverseBitsS1', () => {
-    expect(reverseBitsS1(43261596)).toEqual(964176192);
+describe('190. Reverse Bits', () => {
+  it('reverseBits', () => {
+    expect(reverseBits(43261596)).toEqual(964176192);
   });
 
-  it('reverseBitsS2', () => {
-    expect(reverseBitsS2(43261596)).toEqual(964176192);
+  it('reverseBits2', () => {
+    expect(reverseBits2(43261596)).toEqual(964176192);
   });
 });

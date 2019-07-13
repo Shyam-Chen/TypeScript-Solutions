@@ -1,19 +1,19 @@
-import { plusOneS1, plusOneS2 } from './plus-one';
+import { plusOne, plusOne2 } from './plus-one';
 
-describe('plusOne', () => {
-  it('plusOneS1', () => {
-    expect(plusOneS1([1, 2, 3])).toEqual([1, 2, 4]);
-    expect(plusOneS1([4, 3, 2, 1])).toEqual([4, 3, 2, 2]);
+describe('66. Plus One', () => {
+  it('plusOne', () => {
+    expect(plusOne([1, 2, 3])).toEqual([1, 2, 4]);
+    expect(plusOne([4, 3, 2, 1])).toEqual([4, 3, 2, 2]);
 
-    expect(plusOneS1([1, 9])).toEqual([2, 0]);
-    expect(plusOneS1([9, 9])).toEqual([1, 0, 0]);
+    expect(plusOne([1, 9])).toEqual([2, 0]);
+    expect(plusOne([9, 9])).toEqual([1, 0, 0]);
   });
 
-  it('plusOneS2', () => {
-    expect(plusOneS2([1, 2, 3])).toEqual([1, 2, 4]);
-    expect(plusOneS2([4, 3, 2, 1])).toEqual([4, 3, 2, 2]);
+  it('plusOne2', () => {
+    expect(plusOne2([1, 2, 3])).toEqual([1, 2, 4]);
+    expect(plusOne2([4, 3, 2, 1])).toEqual([4, 3, 2, 2]);
 
-    expect(plusOneS2([1, 9])).toEqual([2, 0]);
-    expect(plusOneS2([9, 9])).toEqual([1, 0, 0]);
+    expect(plusOne2([1, 9])).toEqual([2, 0]);
+    expect(plusOne2([9, 9])).toEqual([1, 0, 0]);
   });
 });

@@ -1,6 +1,6 @@
 import { fizzBuzz } from './fizz-buzz';
 
-describe('fizzBuzz', () => {
+describe('412. Fizz Buzz', () => {
   it('fizzBuzz', () => {
     expect(fizzBuzz(15)).toEqual([
       '1', '2', 'Fizz',

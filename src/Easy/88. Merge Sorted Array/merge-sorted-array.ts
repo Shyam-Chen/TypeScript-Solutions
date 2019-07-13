@@ -1,4 +1,4 @@
-export const merge1 = <T extends number>(nums1: T[], m: T, nums2: T[], n: T): number[] => {
+export const merge = <T extends number>(nums1: T[], m: T, nums2: T[], n: T): number[] => {
   const arr1 = nums1.slice(0, m);
   const arr2 = nums2.slice(0, n);
 
@@ -17,9 +17,9 @@ export const merge2 = <T extends number>(nums1: T[], m: T, nums2: T[], n: T): nu
 
   while (i -= 1) {
     if (y < 0 || nums1[x] > nums2[y]) {
-      nums1[i] = nums1[x--];  // tslint:disable-line
+      nums1[i] = nums1[x--];
     } else {
-      nums1[i] = nums2[y--];  // tslint:disable-line
+      nums1[i] = nums2[y--];
     }
   }
 

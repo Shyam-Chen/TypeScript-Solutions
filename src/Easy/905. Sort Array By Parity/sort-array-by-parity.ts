@@ -1,4 +1,4 @@
-export const sortArrayByParityS1 = (arr: number[]): number[] => {
+export const sortArrayByParity = (arr: number[]): number[] => {
   const result = [];
 
   arr.forEach(item => {
@@ -12,5 +12,5 @@ export const sortArrayByParityS1 = (arr: number[]): number[] => {
   return result;
 };
 
-export const sortArrayByParityS2 = (arr: number[]): number[] =>
+export const sortArrayByParity2 = (arr: number[]): number[] =>
   arr.sort((x, y) => (x % 2) - (y % 2));

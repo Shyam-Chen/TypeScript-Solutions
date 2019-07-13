@@ -1,12 +1,12 @@
-export const reverseStringS1 = (str: string): string => (
+export const reverseString = (str: string): string => (
   str.split('').reverse().join('')
 );
 
-export const reverseStringS2 = (str: string): string => (
+export const reverseString2 = (str: string): string => (
   Array.from(str).reverse().join('')
 );
 
-export const reverseStringS3 = (str: string): string => {
+export const reverseString3 = (str: string): string => {
   const result = [];
 
   for (let i = 1; i <= str.length; i += 1) {
@@ -16,7 +16,7 @@ export const reverseStringS3 = (str: string): string => {
   return result.join('');
 };
 
-export const reverseStringS4 = (str: string): string => {
+export const reverseString4 = (str: string): string => {
   let result = '';
 
   for (let i = str.length - 1; i >= 0; i -= 1) {
@@ -26,7 +26,7 @@ export const reverseStringS4 = (str: string): string => {
   return result;
 };
 
-export const reverseStringS5 = (str: string): string => {
+export const reverseString5 = (str: string): string => {
   let result = '';
 
   for (const char of str) {
@@ -36,7 +36,7 @@ export const reverseStringS5 = (str: string): string => {
   return result;
 };
 
-export const reverseStringS6 = (str: string): string => {
+export const reverseString6 = (str: string): string => {
   if (str === '') return '';
-  return reverseStringS6(str.substr(1)) + str.charAt(0);
+  return reverseString6(str.substr(1)) + str.charAt(0);
 };

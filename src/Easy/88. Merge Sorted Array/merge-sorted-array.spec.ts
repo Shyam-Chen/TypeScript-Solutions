@@ -1,9 +1,9 @@
-import { merge1, merge2 } from './merge-sorted-array';
+import { merge, merge2 } from './merge-sorted-array';
 
-describe('mergeSortedArray', () => {
-  it('merge1', () => {
+describe('88. Merge Sorted Array', () => {
+  it('merge', () => {
     expect(
-      merge1(
+      merge(
         [1, 2, 3, 0, 0, 0], 3,
         [2, 5, 6], 3,
       ),

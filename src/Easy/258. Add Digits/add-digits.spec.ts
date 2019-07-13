@@ -1,23 +1,23 @@
-import { addDigitsS1, addDigitsS2, addDigitsS3, addDigitsS4, addDigitsS5 } from './add-digits';
+import { addDigits, addDigits2, addDigits3, addDigits4, addDigits5 } from './add-digits';
 
-describe('addDigits', () => {
-  it('addDigitsS1', () => {
-    expect(addDigitsS1(38)).toEqual(2);
+describe('258. Add Digits', () => {
+  it('addDigits', () => {
+    expect(addDigits(38)).toEqual(2);
   });
 
-  it('addDigitsS2', () => {
-    expect(addDigitsS2(38)).toEqual(2);
+  it('addDigits2', () => {
+    expect(addDigits2(38)).toEqual(2);
   });
 
-  it('addDigitsS3', () => {
-    expect(addDigitsS3(38)).toEqual(2);
+  it('addDigits3', () => {
+    expect(addDigits3(38)).toEqual(2);
   });
 
-  it('addDigitsS4', () => {
-    expect(addDigitsS4(38)).toEqual(2);
+  it('addDigits4', () => {
+    expect(addDigits4(38)).toEqual(2);
   });
 
-  it('addDigitsS5', () => {
-    expect(addDigitsS5(38)).toEqual(2);
+  it('addDigits5', () => {
+    expect(addDigits5(38)).toEqual(2);
   });
 });

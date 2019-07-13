@@ -1,4 +1,4 @@
-export const getSumS1 = (a: number, b: number): number => {
+export const getSum = (a: number, b: number): number => {
   let [x, y] = [a, b];
 
   while (y !== 0) {
@@ -11,8 +11,8 @@ export const getSumS1 = (a: number, b: number): number => {
   return x;
 };
 
-export const getSumS2 = (a: number, b: number): number => {
+export const getSum2 = (a: number, b: number): number => {
   if (b === 0) return a;
   const carry = a & b;
-  return getSumS2(a ^ b, carry << 1);
+  return getSum2(a ^ b, carry << 1);
 };

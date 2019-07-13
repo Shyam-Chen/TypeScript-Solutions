@@ -1,4 +1,4 @@
-export const twoSumS1 = <T extends number>(nums: T[], target: T): number[] => {
+export const twoSum = <T extends number>(nums: T[], target: T): number[] => {
   for (let i = 0; i < nums.length; i += 1) {
     for (let j = 0; j < nums.length; j += 1) {
       if (i === j) continue;
@@ -7,7 +7,7 @@ export const twoSumS1 = <T extends number>(nums: T[], target: T): number[] => {
   }
 };
 
-export const twoSumS2 = <T extends number>(nums: T[], target: T): number[] => {
+export const twoSum2 = <T extends number>(nums: T[], target: T): number[] => {
   const map = new Map();
 
   for (let i = 0; i < nums.length; i += 1) {

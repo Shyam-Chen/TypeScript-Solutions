@@ -35,7 +35,7 @@
 * [ ] 125. Valid Palindrome
 * [x] 136. Single Number
 * [ ] 141. Linked List Cycle
-* [ ] 155. Min Stack
+* [x] 155. Min Stack
 * [ ] 160. Intersection of Two Linked Lists
 * [ ] 167. Two Sum II - Input array is sorted
 * [ ] 168. Excel Sheet Column Title

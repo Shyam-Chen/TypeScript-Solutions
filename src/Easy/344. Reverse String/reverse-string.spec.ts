@@ -1,34 +1,27 @@
-import {
-  reverseStringS1,
-  reverseStringS2,
-  reverseStringS3,
-  reverseStringS4,
-  reverseStringS5,
-  reverseStringS6,
-} from './reverse-string';
+import { reverseString, reverseString2, reverseString3, reverseString4, reverseString5, reverseString6 } from './reverse-string';
 
-describe('reverseString', () => {
-  it('reverseStringS1', () => {
-    expect(reverseStringS1('hello')).toEqual('olleh');
+describe('344. Reverse String', () => {
+  it('reverseString', () => {
+    expect(reverseString('hello')).toEqual('olleh');
   });
 
-  it('reverseStringS2', () => {
-    expect(reverseStringS2('hello')).toEqual('olleh');
+  it('reverseString2', () => {
+    expect(reverseString2('hello')).toEqual('olleh');
   });
 
-  it('reverseStringS3', () => {
-    expect(reverseStringS3('hello')).toEqual('olleh');
+  it('reverseString3', () => {
+    expect(reverseString3('hello')).toEqual('olleh');
   });
 
-  it('reverseStringS4', () => {
-    expect(reverseStringS4('hello')).toEqual('olleh');
+  it('reverseString4', () => {
+    expect(reverseString4('hello')).toEqual('olleh');
   });
 
-  it('reverseStringS5', () => {
-    expect(reverseStringS5('hello')).toEqual('olleh');
+  it('reverseString5', () => {
+    expect(reverseString5('hello')).toEqual('olleh');
   });
 
-  it('reverseStringS6', () => {
-    expect(reverseStringS6('hello')).toEqual('olleh');
+  it('reverseString6', () => {
+    expect(reverseString6('hello')).toEqual('olleh');
   });
 });

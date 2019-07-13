@@ -1,8 +1,8 @@
-export const reverseBitsS1 = (n: number): number => (
+export const reverseBits = (n: number): number => (
   parseInt(n.toString(2).padStart(32, '0').split('').reverse().join(''), 2)
 );
 
-export const reverseBitsS2 = (n: number): number => {
+export const reverseBits2 = (n: number): number => {
   let x = n;
 
   x = ((x & 0x0000FFFF) << 16) | ((x & 0xFFFF0000) >>> 16);

@@ -1,4 +1,4 @@
-export const isPowerOfTwoS1 = (num: number): boolean => {
+export const isPowerOfTwo = (num: number): boolean => {
   for (let i = 0; i < num; i += 1) {
     if (num === Math.pow(2, i)) return true;
   }
@@ -6,7 +6,7 @@ export const isPowerOfTwoS1 = (num: number): boolean => {
   return false;
 };
 
-export const isPowerOfTwoS2 = (num: number): boolean => {
+export const isPowerOfTwo2 = (num: number): boolean => {
   let init = num;
 
   if (init === 1) return true;
@@ -18,10 +18,10 @@ export const isPowerOfTwoS2 = (num: number): boolean => {
   return init % 2 === 0;
 };
 
-export const isPowerOfTwoS3 = (num: number): boolean => (
+export const isPowerOfTwo3 = (num: number): boolean => (
   (num & (num - 1)) === 0
 );
 
-export const isPowerOfTwoS4 = (n: number): boolean => (
+export const isPowerOfTwo4 = (n: number): boolean => (
   Number.isInteger(Math.log2(n))
 );
