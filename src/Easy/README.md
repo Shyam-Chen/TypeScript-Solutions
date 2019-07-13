@@ -4,7 +4,7 @@
 * [x] 7. Reverse Integer
 * [x] 9. Palindrome Number
 * [x] 13. Roman to Integer
-* [ ] 14. Longest Common Prefix
+* [x] 14. Longest Common Prefix
 * [ ] 20. Valid Parentheses
 * [ ] 21. Merge Two Sorted Lists
 * [x] 26. Remove Duplicates from Sorted Array
@@ -164,7 +164,7 @@
 * [ ] 703. Kth Largest Element in a Stream
 * [ ] 704. Binary Search
 * [ ] 705. Design HashSet
-* [ ] 706. Design HashMap
+* [x] 706. Design HashMap
 * [ ] 707. Design Linked List
 * [x] 709. To Lower Case
 * [ ] 717. 1-bit and 2-bit Characters
