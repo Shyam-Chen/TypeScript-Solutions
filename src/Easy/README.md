@@ -10,7 +10,7 @@
 * [x] 26. Remove Duplicates from Sorted Array
 * [x] 27. Remove Element
 * [x] 28. Implement strStr()
-* [ ] 35. Search Insert Position
+* [x] 35. Search Insert Position
 * [x] 38. Count and Say
 * [ ] 53. Maximum Subarray
 * [x] 58. Length of Last Word
