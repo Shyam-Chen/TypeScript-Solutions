@@ -8,6 +8,9 @@
     "_codecov": "codecov"
   },
   "license": "MIT",
+  "dependencies": {
+    "flatted": "^2.0.1"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^12.0.10",

@@ -5,7 +5,7 @@
 * [x] 9. Palindrome Number
 * [x] 13. Roman to Integer
 * [x] 14. Longest Common Prefix
-* [ ] 20. Valid Parentheses
+* [x] 20. Valid Parentheses
 * [x] 21. Merge Two Sorted Lists
 * [x] 26. Remove Duplicates from Sorted Array
 * [x] 27. Remove Element
@@ -261,3 +261,4 @@
 * [ ] 1089. Duplicate Zeros
 * [ ] 1103. Distribute Candies to People
 * [ ] 1108. Defanging an IP Address
+* [ ] 1122. Relative Sort Array

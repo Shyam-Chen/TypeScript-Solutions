@@ -182,3 +182,4 @@
 * [ ] 1095. Find in Mountain Array
 * [ ] 1096. Brace Expansion II
 * [ ] 1106. Parsing A Boolean Expression
+* [ ] 1125. Smallest Sufficient Team
