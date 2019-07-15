@@ -12,10 +12,10 @@
 * [x] 28. Implement strStr()
 * [x] 35. Search Insert Position
 * [x] 38. Count and Say
-* [ ] 53. Maximum Subarray
+* [x] 53. Maximum Subarray
 * [x] 58. Length of Last Word
 * [x] 66. Plus One
-* [ ] 67. Add Binary
+* [x] 67. Add Binary
 * [ ] 69. Sqrt(x)
 * [ ] 70. Climbing Stairs
 * [ ] 83. Remove Duplicates from Sorted List

@@ -12,3 +12,14 @@ export const searchInsert = (nums: number[], target: number): number => {
     if (insert >= 0) return insert + 1;
   }
 };
+
+export const searchInsert2 = (nums: number[], target: number): number => {
+  let index = 0;
+
+  while (index < nums.length && nums[index] <= target) {
+    if (nums[index] === target) return index;
+    index += 1;
+  }
+
+  return index;
+};
