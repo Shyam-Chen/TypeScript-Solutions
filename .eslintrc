@@ -18,7 +18,9 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
   },
   "settings": {
     "import/resolver": {

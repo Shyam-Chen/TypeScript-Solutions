@@ -6,7 +6,7 @@
 * [x] 13. Roman to Integer
 * [x] 14. Longest Common Prefix
 * [ ] 20. Valid Parentheses
-* [ ] 21. Merge Two Sorted Lists
+* [x] 21. Merge Two Sorted Lists
 * [x] 26. Remove Duplicates from Sorted Array
 * [x] 27. Remove Element
 * [x] 28. Implement strStr()
