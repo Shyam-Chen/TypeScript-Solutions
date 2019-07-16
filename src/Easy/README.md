@@ -16,9 +16,9 @@
 * [x] 58. Length of Last Word
 * [x] 66. Plus One
 * [x] 67. Add Binary
-* [ ] 69. Sqrt(x)
-* [ ] 70. Climbing Stairs
-* [ ] 83. Remove Duplicates from Sorted List
+* [x] 69. Sqrt(x)
+* [x] 70. Climbing Stairs
+* [x] 83. Remove Duplicates from Sorted List
 * [x] 88. Merge Sorted Array
 * [ ] 100. Same Tree
 * [ ] 101. Symmetric Tree

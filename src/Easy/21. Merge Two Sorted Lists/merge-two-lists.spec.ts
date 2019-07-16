@@ -4,6 +4,7 @@ import { mergeTwoLists } from './merge-two-lists';
 
 describe('21. Merge Two Sorted Lists', () => {
   it('mergeTwoLists', () => {
+    // 1->2->4
     const l1 = {
       val: 1,
       next: {
@@ -15,6 +16,7 @@ describe('21. Merge Two Sorted Lists', () => {
       },
     };
 
+    // 1->3->4
     const l2 = {
       val: 1,
       next: {
@@ -28,6 +30,7 @@ describe('21. Merge Two Sorted Lists', () => {
 
     const result = mergeTwoLists(l1, l2);
 
+    // 1->1->2->3->4->4
     const spec = {
       val: 1,
       next: {
