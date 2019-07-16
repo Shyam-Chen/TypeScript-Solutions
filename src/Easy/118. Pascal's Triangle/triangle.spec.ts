@@ -1,6 +1,6 @@
 import { generate } from './triangle';
 
-describe('118. Pascal\'s Triangle', () => {
+describe("118. Pascal's Triangle", () => {
   it('generate', () => {
     expect(generate(5)).toEqual(
       [

@@ -22,7 +22,7 @@
 * [x] 88. Merge Sorted Array
 * [ ] 100. Same Tree
 * [ ] 101. Symmetric Tree
-* [ ] 104. Maximum Depth of Binary Tree
+* [x] 104. Maximum Depth of Binary Tree
 * [ ] 107. Binary Tree Level Order Traversal II
 * [ ] 108. Convert Sorted Array to Binary Search Tree
 * [ ] 110. Balanced Binary Tree
