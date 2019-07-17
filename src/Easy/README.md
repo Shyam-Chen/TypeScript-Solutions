@@ -20,7 +20,7 @@
 * [x] 70. Climbing Stairs
 * [x] 83. Remove Duplicates from Sorted List
 * [x] 88. Merge Sorted Array
-* [ ] 100. Same Tree
+* [x] 100. Same Tree
 * [ ] 101. Symmetric Tree
 * [x] 104. Maximum Depth of Binary Tree
 * [ ] 107. Binary Tree Level Order Traversal II
