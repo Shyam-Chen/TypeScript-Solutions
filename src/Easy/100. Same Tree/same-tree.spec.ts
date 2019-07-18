@@ -2,9 +2,9 @@ import { isSameTree } from './same-tree';
 
 describe('100. Same Tree', () => {
   it('isSameTree', () => {
-    //     1
-    //    / \
-    //   2  3
+    //   1
+    //  / \
+    // 2  3
     const binaryTree1p = {
       val: 1,
       left: {
@@ -23,9 +23,9 @@ describe('100. Same Tree', () => {
 
     expect(isSameTree(binaryTree1p, binaryTree1q)).toEqual(true);
 
-    //     1
-    //    /
-    //   2
+    //   1
+    //  /
+    // 2
     const binaryTree2p = {
       val: 1,
       left: {
@@ -36,9 +36,9 @@ describe('100. Same Tree', () => {
       right: null,
     };
 
-    //     1
-    //      \
-    //      2
+    //   1
+    //    \
+    //    2
     const binaryTree2q = {
       val: 1,
       left: null,

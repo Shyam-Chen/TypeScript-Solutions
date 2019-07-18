@@ -1,6 +1,10 @@
 export const maxSubArray = (nums: number[]): number => {
-  const maximum = Math.max(...nums);
-  const secondLargest = Math.max(...[...nums].filter(num => num !== maximum));
+  let [result, sum] = [0, 0];
 
-  return maximum + secondLargest;
+  for (const num of nums) {
+    sum = Math.max(sum + num, num);
+    result = Math.max(result, sum);
+  }
+
+  return result;
 };

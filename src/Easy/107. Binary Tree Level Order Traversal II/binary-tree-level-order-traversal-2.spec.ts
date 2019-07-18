@@ -1,7 +1,7 @@
-import { maxDepth } from './maximum-depth-of-binary-tree';
+import { levelOrderBottom } from './binary-tree-level-order-traversal-2';
 
-describe('104. Maximum Depth of Binary Tree', () => {
-  it('maxDepth', () => {
+describe('107. Binary Tree Level Order Traversal II', () => {
+  it('levelOrderBottom', () => {
     //   3
     //  / \
     // 9  20
@@ -29,6 +29,12 @@ describe('104. Maximum Depth of Binary Tree', () => {
       },
     };
 
-    expect(maxDepth(binaryTree)).toEqual(3);
+    expect(levelOrderBottom(binaryTree)).toEqual(
+      [
+        [15, 7],
+        [9, 20],
+        [3],
+      ],
+    );
   });
 });
