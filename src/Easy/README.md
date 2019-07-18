@@ -260,5 +260,5 @@
 * [ ] 1078. Occurrences After Bigram
 * [ ] 1089. Duplicate Zeros
 * [ ] 1103. Distribute Candies to People
-* [ ] 1108. Defanging an IP Address
+* [x] 1108. Defanging an IP Address
 * [ ] 1122. Relative Sort Array

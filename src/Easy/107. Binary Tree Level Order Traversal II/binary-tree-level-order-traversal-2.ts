@@ -1,5 +1,3 @@
-import { maxDepth } from '../104. Maximum Depth of Binary Tree/maximum-depth-of-binary-tree';
-
 export interface TreeNode {
   val: number;
   left: TreeNode;
@@ -7,7 +5,17 @@ export interface TreeNode {
 }
 
 export const levelOrderBottom = (root: TreeNode): number[][] => {
-  const result = [[]];
+  const result = [];
+
+  // leetcode 104
+  const maxDepth = (_root: TreeNode): number => {
+    if (!_root) return 0;
+
+    const leftHeight = maxDepth(_root.left);
+    const rightHeight = maxDepth(_root.right);
+
+    return Math.max(leftHeight, rightHeight) + 1;
+  };
 
   // two-dimensional array
   for (let i = 0; i < maxDepth(root); i += 1) {
