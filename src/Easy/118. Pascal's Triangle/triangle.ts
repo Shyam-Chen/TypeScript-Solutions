@@ -1,5 +1,5 @@
 export const generate = (numRows: number): number[][] => {
-  if (numRows === 0) return [];
+  if (numRows <= 0) return [];
 
   const triangle = [[1]]; // first row
 

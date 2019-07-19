@@ -29,7 +29,7 @@
 * [ ] 111. Minimum Depth of Binary Tree
 * [ ] 112. Path Sum
 * [x] 118. Pascal's Triangle
-* [ ] 119. Pascal's Triangle II
+* [x] 119. Pascal's Triangle II
 * [ ] 121. Best Time to Buy and Sell Stock
 * [ ] 122. Best Time to Buy and Sell Stock II
 * [ ] 125. Valid Palindrome
@@ -162,7 +162,7 @@
 * [ ] 697. Degree of an Array
 * [ ] 700. Search in a Binary Search Tree
 * [ ] 703. Kth Largest Element in a Stream
-* [ ] 704. Binary Search
+* [x] 704. Binary Search
 * [ ] 705. Design HashSet
 * [x] 706. Design HashMap
 * [ ] 707. Design Linked List

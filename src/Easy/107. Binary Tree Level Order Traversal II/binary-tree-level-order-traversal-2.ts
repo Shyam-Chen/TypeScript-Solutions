@@ -26,10 +26,6 @@ export const levelOrderBottom = (root: TreeNode): number[][] => {
   const dfs = (_root: TreeNode, level: number) => {
     if (!_root) return;
 
-    if (level >= result.length) {
-      result.push(...result);
-    }
-
     result[result.length - level - 1].push(_root.val);
 
     dfs(_root.left, level + 1);
