@@ -50,7 +50,7 @@
 * [ ] 203. Remove Linked List Elements
 * [ ] 204. Count Primes
 * [ ] 205. Isomorphic Strings
-* [ ] 206. Reverse Linked List
+* [x] 206. Reverse Linked List
 * [x] 217. Contains Duplicate
 * [ ] 219. Contains Duplicate II
 * [ ] 225. Implement Stack using Queues

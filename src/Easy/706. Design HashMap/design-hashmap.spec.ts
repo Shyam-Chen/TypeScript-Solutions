@@ -12,6 +12,5 @@ describe('706. Design HashMap', () => {
     expect(hashMap.get(2)).toEqual(1);
     hashMap.remove(2);
     expect(hashMap.get(2)).toEqual(-1);
-    hashMap.get(2);
   });
 });
