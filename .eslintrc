@@ -1,6 +1,7 @@
 {
   "extends": [
     "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
   "env": {
@@ -17,6 +18,7 @@
     "prettier"
   ],
   "rules": {
+    "@typescript-eslint/indent": ["error", 2],
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
 
