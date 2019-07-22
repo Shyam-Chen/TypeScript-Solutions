@@ -1,4 +1,4 @@
-import { generateLinkedListCycle } from '../../utils/linked-list';
+import { generateLinkedListCycle } from '~/utils/linked-list';
 
 import { hasCycle } from './linked-list-cycle';
 

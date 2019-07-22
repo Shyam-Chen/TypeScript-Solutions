@@ -1,4 +1,4 @@
-import { ListNode } from '../../utils/linked-list';
+import { ListNode } from '~/utils/linked-list';
 
 export const hasCycle = (head: ListNode): boolean => {
   if (!head) return false;

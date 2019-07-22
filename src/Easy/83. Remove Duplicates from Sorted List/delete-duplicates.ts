@@ -1,7 +1,4 @@
-export interface ListNode {
-  val: number;
-  next: ListNode;
-}
+import { ListNode } from '~/utils/linked-list';
 
 export const deleteDuplicates = (head: ListNode): ListNode => {
   let temp = head;
