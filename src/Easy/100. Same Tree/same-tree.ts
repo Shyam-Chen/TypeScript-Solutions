@@ -1,8 +1,4 @@
-export interface TreeNode {
-  val: number;
-  left: TreeNode;
-  right: TreeNode;
-}
+import { TreeNode } from '~/utils/binary-tree';
 
 export const isSameTree = (p: TreeNode, q: TreeNode): boolean => {
   if (!p && !q) return true;

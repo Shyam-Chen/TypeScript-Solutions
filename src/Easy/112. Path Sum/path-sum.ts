@@ -1,8 +1,4 @@
-export interface TreeNode {
-  val: number;
-  left: TreeNode;
-  right: TreeNode;
-}
+import { TreeNode } from '~/utils/binary-tree';
 
 export const hasPathSum = (root: TreeNode, sum: number): boolean => {
   if (!root) return false;

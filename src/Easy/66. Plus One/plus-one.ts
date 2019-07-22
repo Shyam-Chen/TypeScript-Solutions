@@ -15,7 +15,5 @@ export const plusOne = (digits: number[]): number[] => {
 
 export const plusOne2 = (digits: number[]): number[] => {
   const num = Number(digits.join('')) + 1;
-
-  return Array.from(String(num))
-    .map(item => Number(item));
+  return Array.from(String(num)).map(item => Number(item));
 };

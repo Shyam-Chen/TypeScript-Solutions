@@ -1,8 +1,4 @@
-export interface TreeNode {
-  val: number;
-  left: TreeNode;
-  right: TreeNode;
-}
+import { TreeNode } from '~/utils/binary-tree';
 
 export const isSymmetric = (root: TreeNode): boolean => {
   if (!root) return true;

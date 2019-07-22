@@ -26,7 +26,7 @@
 * [x] 107. Binary Tree Level Order Traversal II
 * [ ] 108. Convert Sorted Array to Binary Search Tree
 * [ ] 110. Balanced Binary Tree
-* [ ] 111. Minimum Depth of Binary Tree
+* [x] 111. Minimum Depth of Binary Tree
 * [x] 112. Path Sum
 * [x] 118. Pascal's Triangle
 * [x] 119. Pascal's Triangle II
