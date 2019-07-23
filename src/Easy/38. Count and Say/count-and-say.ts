@@ -8,7 +8,7 @@
 export const countAndSay = (n: number): string => {
   let result = '1';
 
-  for (let i = 2; i <= n; i++) {
+  for (let i = 2; i <= n; i += 1) {
     const temp = result;
 
     let num = result[0];
@@ -16,7 +16,7 @@ export const countAndSay = (n: number): string => {
 
     result = '';
 
-    for (let j = 1; j < temp.length; j++) {
+    for (let j = 1; j < temp.length; j += 1) {
       if (temp[j] === num) {
         count += 1;
       } else {

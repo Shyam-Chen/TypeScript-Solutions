@@ -18,10 +18,7 @@ export const isPowerOfTwo2 = (num: number): boolean => {
   return init % 2 === 0;
 };
 
-export const isPowerOfTwo3 = (num: number): boolean => (
-  (num & (num - 1)) === 0
-);
+export const isPowerOfTwo3 = (num: number): boolean => (num & (num - 1)) === 0;
 
-export const isPowerOfTwo4 = (n: number): boolean => (
-  Number.isInteger(Math.log2(n))
-);
+export const isPowerOfTwo4 = (n: number): boolean =>
+  Number.isInteger(Math.log2(n));

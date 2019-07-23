@@ -1,6 +1,5 @@
-export const moveZeroes = (nums: number[]): number[] => (
-  [...nums.filter(x => x !== 0), ...nums.filter(x => x === 0)]
-);
+export const moveZeroes = (nums: number[]): number[] =>
+  [...nums.filter(x => x !== 0), ...nums.filter(x => x === 0)];
 
 export const moveZeroes2 = (nums: number[]): number[] => {
   let [left, right] = [0, 0];

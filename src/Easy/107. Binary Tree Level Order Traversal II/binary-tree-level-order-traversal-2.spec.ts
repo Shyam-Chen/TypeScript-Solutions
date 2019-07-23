@@ -1,3 +1,5 @@
+import { generateBinaryTree } from '~/utils/binary-tree';
+
 import { levelOrderBottom } from './binary-tree-level-order-traversal-2';
 
 describe('107. Binary Tree Level Order Traversal II', () => {
@@ -7,27 +9,7 @@ describe('107. Binary Tree Level Order Traversal II', () => {
     // 9  20
     //   /  \
     //  15   7
-    const binaryTree = {
-      val: 3,
-      left: {
-        val: 9,
-        left: null,
-        right: null,
-      },
-      right: {
-        val: 20,
-        left: {
-          val: 15,
-          left: null,
-          right: null,
-        },
-        right: {
-          val: 7,
-          left: null,
-          right: null,
-        },
-      },
-    };
+    const binaryTree = generateBinaryTree([3, 9, 20, null, null, 15, 7]);
 
     expect(levelOrderBottom(binaryTree)).toEqual(
       [

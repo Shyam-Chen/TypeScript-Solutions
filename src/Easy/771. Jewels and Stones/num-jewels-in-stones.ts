@@ -4,12 +4,12 @@ export const numJewelsInStones = (J: string, S: string): number => {
 
   let num = 0;
 
-  stones.forEach((stone) => {
+  for (const stone of stones) {
     // if the stone contains the defined jewels
     if (jewels.has(stone)) {
       num += 1;
     }
-  });
+  }
 
   return num;
 };

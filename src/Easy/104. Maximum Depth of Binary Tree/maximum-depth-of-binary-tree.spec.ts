@@ -1,3 +1,5 @@
+import { generateBinaryTree } from '~/utils/binary-tree';
+
 import { maxDepth } from './maximum-depth-of-binary-tree';
 
 describe('104. Maximum Depth of Binary Tree', () => {
@@ -7,27 +9,7 @@ describe('104. Maximum Depth of Binary Tree', () => {
     // 9  20
     //   /  \
     //  15   7
-    const binaryTree = {
-      val: 3,
-      left: {
-        val: 9,
-        left: null,
-        right: null,
-      },
-      right: {
-        val: 20,
-        left: {
-          val: 15,
-          left: null,
-          right: null,
-        },
-        right: {
-          val: 7,
-          left: null,
-          right: null,
-        },
-      },
-    };
+    const binaryTree = generateBinaryTree([3, 9, 20, null, null, 15, 7]);
 
     expect(maxDepth(binaryTree)).toEqual(3);
   });

@@ -1,6 +1,5 @@
-export const reverseBits = (n: number): number => (
-  parseInt(n.toString(2).padStart(32, '0').split('').reverse().join(''), 2)
-);
+export const reverseBits = (n: number): number =>
+  parseInt(n.toString(2).padStart(32, '0').split('').reverse().join(''), 2);
 
 export const reverseBits2 = (n: number): number => {
   let x = n;

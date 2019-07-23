@@ -1,13 +1,13 @@
 export const sortArrayByParity = (arr: number[]): number[] => {
   const result = [];
 
-  arr.forEach(item => {
+  for (const item of arr) {
     if (item % 2 === 0) result.push(item);
-  });
+  }
 
-  arr.forEach(item => {
+  for (const item of arr) {
     if (item % 2 === 1) result.push(item);
-  });
+  }
 
   return result;
 };

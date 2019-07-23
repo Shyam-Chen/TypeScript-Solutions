@@ -36,10 +36,7 @@ export const addDigits3 = (num: number): number => {
   return num % 9;
 };
 
-export const addDigits4 = (num: number): number => (
-  num === 0 ? 0 : num - 9 * Math.floor((num - 1) / 9)
-);
+export const addDigits4 = (num: number): number =>
+  num === 0 ? 0 : num - 9 * Math.floor((num - 1) / 9);
 
-export const addDigits5 = (num: number): number => (
-  1 + (num - 1) % 9
-);
+export const addDigits5 = (num: number): number => 1 + ((num - 1) % 9);
