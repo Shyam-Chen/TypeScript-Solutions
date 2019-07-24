@@ -111,10 +111,10 @@
 * [ ] 496. Next Greater Element I
 * [ ] 500. Keyboard Row
 * [ ] 501. Find Mode in Binary Search Tree
-* [ ] 504. Base 7
+* [x] 504. Base 7
 * [ ] 506. Relative Ranks
 * [ ] 507. Perfect Number
-* [ ] 509. Fibonacci Number
+* [x] 509. Fibonacci Number
 * [ ] 520. Detect Capital
 * [ ] 521. Longest Uncommon Subsequence I
 * [ ] 530. Minimum Absolute Difference in BST
