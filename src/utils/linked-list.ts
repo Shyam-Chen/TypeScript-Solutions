@@ -4,7 +4,7 @@ export interface ListNode {
 }
 
 export const generateLinkedList = (nums: number[]): ListNode => {
-  const list: any = {};
+  const list: ListNode = { val: null, next: null };
 
   let tail = list;
 

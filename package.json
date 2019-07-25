@@ -1,12 +1,20 @@
 {
   "name": "ecmascript-leetcode",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "LeetCode of algorithms (exclude locked problems) with JavaScript solution written in TypeScript.",
+  "engines": {
+    "node": "10"
+  },
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "test": "jest --coverage",
     "_codecov": "codecov"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shyam-Chen/ECMAScript-LeetCode.git"
+  },
+  "author": "Shyam Chen",
   "license": "MIT",
   "dependencies": {
     "flatted": "^2.0.1"

@@ -11,7 +11,7 @@ export const generateBinaryTree = (nums: number[]): TreeNode => {
 
   const root = { val: nums[0], left: null, right: null };
 
-  const queue: any = [1];
+  const queue: TreeNode[] = [];
   queue[0] = root;
 
   let i = 1;

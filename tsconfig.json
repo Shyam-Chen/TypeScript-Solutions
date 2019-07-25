@@ -1,22 +1,19 @@
 {
   "compilerOptions": {
+    /* Basic Options */
     "target": "esnext",
     "module": "commonjs",
-    "declaration": true,
-    "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "sourceMap": true,
-    "outDir": "./dist",
+    "lib": [
+      "esnext"
+    ],
+
+    /* Module Resolution Options */
     "baseUrl": "./",
     "paths": {
       "~/*": [
         "src/*"
       ]
     },
-    "lib": [
-      "esnext"
-    ],
     "types": [
       "node",
       "jest"

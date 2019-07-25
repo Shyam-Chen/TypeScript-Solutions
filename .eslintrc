@@ -18,12 +18,15 @@
     "prettier"
   ],
   "rules": {
-    "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/explicit-function-return-type": ["off"],
-    "prettier/prettier": "error",
     "import/prefer-default-export": "off",
 
-    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
+    "@typescript-eslint/explicit-function-return-type": ["off"],
+    "@typescript-eslint/indent": ["error", 2],
+
+    "prettier/prettier": "error",
+
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "no-restricted-syntax": ["error", "FunctionExpression", "WithStatement", "BinaryExpression[operator='in']"]
   },
   "settings": {
     "import/resolver": {
