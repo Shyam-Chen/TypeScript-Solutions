@@ -262,3 +262,4 @@
 * [ ] 1103. Distribute Candies to People
 * [x] 1108. Defanging an IP Address
 * [ ] 1122. Relative Sort Array
+* [ ] 1128. Number of Equivalent Domino Pairs

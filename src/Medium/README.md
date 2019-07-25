@@ -445,3 +445,6 @@
 * [ ] 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
 * [ ] 1123. Lowest Common Ancestor of Deepest Leaves
 * [ ] 1124. Longest Well-Performing Interval
+* [ ] 1129. Shortest Path with Alternating Colors
+* [ ] 1130. Minimum Cost Tree From Leaf Values
+* [ ] 1131. Maximum of Absolute Value Expression

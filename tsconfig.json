@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
+    "target": "esnext",
     "module": "commonjs",
     "declaration": true,
-    "noImplicitAny": false,
-    "removeComments": true,
-    "noLib": false,
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "esNext",
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
@@ -18,7 +15,7 @@
       ]
     },
     "lib": [
-      "es2017"
+      "esnext"
     ],
     "types": [
       "node",
