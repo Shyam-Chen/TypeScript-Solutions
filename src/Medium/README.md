@@ -448,3 +448,7 @@
 * [ ] 1129. Shortest Path with Alternating Colors
 * [ ] 1130. Minimum Cost Tree From Leaf Values
 * [ ] 1131. Maximum of Absolute Value Expression
+* [ ] 1138. Alphabet Board Path
+* [ ] 1139. Largest 1-Bordered Square
+* [ ] 1140. Stone Game II
+* [ ] 1143. Longest Common Subsequence
