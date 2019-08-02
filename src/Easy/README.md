@@ -198,7 +198,7 @@
 * [ ] 844. Backspace String Compare
 * [ ] 849. Maximize Distance to Closest Person
 * [ ] 852. Peak Index in a Mountain Array
-* [ ] 859. Buddy Strings
+* [x] 859. Buddy Strings
 * [ ] 860. Lemonade Change
 * [x] 867. Transpose Matrix
 * [ ] 868. Binary Gap
