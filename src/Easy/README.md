@@ -158,7 +158,7 @@
 * [ ] 687. Longest Univalue Path
 * [ ] 690. Employee Importance
 * [ ] 693. Binary Number with Alternating Bits
-* [ ] 696. Count Binary Substrings
+* [x] 696. Count Binary Substrings
 * [ ] 697. Degree of an Array
 * [ ] 700. Search in a Binary Search Tree
 * [ ] 703. Kth Largest Element in a Stream
