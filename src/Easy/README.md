@@ -264,3 +264,4 @@
 * [ ] 1122. Relative Sort Array
 * [ ] 1128. Number of Equivalent Domino Pairs
 * [x] 1137. N-th Tribonacci Number
+* [x] 1154. Day of the Year
