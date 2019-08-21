@@ -18,32 +18,36 @@ export const spiralOrder = (matrix: number[][]): number[] => {
 
   while (true) {
     // up
-    for (let col = left; col <= right; col++) {
+    for (let col = left; col <= right; col += 1) {
       result.push(matrix[up][col]);
     }
 
-    if (++up > down) break;
+    up += 1;
+    if (up > down) break;
 
     // right
-    for (let row = up; row <= down; row++) {
+    for (let row = up; row <= down; row += 1) {
       result.push(matrix[row][right]);
     }
 
-    if (--right < left) break;
+    right -= 1;
+    if (right < left) break;
 
     // down
-    for (let col = right; col >= left; col--) {
+    for (let col = right; col >= left; col -= 1) {
       result.push(matrix[down][col]);
     }
 
-    if (--down < up) break;
+    down -= 1;
+    if (down < up) break;
 
     // left
-    for (let row = down; row >= up; row--) {
+    for (let row = down; row >= up; row -= 1) {
       result.push(matrix[row][left]);
     }
 
-    if (++left > right) break;
+    left += 1;
+    if (left > right) break;
   }
 
   return result;

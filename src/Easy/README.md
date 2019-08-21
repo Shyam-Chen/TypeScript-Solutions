@@ -265,3 +265,4 @@
 * [ ] 1128. Number of Equivalent Domino Pairs
 * [x] 1137. N-th Tribonacci Number
 * [x] 1154. Day of the Year
+* [ ] 1160. Find Words That Can Be Formed by Characters

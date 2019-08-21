@@ -183,3 +183,6 @@
 * [ ] 1096. Brace Expansion II
 * [ ] 1106. Parsing A Boolean Expression
 * [ ] 1125. Smallest Sufficient Team
+* [ ] 1147. Longest Chunked Palindrome Decomposition
+* [ ] 1157. Online Majority Element In Subarray
+* [ ] 1163. Last Substring in Lexicographical Order

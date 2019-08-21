@@ -452,3 +452,10 @@
 * [ ] 1139. Largest 1-Bordered Square
 * [ ] 1140. Stone Game II
 * [ ] 1143. Longest Common Subsequence
+* [ ] 1144. Decrease Elements To Make Array Zigzag
+* [ ] 1145. Binary Tree Coloring Game
+* [ ] 1146. Snapshot Array
+* [ ] 1155. Number of Dice Rolls With Target Sum
+* [ ] 1156. Swap For Longest Repeated Character Substring
+* [ ] 1161. Maximum Level Sum of a Binary Tree
+* [ ] 1162. As Far from Land as Possible
