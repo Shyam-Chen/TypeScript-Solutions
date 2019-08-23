@@ -42,7 +42,7 @@
 * [ ] 169. Majority Element
 * [ ] 171. Excel Sheet Column Number
 * [ ] 172. Factorial Trailing Zeroes
-* [ ] 189. Rotate Array
+* [x] 189. Rotate Array
 * [x] 190. Reverse Bits
 * [x] 191. Number of 1 Bits
 * [ ] 198. House Robber
