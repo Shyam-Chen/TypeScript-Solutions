@@ -183,7 +183,7 @@
 * [ ] 783. Minimum Distance Between BST Nodes
 * [ ] 784. Letter Case Permutation
 * [ ] 788. Rotated Digits
-* [ ] 796. Rotate String
+* [x] 796. Rotate String
 * [x] 804. Unique Morse Code Words
 * [ ] 806. Number of Lines To Write String
 * [ ] 811. Subdomain Visit Count
@@ -266,3 +266,6 @@
 * [x] 1137. N-th Tribonacci Number
 * [x] 1154. Day of the Year
 * [ ] 1160. Find Words That Can Be Formed by Characters
+* [ ] 1170. Compare Strings by Frequency of the Smallest Character
+* [ ] 1175. Prime Arrangements
+* [ ] 1176. Diet Plan Performance
