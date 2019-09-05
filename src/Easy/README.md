@@ -267,5 +267,5 @@
 * [x] 1154. Day of the Year
 * [ ] 1160. Find Words That Can Be Formed by Characters
 * [ ] 1170. Compare Strings by Frequency of the Smallest Character
-* [ ] 1175. Prime Arrangements
-* [ ] 1176. Diet Plan Performance
+* [x] 1175. Prime Arrangements
+* [x] 1176. Diet Plan Performance
