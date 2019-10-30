@@ -269,3 +269,12 @@
 * [ ] 1170. Compare Strings by Frequency of the Smallest Character
 * [x] 1175. Prime Arrangements
 * [x] 1176. Diet Plan Performance
+* [ ] 1184. Distance Between Bus Stops
+* [ ] 1185. Day of the Week
+* [ ] 1189. Maximum Number of Balloons
+* [ ] 1200. Minimum Absolute Difference
+* [ ] 1207. Unique Number of Occurrences
+* [ ] 1217. Play with Chips
+* [ ] 1221. Split a String in Balanced Strings
+* [ ] 1232. Check If It Is a Straight Line
+* [ ] 1237. Find Positive Integer Solution for a Given Equation
