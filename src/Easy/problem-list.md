@@ -276,5 +276,5 @@
 * [ ] 1207. Unique Number of Occurrences
 * [ ] 1217. Play with Chips
 * [ ] 1221. Split a String in Balanced Strings
-* [ ] 1232. Check If It Is a Straight Line
+* [x] 1232. Check If It Is a Straight Line
 * [ ] 1237. Find Positive Integer Solution for a Given Equation
