@@ -270,7 +270,7 @@
 * [x] 1175. Prime Arrangements
 * [x] 1176. Diet Plan Performance
 * [ ] 1184. Distance Between Bus Stops
-* [ ] 1185. Day of the Week
+* [x] 1185. Day of the Week
 * [ ] 1189. Maximum Number of Balloons
 * [ ] 1200. Minimum Absolute Difference
 * [ ] 1207. Unique Number of Occurrences
