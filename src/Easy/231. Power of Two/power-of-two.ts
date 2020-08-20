@@ -1,4 +1,8 @@
-export const isPowerOfTwo = (num: number): boolean => {
+interface IsPowerOfTwo {
+  (num: number): boolean;
+}
+
+export const isPowerOfTwo: IsPowerOfTwo = num => {
   for (let i = 0; i < num; i += 1) {
     if (num === Math.pow(2, i)) return true;
   }
@@ -6,7 +10,7 @@ export const isPowerOfTwo = (num: number): boolean => {
   return false;
 };
 
-export const isPowerOfTwo2 = (num: number): boolean => {
+export const isPowerOfTwo2: IsPowerOfTwo = num => {
   let init = num;
 
   if (init === 1) return true;
@@ -18,7 +22,8 @@ export const isPowerOfTwo2 = (num: number): boolean => {
   return init % 2 === 0;
 };
 
-export const isPowerOfTwo3 = (num: number): boolean => (num & (num - 1)) === 0;
+// The fastest function
+export const isPowerOfTwo3: IsPowerOfTwo = num => (num & (num - 1)) === 0;
 
-export const isPowerOfTwo4 = (n: number): boolean =>
-  Number.isInteger(Math.log2(n));
+export const isPowerOfTwo4: IsPowerOfTwo = num =>
+  Number.isInteger(Math.log2(num));

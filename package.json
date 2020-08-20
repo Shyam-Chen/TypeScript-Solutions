@@ -2,9 +2,6 @@
   "name": "ecmascript-leetcode",
   "version": "1.0.0",
   "description": "LeetCode of algorithms (exclude locked problems) with JavaScript solution written in TypeScript.",
-  "engines": {
-    "node": "10"
-  },
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "test": "jest --coverage",

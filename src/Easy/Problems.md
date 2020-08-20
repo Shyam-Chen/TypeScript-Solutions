@@ -1,6 +1,6 @@
 # Easy
 
-* [x] 1. Two Sum
+* [x] [1. Two Sum](./1.-Two-Sum)
 * [x] 7. Reverse Integer
 * [x] 9. Palindrome Number
 * [x] 13. Roman to Integer

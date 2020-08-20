@@ -1,4 +1,9 @@
-export const twoSum = <T extends number>(nums: T[], target: T): number[] => {
+interface TwoSum {
+  (nums: number[], target: number): number[];
+}
+
+// The fastest function
+export const twoSum: TwoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i += 1) {
     for (let j = 0; j < nums.length; j += 1) {
       if (i === j) continue;
@@ -7,7 +12,7 @@ export const twoSum = <T extends number>(nums: T[], target: T): number[] => {
   }
 };
 
-export const twoSum2 = <T extends number>(nums: T[], target: T): number[] => {
+export const twoSum2: TwoSum = (nums, target) => {
   const map = new Map();
 
   for (let i = 0; i < nums.length; i += 1) {
