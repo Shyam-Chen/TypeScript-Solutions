@@ -278,3 +278,5 @@
 - [ ] 1221. Split a String in Balanced Strings
 - [x] 1232. Check If It Is a Straight Line
 - [ ] 1237. Find Positive Integer Solution for a Given Equation
+- [ ] ...
+- [x] 1550. Three Consecutive Odds
