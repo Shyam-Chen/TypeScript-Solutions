@@ -6,10 +6,13 @@ interface TwoSum {
 export const twoSum: TwoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i += 1) {
     for (let j = 0; j < nums.length; j += 1) {
-      if (i === j) continue;
-      if (nums[i] + nums[j] === target) return [i, j];
+      if (i !== j && nums[i] + nums[j] === target) {
+        return [i, j];
+      }
     }
   }
+
+  return [-1, -1];
 };
 
 export const twoSum2: TwoSum = (nums, target) => {
@@ -22,4 +25,6 @@ export const twoSum2: TwoSum = (nums, target) => {
 
     map.set(target - nums[i], i);
   }
+
+  return [-1, -1];
 };
