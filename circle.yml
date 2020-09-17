@@ -4,16 +4,13 @@ executors:
   ecmascript-leetcode:
     docker:
       - image: circleci/node:12
-    working_directory: ~/ECMAScript-LeetCode
 
 jobs:
-
   test:
     executor: ecmascript-leetcode
     steps:
       - checkout
-      - setup_remote_docker:
-          docker_layer_caching: true
+      - setup_remote_docker
       - run:
           name: Combat Preparation
           command: docker-compose up -d leetcode
@@ -25,7 +22,7 @@ jobs:
           command: docker-compose exec leetcode yarn test
       - run:
           name: Code Coverage
-          command: docker-compose exec leetcode yarn _codecov --token=$CODECOV_TOKEN
+          command: docker-compose exec leetcode yarn _codecov -t $CODECOV_TOKEN
 
 workflows:
   version: 2
