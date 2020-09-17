@@ -279,4 +279,12 @@
 - [x] 1232. Check If It Is a Straight Line
 - [ ] 1237. Find Positive Integer Solution for a Given Equation
 - [ ] ...
+- [ ] 1539. Kth Missing Positive Number
+- [ ] 1544. Make The String Great
 - [x] 1550. Three Consecutive Odds
+- [x] 1556. Thousand Separator
+- [ ] 1560. Most Visited Sector in a Circular Track
+- [ ] 1566. Detect Pattern of Length M Repeated K or More Times
+- [x] 1572. Matrix Diagonal Sum
+- [ ] 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
+- [ ] 1582. Special Positions in a Binary Matrix
