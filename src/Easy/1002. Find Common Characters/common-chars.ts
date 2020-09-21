@@ -1,4 +1,8 @@
-export const commonChars = (A: string[]): string[] => {
+interface CommonChars {
+  (A: string[]): string[];
+}
+
+export const commonChars: CommonChars = A => {
   const result = [];
   const charsArr = [];
 
@@ -8,8 +12,10 @@ export const commonChars = (A: string[]): string[] => {
 
   const flattened = charsArr.reduce((acc, cur) => [...acc, ...cur], []);
 
-  const counted = flattened.reduce((acc: object, str: string) => {
-    if (str in acc) {
+  const counted = flattened.reduce((acc: Record<string, number>, str: string) => {
+    // if (str in acc) { // no-restricted-syntax
+    // if (acc.hasOwnProperty(str)) { // no-prototype-builtins
+    if (Object.prototype.hasOwnProperty.call(acc, str)) {
       acc[str] += 1;
     } else {
       acc[str] = 1;

@@ -14,9 +14,9 @@ jobs:
       - run:
           name: Combat Preparation
           command: docker-compose up -d leetcode
-      - run:
-          name: Code Quality
-          command: docker-compose exec leetcode yarn lint
+      # - run:
+      #     name: Code Quality
+      #     command: docker-compose exec leetcode yarn lint
       - run:
           name: Code Specification
           command: docker-compose exec leetcode yarn test
