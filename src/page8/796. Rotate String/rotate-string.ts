@@ -12,5 +12,4 @@ export const rotateString = (A: string, B: string): boolean => {
  * 'abcde' + 'abcde' = 'abcdeabcde, A + A
  * 'bcdea' in 'abcdeabcde', B in A + A
  */
-export const rotateString2 = (A: string, B: string): boolean =>
-  (A + A).includes(B);
+export const rotateString2 = (A: string, B: string): boolean => (A + A).includes(B);

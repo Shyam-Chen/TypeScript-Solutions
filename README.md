@@ -27,3 +27,28 @@ $ yarn test <FILE_NAME>
 # e.g.
 $ yarn test two-sum.spec.ts
 ```
+
+## Directory Structure
+
+```coffee
+.
+├── src
+│   ├── page<NUM> -> set 100 rows per page for the table
+│   │   └── <TITLE>
+│   │       ├── <NAME>.spec.ts
+│   │       └── <NAME>.ts
+│   └── utils
+├── .editorconfig
+├── .eslintrc
+├── .gitignore
+├── .prettierrc
+├── circle.yml
+├── docker-compose.yml
+├── Dockerfile
+├── jest.config.js
+├── LICENSE
+├── package.json
+├── README.md
+├── tsconfig.json
+└── yarn.lock
+```

@@ -1,5 +1,4 @@
-export const search = (nums: number[], target: number): number =>
-  nums.indexOf(target);
+export const search = (nums: number[], target: number): number => nums.indexOf(target);
 
 export const search2 = (nums: number[], target: number): number => {
   let [left, right] = [0, nums.length];

@@ -2,11 +2,11 @@ interface CommonChars {
   (A: string[]): string[];
 }
 
-export const commonChars: CommonChars = A => {
+export const commonChars: CommonChars = (A) => {
   const result = [];
   const charsArr = [];
 
-  A.forEach(item => {
+  A.forEach((item) => {
     charsArr.push([...new Set(Array.from(item))]);
   });
 
@@ -29,12 +29,12 @@ export const commonChars: CommonChars = A => {
   });
 
   // including duplicates
-  result.forEach(alphabet => {
+  result.forEach((alphabet) => {
     const same = new Set();
 
-    A.forEach(item => {
+    A.forEach((item) => {
       // number of duplicate alphabets
-      const num = Array.from(item).filter(letter => letter === alphabet).length;
+      const num = Array.from(item).filter((letter) => letter === alphabet).length;
       same.add(num);
     });
 
