@@ -5,17 +5,16 @@ interface ThousandSeparator {
 // Positive Lookahead (?=(\d{3})+(?!\d))
 //  - 1st Capturing Group (\d{3})+
 //  - Negative Lookahead (?!\d)
-export const thousandSeparator: ThousandSeparator = n =>
+export const thousandSeparator: ThousandSeparator = (n) =>
   n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 
-export const thousandSeparator2: ThousandSeparator = n => n.toLocaleString().replace(/,/g, '.');
+export const thousandSeparator2: ThousandSeparator = (n) => n.toLocaleString().replace(/,/g, '.');
 
-export const thousandSeparator3: ThousandSeparator = n => {
-  const arr = String(n)
-    .split('')
-    .reverse();
-  let count = 0;
+export const thousandSeparator3: ThousandSeparator = (n) => {
+  const arr = String(n).split('').reverse();
   const result = [];
+
+  let count = 0;
 
   for (let i = 0; i < arr.length; i += 1) {
     count += 1;

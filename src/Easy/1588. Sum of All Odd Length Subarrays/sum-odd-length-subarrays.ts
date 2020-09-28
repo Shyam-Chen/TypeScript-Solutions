@@ -7,7 +7,7 @@ interface SumOddLengthSubarrays {
 // 2 5 3     - 2 7 10      - 2 10
 // 5 3       - 5 8         - 5
 // 3         - 3           - 3
-export const sumOddLengthSubarrays: SumOddLengthSubarrays = arr => {
+export const sumOddLengthSubarrays: SumOddLengthSubarrays = (arr) => {
   let result = 0;
 
   for (let i = 0, sum = 0; i < arr.length; i += 1, sum = 0) {

@@ -2,7 +2,7 @@ interface CheckStraightLine {
   (coordinates: number[][]): boolean;
 }
 
-export const checkStraightLine: CheckStraightLine = coordinates => {
+export const checkStraightLine: CheckStraightLine = (coordinates) => {
   // 先把第一個和第二個座標的 x 和 y 軸上的差距做為參考點
   const x = coordinates[1][0] - coordinates[0][0];
   const y = coordinates[1][1] - coordinates[0][1];

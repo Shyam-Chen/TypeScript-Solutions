@@ -23,7 +23,7 @@ $ yarn install
 $ yarn test
 
 # run a specific test file
-$ yarn test <FILE_PATH>
+$ yarn test <FILE_NAME>
 # e.g.
-$ yarn test src/Easy/1. Two Sum/two-sum.spec.ts
+$ yarn test two-sum.spec.ts
 ```

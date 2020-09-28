@@ -2,7 +2,7 @@ interface ReorderSpaces {
   (text: string): string;
 }
 
-export const reorderSpaces: ReorderSpaces = text => {
+export const reorderSpaces: ReorderSpaces = (text) => {
   if (!/\s/g.test(text)) return text;
 
   const wordLength = text.split(' ').filter(Boolean).length;
@@ -15,7 +15,7 @@ export const reorderSpaces: ReorderSpaces = text => {
 
   const dividedspaces = Array.from(Array(Math.ceil(spaces.length / divideLength)), (v, i) =>
     spaces.slice(i * divideLength, i * divideLength + divideLength),
-  ).map(i => i.join(''));
+  ).map((i) => i.join(''));
 
   for (let j = 0; j < dividedspaces.length; j += 1) {
     words.splice(j * 2 + 1, 0, dividedspaces[j]);

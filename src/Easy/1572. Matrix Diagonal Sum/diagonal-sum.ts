@@ -2,7 +2,7 @@ interface DiagonalSum {
   (mat: number[][]): number;
 }
 
-export const diagonalSum: DiagonalSum = mat => {
+export const diagonalSum: DiagonalSum = (mat) => {
   let result = 0;
 
   for (let i = 0; i < mat.length; i += 1) {
