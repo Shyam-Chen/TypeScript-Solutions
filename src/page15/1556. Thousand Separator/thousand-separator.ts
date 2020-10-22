@@ -32,3 +32,10 @@ export const thousandSeparator3: ThousandSeparator = (n) => {
 
   return result.reverse().join('');
 };
+
+export const thousandSeparator4: ThousandSeparator = (n) => {
+  return String(n)
+    .split('')
+    .reverse()
+    .reduce((acc, cur) => (acc.length % 4 === 3 ? `${cur}.${acc}` : cur + acc));
+};
