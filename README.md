@@ -15,30 +15,22 @@ $ cd ECMAScript-LeetCode
 
 ```sh
 $ npm install
-# or
-$ yarn install
 ```
 
 3. Run unit tests
 
 ```sh
 $ npm test
-# or
-$ yarn test
 
 # run a specific test file
 $ npm test -- <FILE_NAME>
-# or
-$ yarn test <FILE_NAME>
 # e.g.
 $ npm test -- two-sum.spec.ts
-# or
-$ yarn test two-sum.spec.ts
 ```
 
 ## Directory Structure
 
-```coffee
+```ts
 .
 ├── src
 │   ├── page<NUM> -> set 100 rows per page for the table
@@ -55,7 +47,8 @@ $ yarn test two-sum.spec.ts
 ├── Dockerfile
 ├── jest.config.js
 ├── LICENSE
+├── package-lock.json
 ├── package.json
 ├── README.md
-└──  tsconfig.json
+└── tsconfig.json
 ```

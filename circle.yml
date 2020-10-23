@@ -16,13 +16,13 @@ jobs:
           command: docker-compose up -d leetcode
       # - run:
       #     name: Code Quality
-      #     command: docker-compose exec leetcode yarn lint
+      #     command: docker-compose exec leetcode npm run lint
       - run:
           name: Code Specification
-          command: docker-compose exec leetcode yarn test
+          command: docker-compose exec leetcode npm test
       - run:
           name: Code Coverage
-          command: docker-compose exec leetcode yarn _codecov -t $CODECOV_TOKEN
+          command: docker-compose exec leetcode npm run coverage -- -t=$CODECOV_TOKEN
 
 workflows:
   version: 2

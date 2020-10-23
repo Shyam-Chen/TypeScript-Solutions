@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "test": "jest --coverage",
-    "_codecov": "codecov"
+    "coverage": "codecov"
   },
   "repository": {
     "type": "git",
