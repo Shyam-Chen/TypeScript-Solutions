@@ -14,17 +14,25 @@ $ cd ECMAScript-LeetCode
 2. Install dependencies
 
 ```sh
+$ npm install
+# or
 $ yarn install
 ```
 
 3. Run unit tests
 
 ```sh
+$ npm test
+# or
 $ yarn test
 
 # run a specific test file
+$ npm test -- <FILE_NAME>
+# or
 $ yarn test <FILE_NAME>
 # e.g.
+$ npm test -- two-sum.spec.ts
+# or
 $ yarn test two-sum.spec.ts
 ```
 
@@ -49,6 +57,5 @@ $ yarn test two-sum.spec.ts
 ├── LICENSE
 ├── package.json
 ├── README.md
-├── tsconfig.json
-└── yarn.lock
+└──  tsconfig.json
 ```
