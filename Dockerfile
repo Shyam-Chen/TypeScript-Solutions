@@ -1,9 +1,8 @@
-FROM node:12
+FROM node:14
 
 ENV HOME /ECMAScript-LeetCode
 
 WORKDIR ${HOME}
 ADD . $HOME
 
-RUN yarn cache clean
 RUN yarn install
