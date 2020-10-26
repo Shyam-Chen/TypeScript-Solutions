@@ -22,7 +22,7 @@ jobs:
           command: docker-compose exec leetcode npm test
       - run:
           name: Code Coverage
-          command: docker-compose exec leetcode npm run coverage -- -t=$CODECOV_TOKEN
+          command: docker-compose exec leetcode npm run coverage -- -t $CODECOV_TOKEN
 
 workflows:
   version: 2
