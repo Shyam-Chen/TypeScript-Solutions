@@ -1,3 +1,7 @@
+interface IsPalindrome {
+  (num: number): boolean;
+}
+
 /**
  * 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
  * 11, 22, 33, 44, 55, 66, 77, 88, 99
@@ -5,7 +9,7 @@
  * 1001, 1111, 1221, 1331, 1441, 1551, 1661, 1771, 1881, 1991, ..., 9009, 9119, 9229, 9339, 9449, 9559, 9669, 9779, 9889, 9999
  */
 
-export const isPalindrome = (num: number): boolean => {
+export const isPalindrome: IsPalindrome = (num) => {
   let [x, y] = [num, 0];
 
   if (x < 0 || (x !== 0 && x % 10 === 0)) return false;

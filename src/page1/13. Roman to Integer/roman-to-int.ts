@@ -1,4 +1,8 @@
-enum Roman {
+interface RomanToInt {
+  (str: string): number;
+}
+
+enum RomanNumerals {
   'I' = 1,
   'V' = 5,
   'X' = 10,
@@ -8,21 +12,21 @@ enum Roman {
   'M' = 1000,
 }
 
-export const romanToInt = (str: string): number => {
+export const romanToInt: RomanToInt = (str) => {
   let total = 0;
   let prev = null;
 
   for (let i = 0; i < str.length; i += 1) {
     if (prev) {
-      if (Roman[str[i]] > prev) {
-        total += Roman[str[i]] - prev;
+      if (RomanNumerals[str[i]] > prev) {
+        total += RomanNumerals[str[i]] - prev;
         prev = null;
       } else {
         total += prev;
-        prev = Roman[str[i]];
+        prev = RomanNumerals[str[i]];
       }
     } else {
-      prev = Roman[str[i]];
+      prev = RomanNumerals[str[i]];
     }
   }
 
