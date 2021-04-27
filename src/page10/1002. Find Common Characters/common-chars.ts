@@ -48,3 +48,18 @@ export const commonChars: CommonChars = (A) => {
 
   return result;
 };
+
+export const commonChars2: CommonChars = (A) => {
+  let result = [...A[0]];
+  const arr = [...A];
+
+  for (let i = 1; i < arr.length; i += 1) {
+    result = result.filter((c) => {
+      const len = arr[i].length;
+      arr[i] = arr[i].replace(c, '');
+      return len > arr[i].length;
+    });
+  }
+
+  return result;
+};
