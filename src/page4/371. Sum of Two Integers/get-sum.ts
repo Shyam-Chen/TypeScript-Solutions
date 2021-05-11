@@ -1,17 +1,22 @@
-export const getSum = (a: number, b: number): number => {
+/* eslint-disable no-bitwise */
+
+interface GetSum {
+  (a: number, b: number): number;
+}
+
+export const getSum: GetSum = (a, b) => {
   let [x, y] = [a, b];
 
   while (y !== 0) {
     const carry = x & y;
-
-    x = x ^ y;
+    x ^= y;
     y = carry << 1;
   }
 
   return x;
 };
 
-export const getSum2 = (a: number, b: number): number => {
+export const getSum2: GetSum = (a, b) => {
   if (b === 0) return a;
   const carry = a & b;
   return getSum2(a ^ b, carry << 1);

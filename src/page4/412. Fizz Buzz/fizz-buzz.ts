@@ -1,4 +1,8 @@
-export const fizzBuzz = (n: number): string[] => {
+interface FizzBuzz {
+  (n: number): string[];
+}
+
+export const fizzBuzz: FizzBuzz = (n) => {
   const result = [];
 
   for (let i = 1; i <= n; i += 1) {
