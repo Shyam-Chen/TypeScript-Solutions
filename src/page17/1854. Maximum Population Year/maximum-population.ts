@@ -5,8 +5,8 @@ interface MaximumPopulation {
 export const maximumPopulation: MaximumPopulation = (logs) => {
   const map = new Map();
 
-  for (let i = 0; i < logs.length; i += 1) {
-    const [birth, death] = logs[i];
+  for (const log of logs) {
+    const [birth, death] = log;
 
     for (let year = birth; year < death; year += 1) {
       map.set(year, 1 + (map.get(year) || 0));
