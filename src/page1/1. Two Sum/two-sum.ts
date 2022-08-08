@@ -2,7 +2,7 @@ interface TwoSum {
   (nums: number[], target: number): number[];
 }
 
-// The fastest function
+// Accepted
 export const twoSum: TwoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i += 1) {
     for (let j = 0; j < nums.length; j += 1) {
@@ -15,6 +15,7 @@ export const twoSum: TwoSum = (nums, target) => {
   return [-1, -1];
 };
 
+// Accepted
 export const twoSum2: TwoSum = (nums, target) => {
   const map = new Map();
 
