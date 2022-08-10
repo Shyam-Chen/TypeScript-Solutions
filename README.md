@@ -33,7 +33,7 @@ $ npm test -- two-sum.spec.ts
 ```ts
 .
 ├── src
-│   ├── page<NUM> -> set 100 rows per page for the table
+│   ├── page<NUM> -> set 100 rows per page for the table of the algorithms
 │   │   └── <TITLE>
 │   │       ├── <NAME>.spec.ts
 │   │       └── <NAME>.ts
