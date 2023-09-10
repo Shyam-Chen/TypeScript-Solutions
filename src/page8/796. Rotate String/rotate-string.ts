@@ -1,15 +1,14 @@
-export const rotateString = (A: string, B: string): boolean => {
-  for (let i = 0; i < A.length; i += 1) {
-    if (A.substr(i, A.length - i) + A.substr(0, i) === B) {
-      return true;
-    }
-  }
-
-  return false;
+type RotateString = {
+  (s: string, goal: string): boolean;
 };
 
 /**
- * 'abcde' + 'abcde' = 'abcdeabcde, A + A
- * 'bcdea' in 'abcdeabcde', B in A + A
+ * Accepted
+ *
+ * 'abcde' + 'abcde' = 'abcdeabcde', s + s = goal
+ * 'cdeab' in 'abcdeabcde', goal in s + s -> true
+ * 'abced' in 'abcdeabcde', goal in s + s -> false
  */
-export const rotateString2 = (A: string, B: string): boolean => (A + A).includes(B);
+export const rotateString: RotateString = (s, goal) => {
+  return s.length === goal.length && (s + s).includes(goal);
+};
