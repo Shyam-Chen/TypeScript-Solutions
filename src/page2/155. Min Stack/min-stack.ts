@@ -1,19 +1,22 @@
+/**
+ * Accepted
+ */
 export class MinStack {
-  public stack: number[] = [];
+  stack: number[] = [];
 
-  public push(num: number): void {
+  push(num: number): void {
     this.stack.push(num);
   }
 
-  public pop(): void {
+  pop(): void {
     this.stack.pop();
   }
 
-  public top(): number {
+  top(): number {
     return this.stack.slice(-1)[0];
   }
 
-  public getMin(): number {
+  getMin(): number {
     return Math.min(...this.stack);
   }
 }

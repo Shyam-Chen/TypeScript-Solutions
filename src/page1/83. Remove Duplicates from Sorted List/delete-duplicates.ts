@@ -1,6 +1,13 @@
 import { ListNode } from '~/utils/linked-list';
 
-export const deleteDuplicates = (head: ListNode): ListNode => {
+interface DeleteDuplicates {
+  (head: ListNode | null): ListNode | null;
+}
+
+/**
+ * Accepted
+ */
+export const deleteDuplicates: DeleteDuplicates = (head) => {
   let temp = head;
 
   while (temp !== null && temp.next !== null) {

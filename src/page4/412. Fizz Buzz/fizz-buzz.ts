@@ -2,6 +2,9 @@ interface FizzBuzz {
   (n: number): string[];
 }
 
+/**
+ * Accepted
+ */
 export const fizzBuzz: FizzBuzz = (n) => {
   const result = [];
 

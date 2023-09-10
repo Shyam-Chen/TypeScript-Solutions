@@ -1,9 +1,10 @@
-/* eslint-disable no-bitwise */
-
 interface GetSum {
   (a: number, b: number): number;
 }
 
+/**
+ * Accepted
+ */
 export const getSum: GetSum = (a, b) => {
   let [x, y] = [a, b];
 
@@ -16,6 +17,9 @@ export const getSum: GetSum = (a, b) => {
   return x;
 };
 
+/**
+ * Accepted
+ */
 export const getSum2: GetSum = (a, b) => {
   if (b === 0) return a;
   const carry = a & b;

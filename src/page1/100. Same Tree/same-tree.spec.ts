@@ -6,9 +6,13 @@ describe('100. Same Tree', () => {
   it('isSameTree', () => {
     //   1
     //  / \
-    // 2  3
+    // 2   3
     const binaryTree1p = generateBinaryTree([1, 2, 3]);
-    const binaryTree1q = { ...binaryTree1p };
+
+    //   1
+    //  / \
+    // 2   3
+    const binaryTree1q = generateBinaryTree([1, 2, 3]);
 
     expect(isSameTree(binaryTree1p, binaryTree1q)).toEqual(true);
 
@@ -19,9 +23,21 @@ describe('100. Same Tree', () => {
 
     //   1
     //    \
-    //    2
+    //     2
     const binaryTree2q = generateBinaryTree([1, null, 2]);
 
     expect(isSameTree(binaryTree2p, binaryTree2q)).toEqual(false);
+
+    //   1
+    //  / \
+    // 2   1
+    const binaryTree3p = generateBinaryTree([1, 2, 1]);
+
+    //   1
+    //  / \
+    // 1   2
+    const binaryTree3q = generateBinaryTree([1, 1, 2]);
+
+    expect(isSameTree(binaryTree3p, binaryTree3q)).toEqual(false);
   });
 });

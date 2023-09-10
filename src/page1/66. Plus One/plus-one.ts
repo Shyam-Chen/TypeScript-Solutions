@@ -1,4 +1,11 @@
-export const plusOne = (digits: number[]): number[] => {
+interface PlusOne {
+  (digits: number[]): number[];
+}
+
+/**
+ * Accepted
+ */
+export const plusOne: PlusOne = (digits) => {
   for (let i = digits.length - 1; i >= 0; i -= 1) {
     // single digit plus one
     digits[i] += 1;
@@ -13,7 +20,10 @@ export const plusOne = (digits: number[]): number[] => {
   return digits;
 };
 
-export const plusOne2 = (digits: number[]): number[] => {
-  const num = Number(digits.join('')) + 1;
-  return Array.from(String(num)).map(item => Number(item));
+/**
+ * Accepted
+ */
+export const plusOne2: PlusOne = (digits) => {
+  const num = (BigInt(digits.join('')) + BigInt('1')).toString();
+  return Array.from(String(num)).map((item) => Number(item));
 };

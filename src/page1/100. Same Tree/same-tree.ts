@@ -1,6 +1,13 @@
 import { TreeNode } from '~/utils/binary-tree';
 
-export const isSameTree = (p: TreeNode, q: TreeNode): boolean => {
+interface IsSameTree {
+  (p: TreeNode | null, q: TreeNode | null): boolean;
+}
+
+/**
+ * Accepted
+ */
+export const isSameTree: IsSameTree = (p, q) => {
   if (!p && !q) return true;
   if (!p || !q) return false;
   if (p.val !== q.val) return false;

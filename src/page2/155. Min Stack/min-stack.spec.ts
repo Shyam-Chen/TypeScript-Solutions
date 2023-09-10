@@ -3,7 +3,6 @@ import { MinStack } from './min-stack';
 describe('155. Min Stack', () => {
   it('MinStack', () => {
     const minStack = new MinStack();
-
     minStack.push(-2);
     minStack.push(0);
     minStack.push(-3);

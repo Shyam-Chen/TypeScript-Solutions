@@ -2,7 +2,9 @@ interface Rotate {
   (nums: number[], k: number): void;
 }
 
-// Accepted
+/**
+ * Accepted
+ */
 export const rotate: Rotate = (nums, k) => {
   const point = k % nums.length;
   const move = nums.splice(nums.length - point, point);

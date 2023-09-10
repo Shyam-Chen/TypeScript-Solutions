@@ -1,7 +1,11 @@
-export const moveZeroes = (nums: number[]): number[] =>
-  [...nums.filter(x => x !== 0), ...nums.filter(x => x === 0)];
+interface MoveZeroes {
+  (nums: number[]): void;
+}
 
-export const moveZeroes2 = (nums: number[]): number[] => {
+/**
+ * Accepted
+ */
+export const moveZeroes: MoveZeroes = (nums) => {
   let [left, right] = [0, 0];
 
   while (right < nums.length) {
@@ -17,6 +21,4 @@ export const moveZeroes2 = (nums: number[]): number[] => {
       right += 1;
     }
   }
-
-  return nums;
 };

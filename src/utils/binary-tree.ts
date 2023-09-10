@@ -1,15 +1,15 @@
 export interface TreeNode {
   val: number;
-  left: TreeNode;
-  right: TreeNode;
+  left: TreeNode | null;
+  right: TreeNode | null;
 }
 
-export const generateBinaryTree = (nums: number[]): TreeNode => {
+export const generateBinaryTree = (nums: (number | null)[]): TreeNode | null => {
   const n = nums.length;
 
   if (n === 0) return null;
 
-  const root = { val: nums[0], left: null, right: null };
+  const root = { val: nums[0] || 0, left: null, right: null };
 
   const queue: TreeNode[] = [];
   queue[0] = root;
@@ -21,14 +21,14 @@ export const generateBinaryTree = (nums: number[]): TreeNode => {
     queue.shift();
 
     if (i < n && nums[i] !== null) {
-      node.left = { val: nums[i], left: null, right: null };
+      node.left = { val: nums[i] || 0, left: null, right: null };
       queue.push(node.left);
     }
 
     i += 1;
 
     if (i < n && nums[i] !== null) {
-      node.right = { val: nums[i], left: null, right: null };
+      node.right = { val: nums[i] || 0, left: null, right: null };
       queue.push(node.right);
     }
 

@@ -20,16 +20,18 @@ export const romanToInt: RomanToInt = (s) => {
   let prev = null;
 
   for (let i = 0; i < s.length; i++) {
+    const char = s[i] as keyof typeof RomanNumerals;
+
     if (prev) {
-      if (RomanNumerals[s[i]] > prev) {
-        total += RomanNumerals[s[i]] - prev;
+      if (RomanNumerals[char] > prev) {
+        total += RomanNumerals[char] - prev;
         prev = null;
       } else {
         total += prev;
-        prev = RomanNumerals[s[i]];
+        prev = RomanNumerals[char];
       }
     } else {
-      prev = RomanNumerals[s[i]];
+      prev = RomanNumerals[char];
     }
   }
 
