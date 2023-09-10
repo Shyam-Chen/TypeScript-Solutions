@@ -1,11 +1,16 @@
+interface CountAndSay {
+  (n: number): string;
+}
+
 /**
+ * Accepted
+ *
  * 1 -> read: one 1 = 11
  * 11 -> read: two 1s = 21
  * 21 -> read: one 2, one 1 = 1211
  * 1211 -> read: one 1, one 2, two 1s = 111221
  */
-
-export const countAndSay = (n: number): string => {
+export const countAndSay: CountAndSay = (n) => {
   let result = '1';
 
   for (let i = 2; i <= n; i += 1) {

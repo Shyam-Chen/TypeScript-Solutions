@@ -1,23 +1,24 @@
 interface IsPalindrome {
-  (num: number): boolean;
+  (x: number): boolean;
 }
 
 /**
+ * Accepted
+ *
  * 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
  * 11, 22, 33, 44, 55, 66, 77, 88, 99
  * 101, 111, 121, 131, 141, 151, 161, 171, 181, 191, ..., 909, 919, 929, 939, 949, 959, 969, 979, 989, 999
  * 1001, 1111, 1221, 1331, 1441, 1551, 1661, 1771, 1881, 1991, ..., 9009, 9119, 9229, 9339, 9449, 9559, 9669, 9779, 9889, 9999
  */
+export const isPalindrome: IsPalindrome = (x) => {
+  let [a, b] = [x, 0];
 
-export const isPalindrome: IsPalindrome = (num) => {
-  let [x, y] = [num, 0];
+  if (a < 0 || (a !== 0 && a % 10 === 0)) return false;
 
-  if (x < 0 || (x !== 0 && x % 10 === 0)) return false;
-
-  while (x > y) {
-    y = y * 10 + (x % 10);
-    x = Math.floor(x / 10);
+  while (a > b) {
+    b = b * 10 + (a % 10);
+    a = Math.floor(a / 10);
   }
 
-  return x === y || Math.floor(y / 10) === x;
+  return a === b || Math.floor(b / 10) === a;
 };

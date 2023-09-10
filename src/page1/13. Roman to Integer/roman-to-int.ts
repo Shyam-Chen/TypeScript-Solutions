@@ -19,7 +19,7 @@ export const romanToInt: RomanToInt = (s) => {
   let total = 0;
   let prev = null;
 
-  for (let i = 0; i < s.length; i += 1) {
+  for (let i = 0; i < s.length; i++) {
     if (prev) {
       if (RomanNumerals[s[i]] > prev) {
         total += RomanNumerals[s[i]] - prev;

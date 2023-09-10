@@ -1,2 +1,10 @@
-export const strStr = (haystack: string, needle: string): number =>
-  haystack.indexOf(needle);
+interface StrStr {
+  (haystack: string, needle: string): number;
+}
+
+/**
+ * Accepted
+ */
+export const strStr: StrStr = (haystack, needle) => {
+  return haystack.indexOf(needle);
+};

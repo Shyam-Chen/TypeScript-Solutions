@@ -1,7 +1,14 @@
-export const longestCommonPrefix = (strs: string[]): string => {
+interface LongestCommonPrefix {
+  (strs: string[]): string;
+}
+
+/**
+ * Accepted
+ */
+export const longestCommonPrefix: LongestCommonPrefix = (strs) => {
   let result = '';
 
-  for (let i = 0; i < strs[0].length; i += 1) {
+  for (let i = 0; i < strs[0].length; i++) {
     const alphabet = strs[0][i];
 
     for (const word of strs) {
@@ -12,4 +19,6 @@ export const longestCommonPrefix = (strs: string[]): string => {
 
     result += alphabet;
   }
+
+  return result;
 };

@@ -2,6 +2,9 @@ interface SearchRange {
   (nums: number[], target: number): number[];
 }
 
+/**
+ * Accepted
+ */
 export const searchRange: SearchRange = (nums, target) => {
   const result = [-1, -1];
 
@@ -33,7 +36,9 @@ export const searchRange: SearchRange = (nums, target) => {
   return result;
 };
 
-export const searchRange2: SearchRange = (nums, target) => [
-  nums.indexOf(target),
-  nums.lastIndexOf(target),
-];
+/**
+ * Accepted
+ */
+export const searchRange2: SearchRange = (nums, target) => {
+  return [nums.indexOf(target), nums.lastIndexOf(target)];
+};

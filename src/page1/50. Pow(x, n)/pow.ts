@@ -1,23 +1,26 @@
-interface Pow {
+interface MyPow {
   (x: number, n: number): number;
 }
 
-export const pow: Pow = (x, n) => {
+/**
+ * Accepted
+ */
+export const myPow: MyPow = (x, n) => {
   return Number((x ** n).toFixed(5));
 };
 
-export const pow2: Pow = (x, n) => {
-  let result = x;
+/**
+ * Accepted
+ */
+export const myPow2: MyPow = (x, n) => {
+  if (x === -1) return n % 2 === 0 ? -x : x;
 
-  if (n > 0) {
-    for (let index = 1; index < n; index += 1) {
-      result *= x;
-    }
-  } else {
-    for (let index = -1; index < n * -1; index += 1) {
-      result /= x;
-    }
+  let result = 1;
+
+  for (let i = 0; i < Math.abs(n); i++) {
+    result *= x;
   }
 
+  if (n < 0) return Number((1 / result).toFixed(5));
   return Number(result.toFixed(5));
 };

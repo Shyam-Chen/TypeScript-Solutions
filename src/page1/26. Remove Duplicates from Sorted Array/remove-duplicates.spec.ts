@@ -1,4 +1,4 @@
-import { removeDuplicates } from './remove-duplicates-from-sorted-array';
+import { removeDuplicates } from './remove-duplicates';
 
 describe('26. Remove Duplicates from Sorted Array', () => {
   it('removeDuplicates', () => {

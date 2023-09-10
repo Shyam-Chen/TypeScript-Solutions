@@ -1,10 +1,17 @@
-export const isValid = (str: string): boolean => {
-  if (!str.length) return false;
+interface IsValid {
+  (s: string): boolean;
+}
+
+/**
+ * Accepted
+ */
+export const isValid: IsValid = (s) => {
+  if (!s.length) return false;
 
   const stack = [];
 
-  for (let i = 0; i < str.length; i += 1) {
-    const char = str[i];
+  for (let i = 0; i < s.length; i++) {
+    const char = s[i];
 
     if (char === '(') {
       stack.push(')');

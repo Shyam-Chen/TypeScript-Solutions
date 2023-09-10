@@ -2,8 +2,11 @@ interface MaxSubArray {
   (nums: number[]): number;
 }
 
+/**
+ * Accepted
+ */
 export const maxSubArray: MaxSubArray = (nums) => {
-  let [result, sum] = [0, 0];
+  let [result, sum] = [-Infinity, 0];
 
   for (let i = 0; i < nums.length; i += 1) {
     const num = nums[i];
