@@ -2,6 +2,9 @@ interface CountPrefixes {
   (words: string[], s: string): number;
 }
 
+/**
+ * Accepted
+ */
 export const countPrefixes: CountPrefixes = (words, s) => {
   let count = 0;
 

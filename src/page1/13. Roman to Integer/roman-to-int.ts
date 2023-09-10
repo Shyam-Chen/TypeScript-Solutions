@@ -1,32 +1,35 @@
 interface RomanToInt {
-  (str: string): number;
+  (s: string): number;
 }
 
-enum RomanNumerals {
-  'I' = 1,
-  'V' = 5,
-  'X' = 10,
-  'L' = 50,
-  'C' = 100,
-  'D' = 500,
-  'M' = 1000,
-}
+/**
+ * Accepted
+ */
+export const romanToInt: RomanToInt = (s) => {
+  enum RomanNumerals {
+    'I' = 1,
+    'V' = 5,
+    'X' = 10,
+    'L' = 50,
+    'C' = 100,
+    'D' = 500,
+    'M' = 1000,
+  }
 
-export const romanToInt: RomanToInt = (str) => {
   let total = 0;
   let prev = null;
 
-  for (let i = 0; i < str.length; i += 1) {
+  for (let i = 0; i < s.length; i += 1) {
     if (prev) {
-      if (RomanNumerals[str[i]] > prev) {
-        total += RomanNumerals[str[i]] - prev;
+      if (RomanNumerals[s[i]] > prev) {
+        total += RomanNumerals[s[i]] - prev;
         prev = null;
       } else {
         total += prev;
-        prev = RomanNumerals[str[i]];
+        prev = RomanNumerals[s[i]];
       }
     } else {
-      prev = RomanNumerals[str[i]];
+      prev = RomanNumerals[s[i]];
     }
   }
 
