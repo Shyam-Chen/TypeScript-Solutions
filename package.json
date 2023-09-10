@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "LeetCode of algorithms with JavaScript solution written in TypeScript.",
   "scripts": {
-    "lint": "eslint 'src/**/*.ts'",
-    "test": "jest --coverage",
-    "coverage": "codecov"
+    "test": "vitest --dir src --run --coverage"
   },
   "repository": {
     "type": "git",
@@ -13,24 +11,17 @@
   },
   "author": "Shyam Chen",
   "license": "MIT",
-  "dependencies": {
-    "flatted": "^2.0.1"
-  },
   "devDependencies": {
-    "@types/jest": "^26.0.15",
-    "@types/node": "^14.14.2",
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "codecov": "^3.7.2",
-    "eslint": "^7.11.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-import-resolver-typescript": "^2.3.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "jest": "^26.4.0",
-    "prettier": "^2.1.2",
-    "ts-jest": "^26.4.0",
-    "typescript": "^5.2.2"
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "@vitest/coverage-v8": "^0.34.4",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "flatted": "^3.2.7",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4"
   }
 }

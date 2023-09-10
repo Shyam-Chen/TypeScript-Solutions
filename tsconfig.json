@@ -1,15 +1,31 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "target": "es2019",
-    "module": "commonjs",
-    "lib": ["es2019", "es2020.bigint", "es2020.string", "es2020.symbol.wellknown"],
+    "noUnusedLocals": true,
+    "strict": true,
+    "strictNullChecks": true,
 
-    /* Module Resolution Options */
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
     "paths": {
       "~/*": ["src/*"]
     },
-    "types": ["node", "jest"]
-  }
+    "resolveJsonModule": true,
+    "types": ["vite/client", "vitest", "vitest/globals"],
+
+    "noEmit": true,
+
+    "allowJs": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+
+    "jsx": "preserve",
+    "lib": ["ESNext", "DOM"],
+    "target": "esnext",
+
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "coverage"]
 }

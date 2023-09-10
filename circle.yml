@@ -1,31 +1,16 @@
 version: 2.1
 
-executors:
-  ecmascript-leetcode:
-    docker:
-      - image: circleci/node:14
-
 jobs:
   test:
-    executor: ecmascript-leetcode
+    docker:
+      - image: cimg/base:stable
     steps:
       - checkout
       - setup_remote_docker
-      - run:
-          name: Combat Preparation
-          command: docker-compose up -d leetcode
-      # - run:
-      #     name: Code Quality
-      #     command: docker-compose exec leetcode npm run lint
-      - run:
-          name: Code Specification
-          command: docker-compose exec leetcode npm test
-      - run:
-          name: Code Coverage
-          command: docker-compose exec leetcode npm run coverage -- -t $CODECOV_TOKEN
+      - run: docker-compose up -d leetcode
+      - run: docker-compose exec leetcode pnpm test
 
 workflows:
-  version: 2
   workflow:
     jobs:
       - test

@@ -4,6 +4,10 @@ interface Intersection {
 
 /**
  * Accepted
+ *
+ * [A, B, C]
+ * A vs B -> current
+ * current vs C -> result
  */
 export const intersection: Intersection = (nums) => {
   let result = new Set<number>(nums[0]);
@@ -25,4 +29,29 @@ export const intersection: Intersection = (nums) => {
   }
 
   return Array.from(result).sort((a, b) => a - b);
+};
+
+/**
+ * Accepted
+ *
+ * counting
+ */
+export const intersection2: Intersection = (nums) => {
+  const result = [] as number[];
+
+  const map = new Map();
+  const num = nums.flat();
+
+  num.forEach((item) => {
+    if (!map.has(item)) map.set(item, 1);
+    map.set(item, map.get(item) + 1);
+  });
+
+  map.forEach((count, num) => {
+    if (count === nums.length + 1) {
+      result.push(num);
+    }
+  });
+
+  return result.sort((a, b) => a - b);
 };
