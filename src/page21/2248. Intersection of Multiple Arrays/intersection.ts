@@ -34,7 +34,7 @@ export const intersection: Intersection = (nums) => {
 /**
  * Accepted
  *
- * counting
+ * Counting
  */
 export const intersection2: Intersection = (nums) => {
   const result = [] as number[];
@@ -43,12 +43,15 @@ export const intersection2: Intersection = (nums) => {
   const num = nums.flat();
 
   num.forEach((item) => {
-    if (!map.has(item)) map.set(item, 1);
-    map.set(item, map.get(item) + 1);
+    if (!map.has(item)) {
+      map.set(item, 1);
+    } else {
+      map.set(item, map.get(item) + 1);
+    }
   });
 
   map.forEach((count, num) => {
-    if (count === nums.length + 1) {
+    if (count === nums.length) {
       result.push(num);
     }
   });
