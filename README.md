@@ -1,6 +1,6 @@
 # ECMAScript LeetCode &middot; [![Build Status](https://img.shields.io/circleci/project/github/Shyam-Chen/ECMAScript-LeetCode/master.svg)](https://circleci.com/gh/Shyam-Chen/ECMAScript-LeetCode) [![Coverage Status](https://img.shields.io/codecov/c/github/Shyam-Chen/ECMAScript-LeetCode/master.svg)](https://codecov.io/gh/Shyam-Chen/ECMAScript-LeetCode)
 
-:whale: [LeetCode of algorithms](https://leetcode.com/problemset/algorithms/) with JavaScript solution written in TypeScript.
+🐳 [LeetCode of algorithms](https://leetcode.com/problemset/algorithms/) with JavaScript solutions written in TypeScript.
 
 ## Usage
 
