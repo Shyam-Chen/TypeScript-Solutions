@@ -17,15 +17,15 @@ $ cd ECMAScript-LeetCode
 $ pnpm install
 ```
 
-3. Run unit tests
+3. Run tests
 
 ```sh
 $ pnpm test
 
 # run a specific test file
-$ pnpm test -- <FILE_NAME>
+$ pnpm test <FILE_NAME>
 # e.g.
-$ pnpm test -- two-sum.spec.ts
+$ pnpm test two-sum.spec.ts
 ```
 
 ## Directory Structure
@@ -33,7 +33,7 @@ $ pnpm test -- two-sum.spec.ts
 ```ts
 .
 ├── src
-│   ├── page<NUM> -> set 100 rows per page for the table of the algorithms
+│   ├── page-<NUM> -> set the table to display 100 rows per page
 │   │   └── <TITLE>
 │   │       ├── <NAME>.spec.ts
 │   │       └── <NAME>.ts
@@ -45,10 +45,9 @@ $ pnpm test -- two-sum.spec.ts
 ├── circle.yml
 ├── docker-compose.yml
 ├── Dockerfile
-├── jest.config.js
-├── LICENSE
-├── package-lock.json
 ├── package.json
+├── pnpm-lock.yaml
 ├── README.md
-└── tsconfig.json
+├── tsconfig.json
+└── vite.config.ts
 ```
