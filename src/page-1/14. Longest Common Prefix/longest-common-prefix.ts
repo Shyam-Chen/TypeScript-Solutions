@@ -1,6 +1,4 @@
-interface LongestCommonPrefix {
-  (strs: string[]): string;
-}
+type LongestCommonPrefix = (strs: string[]) => string;
 
 /**
  * Accepted

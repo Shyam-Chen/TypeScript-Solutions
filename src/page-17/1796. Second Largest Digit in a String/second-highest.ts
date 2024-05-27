@@ -1,6 +1,4 @@
-interface SecondHighest {
-  (s: string): number;
-}
+type SecondHighest = (s: string) => number;
 
 export const secondHighest: SecondHighest = (s) => {
   const num = [

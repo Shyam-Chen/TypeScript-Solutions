@@ -1,6 +1,4 @@
-interface CanMakeSquare {
-  (grid: string[][]): boolean;
-}
+type CanMakeSquare = (grid: string[][]) => boolean;
 
 export const canMakeSquare: CanMakeSquare = (grid) => {
   const rowsLength = grid.length;

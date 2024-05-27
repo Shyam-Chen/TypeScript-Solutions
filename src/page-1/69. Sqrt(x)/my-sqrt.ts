@@ -1,6 +1,4 @@
-interface MySqrt {
-  (x: number): number;
-}
+type MySqrt = (x: number) => number;
 
 /**
  * Accepted

@@ -1,6 +1,4 @@
-interface FizzBuzz {
-  (n: number): string[];
-}
+type FizzBuzz = (n: number) => string[];
 
 /**
  * Accepted

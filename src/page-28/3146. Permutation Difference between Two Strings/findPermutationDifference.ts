@@ -1,6 +1,4 @@
-interface FindPermutationDifference {
-  (s: string, t: string): number;
-}
+type FindPermutationDifference = (s: string, t: string) => number;
 
 /**
  * Accepted

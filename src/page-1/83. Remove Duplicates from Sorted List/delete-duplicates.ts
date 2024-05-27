@@ -1,8 +1,6 @@
-import { ListNode } from '~/utils/linked-list';
+import type { ListNode } from '~/utils/linked-list';
 
-interface DeleteDuplicates {
-  (head: ListNode | null): ListNode | null;
-}
+type DeleteDuplicates = (head: ListNode | null) => ListNode | null;
 
 /**
  * Accepted

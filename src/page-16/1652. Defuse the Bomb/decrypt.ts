@@ -1,6 +1,4 @@
-interface Decrypt {
-  (code: number[], k: number): number[];
-}
+type Decrypt = (code: number[], k: number) => number[];
 
 export const decrypt: Decrypt = (code, k) => {
   const result = Array.from({ length: code.length }, () => 0);

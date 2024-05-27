@@ -1,8 +1,6 @@
-import { ListNode } from '~/utils/linked-list';
+import type { ListNode } from '~/utils/linked-list';
 
-interface ReverseList {
-  (head: ListNode | null): ListNode | null;
-}
+type ReverseList = (head: ListNode | null) => ListNode | null;
 
 /**
  * Accepted

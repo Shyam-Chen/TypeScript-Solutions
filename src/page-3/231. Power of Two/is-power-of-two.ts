@@ -1,6 +1,4 @@
-interface IsPowerOfTwo {
-  (n: number): boolean;
-}
+type IsPowerOfTwo = (n: number) => boolean;
 
 /**
  * Accepted

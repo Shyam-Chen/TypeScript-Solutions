@@ -1,6 +1,4 @@
-interface ConvertToBase7 {
-  (num: number): string;
-}
+type ConvertToBase7 = (num: number) => string;
 
 /**
  * Accepted

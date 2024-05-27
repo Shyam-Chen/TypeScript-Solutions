@@ -1,6 +1,4 @@
-interface NumberOfSteps {
-  (num: number): number;
-}
+type NumberOfSteps = (num: number) => number;
 
 export const numberOfSteps: NumberOfSteps = (num) => {
   let curNum = num;

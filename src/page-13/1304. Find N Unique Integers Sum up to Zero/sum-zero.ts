@@ -1,6 +1,4 @@
-interface SumZero {
-  (n: number): number[];
-}
+type SumZero = (n: number) => number[];
 
 export const sumZero: SumZero = (n) => {
   const result = [];

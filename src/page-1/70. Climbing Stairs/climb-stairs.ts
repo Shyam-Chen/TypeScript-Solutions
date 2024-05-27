@@ -1,6 +1,4 @@
-interface ClimbStairs {
-  (n: number): number;
-}
+type ClimbStairs = (n: number) => number;
 
 /**
  * Accepted

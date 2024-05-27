@@ -1,6 +1,4 @@
-interface Rotate {
-  (nums: number[], k: number): void;
-}
+type Rotate = (nums: number[], k: number) => void;
 
 /**
  * Accepted

@@ -1,6 +1,4 @@
-interface IsArraySpecial {
-  (nums: number[]): boolean;
-}
+type IsArraySpecial = (nums: number[]) => boolean;
 
 /**
  * Accepted

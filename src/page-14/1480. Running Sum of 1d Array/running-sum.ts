@@ -1,6 +1,4 @@
-interface RunningSum {
-  (nums: number[]): number[];
-}
+type RunningSum = (nums: number[]) => number[];
 
 export const runningSum: RunningSum = (nums) => {
   const result = [];

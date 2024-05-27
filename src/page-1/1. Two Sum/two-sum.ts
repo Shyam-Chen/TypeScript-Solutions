@@ -1,6 +1,4 @@
-interface TwoSum {
-  (nums: number[], target: number): number[];
-}
+type TwoSum = (nums: number[], target: number) => number[];
 
 /**
  * Accepted

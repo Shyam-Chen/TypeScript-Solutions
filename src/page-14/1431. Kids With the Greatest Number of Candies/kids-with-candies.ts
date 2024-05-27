@@ -1,6 +1,4 @@
-interface KidsWithCandies {
-  (candies: number[], extraCandies: number): boolean[];
-}
+type KidsWithCandies = (candies: number[], extraCandies: number) => boolean[];
 
 // candies = [2,3,5,1,3], extraCandies = 3
 // 2 + 3 = 5 -> true

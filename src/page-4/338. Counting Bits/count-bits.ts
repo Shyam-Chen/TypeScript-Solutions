@@ -1,6 +1,4 @@
-interface CountBits {
-  (n: number): number[];
-}
+type CountBits = (n: number) => number[];
 
 /**
  * Accepted

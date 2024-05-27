@@ -1,6 +1,4 @@
-interface StrStr {
-  (haystack: string, needle: string): number;
-}
+type StrStr = (haystack: string, needle: string) => number;
 
 /**
  * Accepted

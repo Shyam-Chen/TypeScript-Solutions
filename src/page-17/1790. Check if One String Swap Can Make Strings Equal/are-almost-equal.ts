@@ -1,6 +1,4 @@
-interface AreAlmostEqual {
-  (s1: string, s2: string): boolean;
-}
+type AreAlmostEqual = (s1: string, s2: string) => boolean;
 
 export const areAlmostEqual: AreAlmostEqual = (s1, s2) => {
   if (s1 === s2) return true;

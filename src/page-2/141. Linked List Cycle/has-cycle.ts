@@ -1,8 +1,6 @@
-import { ListNode } from '~/utils/linked-list';
+import type { ListNode } from '~/utils/linked-list';
 
-interface HasCycle {
-  (head: ListNode | null): boolean;
-}
+type HasCycle = (head: ListNode | null) => boolean;
 
 /**
  * Accepted

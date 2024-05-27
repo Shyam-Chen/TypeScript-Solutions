@@ -1,6 +1,4 @@
-interface SearchInsert {
-  (nums: number[], target: number): number;
-}
+type SearchInsert = (nums: number[], target: number) => number;
 
 /**
  * Accepted

@@ -1,6 +1,4 @@
-interface SumBase {
-  (n: number, k: number): number;
-}
+type SumBase = (n: number, k: number) => number;
 
 export const sumBase: SumBase = (n, k) => {
   return n

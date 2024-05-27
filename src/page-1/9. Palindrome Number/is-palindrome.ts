@@ -1,6 +1,4 @@
-interface IsPalindrome {
-  (x: number): boolean;
-}
+type IsPalindrome = (x: number) => boolean;
 
 /**
  * Accepted

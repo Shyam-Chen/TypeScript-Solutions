@@ -1,6 +1,4 @@
-interface ReplaceWords {
-  (dictionary: string[], sentence: string): string;
-}
+type ReplaceWords = (dictionary: string[], sentence: string) => string;
 
 export const replaceWords: ReplaceWords = (dictionary, sentence) => {
   const result = [];

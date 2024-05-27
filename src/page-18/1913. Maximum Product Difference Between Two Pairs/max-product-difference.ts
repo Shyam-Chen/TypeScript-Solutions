@@ -1,6 +1,4 @@
-interface MaxProductDifference {
-  (nums: number[]): number;
-}
+type MaxProductDifference = (nums: number[]) => number;
 
 // Accepted
 export const maxProductDifference: MaxProductDifference = (nums) => {

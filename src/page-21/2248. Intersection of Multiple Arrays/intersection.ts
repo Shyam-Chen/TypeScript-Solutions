@@ -1,6 +1,4 @@
-interface Intersection {
-  (nums: number[][]): number[];
-}
+type Intersection = (nums: number[][]) => number[];
 
 /**
  * Accepted

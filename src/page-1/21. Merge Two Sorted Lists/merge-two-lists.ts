@@ -1,8 +1,6 @@
-import { ListNode } from '~/utils/linked-list';
+import type { ListNode } from '~/utils/linked-list';
 
-interface MergeTwoLists {
-  (list1: ListNode | null, list2: ListNode | null): ListNode | null;
-}
+type MergeTwoLists = (list1: ListNode | null, list2: ListNode | null) => ListNode | null;
 
 /**
  * Accepted

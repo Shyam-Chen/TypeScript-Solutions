@@ -1,6 +1,4 @@
-interface MoveZeroes {
-  (nums: number[]): void;
-}
+type MoveZeroes = (nums: number[]) => void;
 
 /**
  * Accepted

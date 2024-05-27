@@ -1,6 +1,4 @@
-interface LongestNiceSubstring {
-  (str: string): string;
-}
+type LongestNiceSubstring = (str: string) => string;
 
 export const longestNiceSubstring: LongestNiceSubstring = (str) => {
   if (str.length < 2) return '';

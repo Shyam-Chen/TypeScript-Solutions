@@ -1,17 +1,12 @@
-interface NearestValidPoint {
-  (x: number, y: number, points: number[][]): number;
-}
-
-interface ManhattanDistance {
-  (x1: number, y1: number, x2: number, y2: number): number;
-}
+type NearestValidPoint = (x: number, y: number, points: number[][]) => number;
+type ManhattanDistance = (x1: number, y1: number, x2: number, y2: number) => number;
 
 const manhattanDistance: ManhattanDistance = (x1, y1, x2, y2) => {
   return Math.abs(x1 - x2) + Math.abs(y1 - y2);
 };
 
 export const nearestValidPoint: NearestValidPoint = (x, y, points) => {
-  let min = Infinity;
+  let min = Number.POSITIVE_INFINITY;
   let result = -1;
   let count = -1;
 

@@ -1,6 +1,4 @@
-interface IsNumber {
-  (s: string): boolean;
-}
+type IsNumber = (s: string) => boolean;
 
 /**
  * Accepted

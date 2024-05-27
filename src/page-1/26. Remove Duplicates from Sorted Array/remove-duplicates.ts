@@ -1,6 +1,4 @@
-interface RemoveDuplicates {
-  (nums: number[]): number;
-}
+type RemoveDuplicates = (nums: number[]) => number;
 
 /**
  * Accepted

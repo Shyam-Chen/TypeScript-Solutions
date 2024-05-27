@@ -1,8 +1,6 @@
-import { TreeNode } from '~/utils/binary-tree';
+import type { TreeNode } from '~/utils/binary-tree';
 
-interface HasPathSum {
-  (root: TreeNode | null, targetSum: number): boolean;
-}
+type HasPathSum = (root: TreeNode | null, targetSum: number) => boolean;
 
 /**
  * Accepted

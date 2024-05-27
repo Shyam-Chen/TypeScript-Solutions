@@ -1,6 +1,4 @@
-interface Generate {
-  (numRows: number): number[][];
-}
+type Generate = (numRows: number) => number[][];
 
 /**
  * Accepted

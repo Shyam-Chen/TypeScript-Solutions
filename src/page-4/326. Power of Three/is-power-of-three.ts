@@ -1,6 +1,4 @@
-interface IsPowerOfThree {
-  (n: number): boolean;
-}
+type IsPowerOfThree = (n: number) => boolean;
 
 /**
  * Accepted

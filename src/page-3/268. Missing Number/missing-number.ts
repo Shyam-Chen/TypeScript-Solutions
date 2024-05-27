@@ -1,6 +1,4 @@
-interface MissingNumber {
-  (nums: number[]): number;
-}
+type MissingNumber = (nums: number[]) => number;
 
 /**
  * Accepted

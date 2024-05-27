@@ -1,6 +1,4 @@
-interface CheckStraightLine {
-  (coordinates: number[][]): boolean;
-}
+type CheckStraightLine = (coordinates: number[][]) => boolean;
 
 export const checkStraightLine: CheckStraightLine = (coordinates) => {
   // 先把第一個和第二個座標的 x 和 y 軸上的差距做為參考點

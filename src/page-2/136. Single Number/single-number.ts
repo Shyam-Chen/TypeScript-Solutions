@@ -1,6 +1,4 @@
-interface SingleNumber {
-  (nums: number[]): number;
-}
+type SingleNumber = (nums: number[]) => number;
 
 /**
  * Accepted

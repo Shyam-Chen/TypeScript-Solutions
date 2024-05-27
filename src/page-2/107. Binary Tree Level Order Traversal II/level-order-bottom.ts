@@ -1,8 +1,6 @@
-import { TreeNode } from '~/utils/binary-tree';
+import type { TreeNode } from '~/utils/binary-tree';
 
-interface LevelOrderBottom {
-  (root: TreeNode | null): number[][];
-}
+type LevelOrderBottom = (root: TreeNode | null) => number[][];
 
 /**
  * Accepted

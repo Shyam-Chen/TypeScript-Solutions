@@ -1,6 +1,4 @@
-interface HeightChecker {
-  (heights: number[]): number;
-}
+type HeightChecker = (heights: number[]) => number;
 
 /**
  * [1,1,4,2,1,3]

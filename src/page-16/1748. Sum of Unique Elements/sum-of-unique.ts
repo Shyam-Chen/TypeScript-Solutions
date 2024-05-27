@@ -1,6 +1,4 @@
-interface SumOfUnique {
-  (nums: number[]): number;
-}
+type SumOfUnique = (nums: number[]) => number;
 
 export const sumOfUnique: SumOfUnique = (nums) => {
   const arr = [];

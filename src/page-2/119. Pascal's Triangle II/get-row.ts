@@ -1,6 +1,4 @@
-interface GetRow {
-  (rowIndex: number): number[];
-}
+type GetRow = (rowIndex: number) => number[];
 
 /**
  * Accepted

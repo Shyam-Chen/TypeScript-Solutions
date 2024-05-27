@@ -1,6 +1,4 @@
-interface HammingWeight {
-  (n: number): number;
-}
+type HammingWeight = (n: number) => number;
 
 /**
  * Accepted

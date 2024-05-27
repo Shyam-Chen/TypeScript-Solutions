@@ -1,6 +1,4 @@
-interface Check {
-  (nums: number[]): boolean;
-}
+type Check = (nums: number[]) => boolean;
 
 export const check: Check = (nums) => {
   let count = 0;

@@ -1,6 +1,4 @@
-interface ReorderSpaces {
-  (text: string): string;
-}
+type ReorderSpaces = (text: string) => string;
 
 export const reorderSpaces: ReorderSpaces = (text) => {
   if (!/\s/g.test(text)) return text;

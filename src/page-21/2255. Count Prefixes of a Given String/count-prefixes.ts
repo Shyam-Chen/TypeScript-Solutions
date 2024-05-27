@@ -1,6 +1,4 @@
-interface CountPrefixes {
-  (words: string[], s: string): number;
-}
+type CountPrefixes = (words: string[], s: string) => number;
 
 /**
  * Accepted

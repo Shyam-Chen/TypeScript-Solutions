@@ -1,6 +1,4 @@
-interface CountAndSay {
-  (n: number): string;
-}
+type CountAndSay = (n: number) => string;
 
 /**
  * Accepted

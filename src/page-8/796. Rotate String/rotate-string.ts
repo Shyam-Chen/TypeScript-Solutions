@@ -1,6 +1,4 @@
-type RotateString = {
-  (s: string, goal: string): boolean;
-};
+type RotateString = (s: string, goal: string) => boolean;
 
 /**
  * Accepted

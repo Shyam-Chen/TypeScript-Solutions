@@ -1,6 +1,4 @@
-interface ThreeConsecutiveOdds {
-  (arr: number[]): boolean;
-}
+type ThreeConsecutiveOdds = (arr: number[]) => boolean;
 
 export const threeConsecutiveOdds: ThreeConsecutiveOdds = (arr) => {
   let count = 0;

@@ -1,6 +1,4 @@
-interface IsSumEqual {
-  (firstWord: string, secondWord: string, targetWord: string): boolean;
-}
+type IsSumEqual = (firstWord: string, secondWord: string, targetWord: string) => boolean;
 
 export const isSumEqual: IsSumEqual = (firstWord, secondWord, targetWord) => {
   const sum = (str: string): number =>

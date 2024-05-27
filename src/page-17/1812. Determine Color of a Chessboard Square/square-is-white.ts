@@ -1,6 +1,4 @@
-interface SquareIsWhite {
-  (coordinates: string): boolean;
-}
+type SquareIsWhite = (coordinates: string) => boolean;
 
 export const squareIsWhite: SquareIsWhite = (coordinates) => {
   // 'a'.charCodeAt(0) === 97

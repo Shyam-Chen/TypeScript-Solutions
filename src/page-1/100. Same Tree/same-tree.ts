@@ -1,8 +1,6 @@
-import { TreeNode } from '~/utils/binary-tree';
+import type { TreeNode } from '~/utils/binary-tree';
 
-interface IsSameTree {
-  (p: TreeNode | null, q: TreeNode | null): boolean;
-}
+type IsSameTree = (p: TreeNode | null, q: TreeNode | null) => boolean;
 
 /**
  * Accepted

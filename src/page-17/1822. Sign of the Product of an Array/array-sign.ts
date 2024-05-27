@@ -1,6 +1,4 @@
-interface ArraySign {
-  (nums: number[]): number;
-}
+type ArraySign = (nums: number[]) => number;
 
 export const arraySign: ArraySign = (nums) => {
   const allValues = nums.reduce((acc, cur) => acc * cur);

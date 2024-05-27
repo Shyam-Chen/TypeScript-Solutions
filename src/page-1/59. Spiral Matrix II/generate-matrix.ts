@@ -1,6 +1,4 @@
-interface GenerateMatrix {
-  (n: number): number[][];
-}
+type GenerateMatrix = (n: number) => number[][];
 
 /**
  * Accepted
@@ -16,7 +14,7 @@ export const generateMatrix: GenerateMatrix = (n) => {
   // actions
   let [up, down, left, right, step] = [0, 0, 0, 0, 0];
 
-  while (Infinity) {
+  while (Number.POSITIVE_INFINITY) {
     // up (left -> right)
     for (let i = left; i < n - right; i += 1) {
       step += 1;

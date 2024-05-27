@@ -1,8 +1,6 @@
-import { TreeNode } from '~/utils/binary-tree';
+import type { TreeNode } from '~/utils/binary-tree';
 
-interface IsSymmetric {
-  (root: TreeNode | null): boolean;
-}
+type IsSymmetric = (root: TreeNode | null) => boolean;
 
 /**
  * Accepted

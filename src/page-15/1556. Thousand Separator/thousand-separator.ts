@@ -1,6 +1,4 @@
-interface ThousandSeparator {
-  (n: number): string;
-}
+type ThousandSeparator = (n: number) => string;
 
 // Positive Lookahead (?=(\d{3})+(?!\d))
 //  - 1st Capturing Group (\d{3})+

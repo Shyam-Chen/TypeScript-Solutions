@@ -1,6 +1,4 @@
-interface SortSentence {
-  (s: string): string;
-}
+type SortSentence = (s: string) => string;
 
 export const sortSentence: SortSentence = (s) => {
   return s

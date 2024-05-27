@@ -1,6 +1,4 @@
-interface ContainsDuplicate {
-  (nums: number[]): boolean;
-}
+type ContainsDuplicate = (nums: number[]) => boolean;
 
 /**
  * Accepted

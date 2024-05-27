@@ -1,6 +1,4 @@
-interface MaximumPopulation {
-  (logs: number[][]): number;
-}
+type MaximumPopulation = (logs: number[][]) => number;
 
 export const maximumPopulation: MaximumPopulation = (logs) => {
   const map = new Map();

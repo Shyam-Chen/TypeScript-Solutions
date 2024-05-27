@@ -1,6 +1,4 @@
-interface SumOddLengthSubarrays {
-  (arr: number[]): number;
-}
+type SumOddLengthSubarrays = (arr: number[]) => number;
 
 // 1 4 2 5 3 - 1 5 7 12 15 - 1 7 15
 // 4 2 5 3   - 4 6 11 14   - 4 11

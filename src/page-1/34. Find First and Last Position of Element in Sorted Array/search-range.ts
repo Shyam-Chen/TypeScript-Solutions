@@ -1,6 +1,4 @@
-interface SearchRange {
-  (nums: number[], target: number): number[];
-}
+type SearchRange = (nums: number[], target: number) => number[];
 
 /**
  * Accepted

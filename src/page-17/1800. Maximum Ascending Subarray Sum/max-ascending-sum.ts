@@ -1,6 +1,4 @@
-interface MaxAscendingSum {
-  (nums: number[]): number;
-}
+type MaxAscendingSum = (nums: number[]) => number;
 
 export const maxAscendingSum: MaxAscendingSum = (nums) => {
   let [result, sum] = [0, nums[0]];

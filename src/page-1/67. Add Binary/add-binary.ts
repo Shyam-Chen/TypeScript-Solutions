@@ -1,6 +1,4 @@
-interface AddBinary {
-  (a: string, b: string): string;
-}
+type AddBinary = (a: string, b: string) => string;
 
 /**
  * Accepted

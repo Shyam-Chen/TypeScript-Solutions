@@ -1,6 +1,4 @@
-interface MinOperations {
-  (nums: number[]): number;
-}
+type MinOperations = (nums: number[]) => number;
 
 export const minOperations: MinOperations = (nums) => {
   const intArr = [...nums];

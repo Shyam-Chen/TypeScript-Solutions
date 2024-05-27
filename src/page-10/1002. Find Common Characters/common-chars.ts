@@ -1,10 +1,8 @@
-interface CommonChars {
-  (A: string[]): string[];
-}
+type CommonChars = (A: string[]) => string[];
 
 export const commonChars: CommonChars = (A) => {
-  const result = [];
-  const charsArr = [];
+  const result = [] as string[];
+  const charsArr = [] as string[][];
 
   A.forEach((item) => {
     charsArr.push([...new Set(Array.from(item))]);

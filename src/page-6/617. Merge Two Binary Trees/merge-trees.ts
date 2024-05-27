@@ -1,8 +1,6 @@
-import { TreeNode } from '~/utils/binary-tree';
+import type { TreeNode } from '~/utils/binary-tree';
 
-interface MergeTrees {
-  (t1: TreeNode, t2: TreeNode): TreeNode;
-}
+type MergeTrees = (root1: TreeNode | null, root2: TreeNode | null) => TreeNode | null;
 
 export const mergeTrees: MergeTrees = (t1, t2) => {
   const tree = t1;

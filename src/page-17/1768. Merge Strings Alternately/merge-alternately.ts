@@ -1,6 +1,4 @@
-interface MergeAlternately {
-  (word1: string, word2: string): string;
-}
+type MergeAlternately = (word1: string, word2: string) => string;
 
 export const mergeAlternately: MergeAlternately = (word1, word2) => {
   const array1 = Array.from(word1);

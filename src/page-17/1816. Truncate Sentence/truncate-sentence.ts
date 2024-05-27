@@ -1,6 +1,4 @@
-interface TruncateSentence {
-  (s: string, k: number): string;
-}
+type TruncateSentence = (s: string, k: number) => string;
 
 export const truncateSentence: TruncateSentence = (s, k) => {
   return s.split(' ').slice(0, k).join(' ');

@@ -1,6 +1,4 @@
-interface PlusOne {
-  (digits: number[]): number[];
-}
+type PlusOne = (digits: number[]) => number[];
 
 /**
  * Accepted

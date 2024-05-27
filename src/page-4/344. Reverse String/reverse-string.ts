@@ -1,6 +1,4 @@
-interface ReverseString {
-  (s: string[]): void;
-}
+type ReverseString = (s: string[]) => void;
 
 /**
  * Accepted

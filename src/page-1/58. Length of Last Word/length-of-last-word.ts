@@ -1,6 +1,4 @@
-interface LengthOfLastWord {
-  (s: string): number;
-}
+type LengthOfLastWord = (s: string) => number;
 
 /**
  * Accepted

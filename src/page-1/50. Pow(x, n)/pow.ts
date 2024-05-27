@@ -1,6 +1,4 @@
-interface MyPow {
-  (x: number, n: number): number;
-}
+type MyPow = (x: number, n: number) => number;
 
 /**
  * Accepted

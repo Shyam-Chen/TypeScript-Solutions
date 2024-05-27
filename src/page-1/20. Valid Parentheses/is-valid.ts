@@ -1,6 +1,4 @@
-interface IsValid {
-  (s: string): boolean;
-}
+type IsValid = (s: string) => boolean;
 
 /**
  * Accepted

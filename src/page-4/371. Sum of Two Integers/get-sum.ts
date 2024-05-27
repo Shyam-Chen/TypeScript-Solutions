@@ -1,6 +1,4 @@
-interface GetSum {
-  (a: number, b: number): number;
-}
+type GetSum = (a: number, b: number) => number;
 
 /**
  * Accepted

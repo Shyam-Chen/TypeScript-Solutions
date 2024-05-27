@@ -1,6 +1,4 @@
-interface MinOperations {
-  (s: string): number;
-}
+type MinOperations = (s: string) => number;
 
 export const minOperations: MinOperations = (s) => {
   const final = Array.from({ length: s.length / 2 })

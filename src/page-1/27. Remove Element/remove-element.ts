@@ -1,6 +1,4 @@
-interface removeElement {
-  (nums: number[], val: number): number;
-}
+type removeElement = (nums: number[], val: number) => number;
 
 /**
  * Accepted

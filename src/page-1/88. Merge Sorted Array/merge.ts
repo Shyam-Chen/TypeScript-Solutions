@@ -1,6 +1,4 @@
-interface Merge {
-  (nums1: number[], m: number, nums2: number[], n: number): void;
-}
+type Merge = (nums1: number[], m: number, nums2: number[], n: number) => void;
 
 /**
  * Accepted

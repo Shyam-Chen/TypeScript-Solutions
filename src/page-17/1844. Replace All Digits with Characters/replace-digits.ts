@@ -1,6 +1,4 @@
-interface ReplaceDigits {
-  (s: string): string;
-}
+type ReplaceDigits = (s: string) => string;
 
 export const replaceDigits: ReplaceDigits = (s) => {
   const result = Array.from(s);

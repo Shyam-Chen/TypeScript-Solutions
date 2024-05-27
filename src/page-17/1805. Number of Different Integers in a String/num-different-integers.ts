@@ -1,6 +1,4 @@
-interface NumDifferentIntegers {
-  (word: string): number;
-}
+type NumDifferentIntegers = (word: string) => number;
 
 export const numDifferentIntegers: NumDifferentIntegers = (word) => {
   return [

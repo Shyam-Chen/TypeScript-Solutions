@@ -1,12 +1,10 @@
-interface ReverseBits {
-  (n: number): number;
-}
+type ReverseBits = (n: number) => number;
 
 /**
  * Accepted
  */
 export const reverseBits: ReverseBits = (n) => {
-  return parseInt(n.toString(2).padStart(32, '0').split('').reverse().join(''), 2);
+  return Number.parseInt(n.toString(2).padStart(32, '0').split('').reverse().join(''), 2);
 };
 
 /**

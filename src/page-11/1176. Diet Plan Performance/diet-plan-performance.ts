@@ -1,4 +1,9 @@
-export const dietPlanPerformance = <T extends number>(calories: T[], k: T, lower: T, upper: T): number => {
+export const dietPlanPerformance = <T extends number>(
+  calories: T[],
+  k: T,
+  lower: T,
+  upper: T,
+): number => {
   let sum = 0;
 
   for (let i = 0; i + k - 1 < calories.length; i += 1) {

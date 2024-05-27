@@ -1,2 +1,1 @@
-export const defangIPaddr = (address: string): string =>
-  address.replace(new RegExp('[.]', 'g'), '[.]');
+export const defangIPaddr = (address: string): string => address.replace(/[.]/g, '[.]');

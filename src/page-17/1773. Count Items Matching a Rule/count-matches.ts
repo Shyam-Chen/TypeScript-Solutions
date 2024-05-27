@@ -1,6 +1,4 @@
-interface CountMatches {
-  (items: string[][], ruleKey: string, ruleValue: string): number;
-}
+type CountMatches = (items: string[][], ruleKey: string, ruleValue: string) => number;
 
 export const countMatches: CountMatches = (items, ruleKey, ruleValue) => {
   const itemRule = ['type', 'color', 'name'];

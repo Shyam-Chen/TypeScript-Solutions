@@ -1,6 +1,4 @@
-interface AddDigits {
-  (num: number): number;
-}
+type AddDigits = (num: number) => number;
 
 /**
  * Accepted

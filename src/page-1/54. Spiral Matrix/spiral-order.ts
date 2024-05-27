@@ -1,6 +1,4 @@
-interface SpiralOrder {
-  (matrix: number[][]): number[];
-}
+type SpiralOrder = (matrix: number[][]) => number[];
 
 /**
  * Accepted
@@ -22,7 +20,7 @@ export const spiralOrder: SpiralOrder = (matrix) => {
   // actions
   let [up, down, left, right] = [0, m - 1, 0, n - 1];
 
-  while (Infinity) {
+  while (Number.POSITIVE_INFINITY) {
     // up
     for (let col = left; col <= right; col += 1) {
       result.push(matrix[up][col]);

@@ -1,6 +1,4 @@
-interface AddedInteger {
-  (nums1: number[], nums2: number[]): number;
-}
+type AddedInteger = (nums1: number[], nums2: number[]) => number;
 
 export const addedInteger: AddedInteger = (nums1, nums2) => {
   const sorted1 = nums1.sort((a, b) => a - b);

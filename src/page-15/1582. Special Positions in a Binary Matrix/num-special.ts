@@ -1,6 +1,4 @@
-interface NumSpecial {
-  (mat: number[][]): number;
-}
+type NumSpecial = (mat: number[][]) => number;
 
 export const numSpecial: NumSpecial = (mat) => {
   const rows = mat.length;

@@ -1,6 +1,4 @@
-interface DiagonalSum {
-  (mat: number[][]): number;
-}
+type DiagonalSum = (mat: number[][]) => number;
 
 export const diagonalSum: DiagonalSum = (mat) => {
   let result = 0;

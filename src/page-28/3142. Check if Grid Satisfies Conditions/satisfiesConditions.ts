@@ -1,6 +1,4 @@
-interface SatisfiesConditions {
-  (grid: number[][]): boolean;
-}
+type SatisfiesConditions = (grid: number[][]) => boolean;
 
 /**
  * Accepted
