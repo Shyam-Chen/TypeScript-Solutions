@@ -1,4 +1,4 @@
-# ECMAScript LeetCode &middot; [![Build Status](https://img.shields.io/circleci/project/github/Shyam-Chen/ECMAScript-LeetCode/master.svg)](https://circleci.com/gh/Shyam-Chen/ECMAScript-LeetCode) [![Coverage Status](https://img.shields.io/codecov/c/github/Shyam-Chen/ECMAScript-LeetCode/master.svg)](https://codecov.io/gh/Shyam-Chen/ECMAScript-LeetCode)
+# TypeScript Solutions
 
 🐳 [LeetCode of algorithms](https://leetcode.com/problemset/algorithms/) with JavaScript solutions written in TypeScript.
 
@@ -7,8 +7,8 @@
 1. Clone this project
 
 ```sh
-$ git clone https://github.com/Shyam-Chen/ECMAScript-LeetCode
-$ cd ECMAScript-LeetCode
+$ git clone https://github.com/Shyam-Chen/TypeScript-Solutions
+$ cd TypeScript-Solutions
 ```
 
 2. Install dependencies
@@ -25,7 +25,7 @@ $ pnpm test
 # run a specific test file
 $ pnpm test <FILE_NAME>
 # e.g.
-$ pnpm test two-sum.spec.ts
+$ pnpm test twoSum.spec.ts
 ```
 
 ## Directory Structure
@@ -39,10 +39,8 @@ $ pnpm test two-sum.spec.ts
 │   │       └── <NAME>.ts
 │   └── utils
 ├── .editorconfig
-├── .eslintrc
 ├── .gitignore
-├── .prettierrc
-├── circle.yml
+├── biome.json
 ├── docker-compose.yml
 ├── Dockerfile
 ├── package.json

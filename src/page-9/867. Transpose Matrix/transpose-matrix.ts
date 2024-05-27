@@ -1,5 +1,5 @@
 export const transpose = (arr: number[][]): number[][] => {
-  const result = [];
+  const result = [] as number[][];
 
   // two-dimensional array
   for (let i = 0; i < arr[0].length; i += 1) {

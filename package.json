@@ -2,8 +2,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "biome check --apply",
-    "test": "vitest --dir src --run --coverage"
+    "lint": "biome check --apply ./",
+    "check": "tsc --noEmit",
+    "test": "vitest --dir src --run"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
