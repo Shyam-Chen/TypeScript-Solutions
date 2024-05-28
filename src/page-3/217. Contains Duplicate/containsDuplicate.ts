@@ -29,8 +29,8 @@ export const containsDuplicate3: ContainsDuplicate = (nums) => {
 
   for (const num of nums) {
     const currentCount = map.get(num);
-    if (currentCount && currentCount >= 1) return true;
-    map.set(num, currentCount || 0 + 1);
+    if (currentCount && currentCount === 1) return true;
+    map.set(num, 1);
   }
 
   return false;

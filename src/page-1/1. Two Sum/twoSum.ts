@@ -19,14 +19,12 @@ export const twoSum: TwoSum = (nums, target) => {
  * Accepted
  */
 export const twoSum2: TwoSum = (nums, target) => {
-  const map = new Map();
+  const map = new Map<number, number>();
 
   for (let i = 0; i < nums.length; i++) {
-    if (map.has(nums[i])) {
-      return [map.get(nums[i]), i];
-    }
-
-    map.set(target - nums[i], i);
+    const index = map.get(target - nums[i]);
+    if (typeof index === 'number') return [index, i];
+    map.set(nums[i], i);
   }
 
   return [-1, -1];
