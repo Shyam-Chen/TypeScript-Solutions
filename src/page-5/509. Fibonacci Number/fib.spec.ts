@@ -1,4 +1,4 @@
-import { fib } from './fibonacci-number';
+import { fib } from './fib';
 
 describe('509. Fibonacci Number', () => {
   it('fib', () => {

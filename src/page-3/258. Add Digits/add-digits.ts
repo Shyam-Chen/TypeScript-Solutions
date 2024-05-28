@@ -4,38 +4,30 @@ type AddDigits = (num: number) => number;
  * Accepted
  */
 export const addDigits: AddDigits = (num) => {
-  let result = num;
+  if (num < 10) return num;
 
-  while (result >= 10) {
-    let sum = 0;
+  const sum = String(num)
+    .split('')
+    .map(Number)
+    .reduce((acc, curr) => acc + curr, 0);
 
-    String(result)
-      .split('')
-      .forEach((value) => {
-        sum += Number(value);
-      });
-
-    result = sum;
-  }
-
-  return result;
+  return addDigits(sum);
 };
 
 /**
  * Accepted
  */
 export const addDigits2: AddDigits = (num) => {
-  if (num < 10) return num;
+  let result = num;
 
-  let sum = 0;
+  while (result >= 10) {
+    result = String(result)
+      .split('')
+      .map(Number)
+      .reduce((sum, value) => sum + value, 0);
+  }
 
-  String(num)
-    .split('')
-    .forEach((value) => {
-      sum += Number(value);
-    });
-
-  return addDigits2(sum);
+  return result;
 };
 
 /**

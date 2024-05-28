@@ -22,10 +22,11 @@ export const generateLinkedListCycle = (nums: number[], pos: number): ListNode |
   if (pos === -1) return head;
 
   let cycle = head;
+  let curPos = pos;
 
-  while (pos > 0) {
+  while (curPos > 0) {
     if (cycle?.next) cycle = cycle.next;
-    pos -= 1;
+    curPos -= 1;
   }
 
   let tail = cycle;

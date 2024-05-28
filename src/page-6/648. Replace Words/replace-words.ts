@@ -9,11 +9,11 @@ export const replaceWords: ReplaceWords = (dictionary, sentence) => {
   for (let i = 0; i < words.length; i += 1) {
     let word = words[i];
 
-    dicts.forEach((dict) => {
+    for (const dict of dicts) {
       if (word.startsWith(dict)) {
         word = dict;
       }
-    });
+    }
 
     result.push(word);
   }

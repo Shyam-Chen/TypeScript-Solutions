@@ -3,22 +3,13 @@ type MinOperations = (logs: string[]) => number;
 export const minOperations: MinOperations = (logs) => {
   const stack = [] as string[];
 
-  // no-restricted-syntax
-  // for (const log of logs) {
-  //   if (log === '../') {
-  //     stack.pop();
-  //   } else if (log !== './') {
-  //     stack.push(log);
-  //   }
-  // }
-
-  logs.forEach((log) => {
+  for (const log of logs) {
     if (log === '../') {
       stack.pop();
     } else if (log !== './') {
       stack.push(log);
     }
-  });
+  }
 
   return stack.length;
 };

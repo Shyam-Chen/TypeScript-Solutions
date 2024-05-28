@@ -1,48 +1,34 @@
-type CommonChars = (A: string[]) => string[];
+type CommonChars = (words: string[]) => string[];
 
-export const commonChars: CommonChars = (A) => {
-  const result = [] as string[];
-  const charsArr = [] as string[][];
+export const commonChars: CommonChars = (words) => {
+  if (words.length === 0) return [];
 
-  A.forEach((item) => {
-    charsArr.push([...new Set(Array.from(item))]);
-  });
+  // Initialize the count array for the first string
+  const count = Array.from({ length: 26 }, () => Number.POSITIVE_INFINITY);
 
-  const flattened = charsArr.reduce((acc, cur) => [...acc, ...cur], []);
+  // Iterate through each string in the array
+  for (const word of words) {
+    const tempCount = Array.from({ length: 26 }, () => 0);
 
-  const counted = flattened.reduce((acc: Record<string, number>, str: string) => {
-    // if (str in acc) { // no-restricted-syntax
-    // if (acc.hasOwnProperty(str)) { // no-prototype-builtins
-    if (Object.prototype.hasOwnProperty.call(acc, str)) {
-      acc[str] += 1;
-    } else {
-      acc[str] = 1;
+    // Count the occurrences of each character in the current word
+    for (const char of word) {
+      tempCount[char.charCodeAt(0) - 'a'.charCodeAt(0)] += 1;
     }
 
-    return acc;
-  }, {});
-
-  Object.entries(counted).forEach(([key, value]) => {
-    if (value === A.length) result.push(key);
-  });
-
-  // including duplicates
-  result.forEach((alphabet) => {
-    const same = new Set();
-
-    A.forEach((item) => {
-      // number of duplicate alphabets
-      const num = Array.from(item).filter((letter) => letter === alphabet).length;
-      same.add(num);
-    });
-
-    // duplicate numbers are the same
-    if (same.size === 1) {
-      for (let i = 1; i < same.values().next().value; i += 1) {
-        result.push(alphabet);
-      }
+    // Update the global count to hold the minimum occurrences
+    for (let i = 0; i < 26; i++) {
+      count[i] = Math.min(count[i], tempCount[i]);
     }
-  });
+  }
+
+  // Construct the result array based on the final counts
+  const result: string[] = [];
+
+  for (let i = 0; i < 26; i++) {
+    while (count[i]-- > 0) {
+      result.push(String.fromCharCode(i + 'a'.charCodeAt(0)));
+    }
+  }
 
   return result;
 };

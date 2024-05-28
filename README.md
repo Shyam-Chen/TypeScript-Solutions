@@ -41,8 +41,6 @@ $ pnpm test twoSum.spec.ts
 ├── .editorconfig
 ├── .gitignore
 ├── biome.json
-├── docker-compose.yml
-├── Dockerfile
 ├── package.json
 ├── pnpm-lock.yaml
 ├── README.md

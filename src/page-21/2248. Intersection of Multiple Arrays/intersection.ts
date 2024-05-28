@@ -40,19 +40,19 @@ export const intersection2: Intersection = (nums) => {
   const map = new Map();
   const num = nums.flat();
 
-  num.forEach((item) => {
+  for (const item of num) {
     if (!map.has(item)) {
       map.set(item, 1);
     } else {
       map.set(item, map.get(item) + 1);
     }
-  });
+  }
 
-  map.forEach((count, num) => {
+  for (const [num, count] of map) {
     if (count === nums.length) {
       result.push(num);
     }
-  });
+  }
 
   return result.sort((a, b) => a - b);
 };

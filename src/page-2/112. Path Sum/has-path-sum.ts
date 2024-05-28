@@ -8,11 +8,11 @@ type HasPathSum = (root: TreeNode | null, targetSum: number) => boolean;
 export const hasPathSum: HasPathSum = (root, targetSum) => {
   if (!root) return false;
 
-  targetSum -= root.val;
+  const newTargetSum = targetSum - root.val;
 
   if (!root.left && !root.right) {
-    return targetSum === 0;
+    return newTargetSum === 0;
   }
 
-  return hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum);
+  return hasPathSum(root.left, newTargetSum) || hasPathSum(root.right, newTargetSum);
 };
