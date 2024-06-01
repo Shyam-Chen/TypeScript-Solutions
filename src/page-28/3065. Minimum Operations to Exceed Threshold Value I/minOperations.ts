@@ -1,5 +1,8 @@
 type MinOperations = (nums: number[], k: number) => number;
 
+/**
+ * Accepted
+ */
 export const minOperations: MinOperations = (nums, k) => {
   let count = 0;
 

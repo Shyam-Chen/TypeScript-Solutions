@@ -1,5 +1,8 @@
 type DuplicateNumbersXOR = (nums: number[]) => number;
 
+/**
+ * Accepted
+ */
 export const duplicateNumbersXOR: DuplicateNumbersXOR = (nums) => {
   const map = new Map<number, number>();
 

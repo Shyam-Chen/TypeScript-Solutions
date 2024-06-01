@@ -1,5 +1,8 @@
 type CanMakeSquare = (grid: string[][]) => boolean;
 
+/**
+ * Accepted
+ */
 export const canMakeSquare: CanMakeSquare = (grid) => {
   const rowsLength = grid.length;
   const colsLength = grid[0].length;
