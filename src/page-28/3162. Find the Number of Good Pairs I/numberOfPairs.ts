@@ -24,13 +24,18 @@ export const numberOfPairs2: NumberOfPairs = (nums1, nums2, k) => {
   let [i, j] = [0, 0];
   let count = 0;
 
+  // Loop until the end of nums1 is reached.
   while (i < n) {
+    // Break the loop if it's the last element of nums1 and all elements of nums2 are processed.
     if (i === n - 1 && j === m) break;
 
+    // Check if the current element in nums1 is divisible by the product of the current element in nums2 and k.
     if (nums1[i] % (nums2[j] * k) === 0) count += 1;
 
+    // Move to the next element in nums2.
     j += 1;
 
+    // If the end of nums2 is reached, move to the next element in nums1 and reset j to 0.
     if (j === m) {
       i += 1;
       j = 0;
