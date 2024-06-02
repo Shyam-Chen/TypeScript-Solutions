@@ -1,0 +1,14 @@
+name: CI
+
+on: push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    environment: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up --build --detach ci
+      - run: docker compose exec ci pnpm lint
+      - run: docker compose exec ci pnpm check
+      - run: docker compose exec ci pnpm test

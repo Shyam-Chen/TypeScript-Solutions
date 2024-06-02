@@ -1,0 +1,4 @@
+services:
+  ci:
+    image: ci
+    build: .
