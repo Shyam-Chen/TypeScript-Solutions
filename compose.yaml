@@ -2,3 +2,4 @@ services:
   ci:
     image: ci
     build: .
+    tty: true
