@@ -47,3 +47,38 @@ $ pnpm test twoSum.spec.ts
 ├── tsconfig.json
 └── vite.config.ts
 ```
+
+## LeetCode 75 (Basic)
+
+Ace Coding Interview with 75 Qs
+
+- 75 Essential & Trending Problems
+- Must-do problem list for interview prep
+- Best for 1~3 month of prep time
+
+<details>
+  <summary>Problems</summary>
+
+| Array / String                  |                                                                                       |      |
+| ------------------------------- | ------------------------------------------------------------------------------------- | ---- |
+| 1768. Merge Strings Alternately | [Solution](./src/page-17/1768.%20Merge%20Strings%20Alternately/merge-alternately.ts) | Easy |
+
+</details>
+
+## Top Interview 150 (Advanced)
+
+Must-do List for Interview Prep
+
+- 150 Original & Classic Questions
+- Covers comprehensive interview topics
+- Best for 3+ months of prep time
+- Problems support high-quality editorials
+
+<details>
+  <summary>Problems</summary>
+
+| Array / String         |                                                                 |      |
+| ---------------------- | --------------------------------------------------------------- | ---- |
+| 88. Merge Sorted Array | [Solution](./src/page-1//88.%20Merge%20Sorted%20Array/merge.ts) | Easy |
+
+</details>
