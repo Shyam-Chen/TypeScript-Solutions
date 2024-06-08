@@ -59,9 +59,15 @@ Ace Coding Interview with 75 Qs
 <details>
   <summary>Problems</summary>
 
-| Array / String                  |                                                                                       |      |
-| ------------------------------- | ------------------------------------------------------------------------------------- | ---- |
-| 1768. Merge Strings Alternately | [Solution](./src/page-17/1768.%20Merge%20Strings%20Alternately/merge-alternately.ts) | Easy |
+| Array / String                           |                  |      |
+| ---------------------------------------- | ---------------- | ---- |
+| 1768. Merge Strings Alternately          | [Solution][1768] | Easy |
+| 1071. Greatest Common Divisor of Strings | [Solution][1071] | Easy |
+
+<!-- Array / String -->
+
+[1768]: ./src/page-17/1768.%20Merge%20Strings%20Alternately/merge-alternately.ts
+[1071]: ./src/page-11/1071.%20Greatest%20Common%20Divisor%20of%20Strings/gcdOfStrings.ts
 
 </details>
 
@@ -77,8 +83,12 @@ Must-do List for Interview Prep
 <details>
   <summary>Problems</summary>
 
-| Array / String         |                                                                 |      |
-| ---------------------- | --------------------------------------------------------------- | ---- |
-| 88. Merge Sorted Array | [Solution](./src/page-1//88.%20Merge%20Sorted%20Array/merge.ts) | Easy |
+| Array / String         |                |      |
+| ---------------------- | -------------- | ---- |
+| 88. Merge Sorted Array | [Solution][88] | Easy |
+
+<!-- Array / String -->
+
+[88]: ./src/page-1//88.%20Merge%20Sorted%20Array/merge.ts
 
 </details>
