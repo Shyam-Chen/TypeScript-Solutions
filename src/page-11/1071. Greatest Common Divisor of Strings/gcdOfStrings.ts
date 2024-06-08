@@ -1,5 +1,8 @@
 type GcdOfStrings = (str1: string, str2: string) => string;
 
+/**
+ * Accepted
+ */
 export const gcdOfStrings: GcdOfStrings = (str1, str2) => {
   // Function to find GCD of two numbers
   function gcd(a: number, b: number): number {
