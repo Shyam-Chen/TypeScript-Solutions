@@ -1,5 +1,8 @@
 type CanPlaceFlowers = (flowerbed: number[], n: number) => boolean;
 
+/**
+ * Accepted
+ */
 export const canPlaceFlowers: CanPlaceFlowers = (flowerbed, n) => {
   // Counter to track the number of flowers planted
   let count = 0;

@@ -66,7 +66,7 @@ Ace Coding Interview with 75 Qs
 | 1431. Kids With the Greatest Number of Candies | [Solution][1431] | Easy   |
 | 605. Can Place Flowers                         | [Solution][605]  | Easy   |
 | 345. Reverse Vowels of a String                | [Solution][345]  | Easy   |
-| 151. Reverse Words in a String                 | Solution         | Medium |
+| 151. Reverse Words in a String                 | [Solution][151]  | Medium |
 | 238. Product of Array Except Self              | Solution         | Medium |
 | 334. Increasing Triplet Subsequence            | Solution         | Medium |
 | 443. String Compression                        | Solution         | Medium |
@@ -76,6 +76,7 @@ Ace Coding Interview with 75 Qs
 [1431]: ./src/page-14/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies/kidsWithCandies.ts
 [605]: ./src/page-6/605.%20Can%20Place%20Flowers/canPlaceFlowers.ts
 [345]: ./src/page-4/345.%20Reverse%20Vowels%20of%20a%20String/reverseVowels.ts
+[151]: ./src/page-2/151.%20Reverse%20Words%20in%20a%20String/reverseWords.ts
 
 | Two Pointers                    |                 |        |
 | ------------------------------- | --------------- | ------ |
