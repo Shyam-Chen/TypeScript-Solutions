@@ -63,16 +63,19 @@ Ace Coding Interview with 75 Qs
 | ---------------------------------------------- | ---------------- | ------ |
 | 1768. Merge Strings Alternately                | [Solution][1768] | Easy   |
 | 1071. Greatest Common Divisor of Strings       | [Solution][1071] | Easy   |
-| 1431. Kids With the Greatest Number of Candies | Solution         | Easy   |
-| 605. Can Place Flowers                         | Solution         | Easy   |
-| 345. Reverse Vowels of a String                | Solution         | Easy   |
+| 1431. Kids With the Greatest Number of Candies | [Solution][1431] | Easy   |
+| 605. Can Place Flowers                         | [Solution][605]  | Easy   |
+| 345. Reverse Vowels of a String                | [Solution][345]  | Easy   |
 | 151. Reverse Words in a String                 | Solution         | Medium |
 | 238. Product of Array Except Self              | Solution         | Medium |
 | 334. Increasing Triplet Subsequence            | Solution         | Medium |
 | 443. String Compression                        | Solution         | Medium |
 
-[1768]: ./src/page-17/1768.%20Merge%20Strings%20Alternately/merge-alternately.ts
+[1768]: ./src/page-17/1768.%20Merge%20Strings%20Alternately/mergeAlternately.ts
 [1071]: ./src/page-11/1071.%20Greatest%20Common%20Divisor%20of%20Strings/gcdOfStrings.ts
+[1431]: ./src/page-14/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies/kidsWithCandies.ts
+[605]: ./src/page-6/605.%20Can%20Place%20Flowers/canPlaceFlowers.ts
+[345]: ./src/page-4/345.%20Reverse%20Vowels%20of%20a%20String/reverseVowels.ts
 
 | Two Pointers                    |                 |        |
 | ------------------------------- | --------------- | ------ |
