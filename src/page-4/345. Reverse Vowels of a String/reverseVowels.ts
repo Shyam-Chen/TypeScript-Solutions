@@ -1,5 +1,8 @@
 type ReverseVowels = (s: string) => string;
 
+/**
+ * Accepted
+ */
 export const reverseVowels: ReverseVowels = (s) => {
   // Helper function to check if a character is a vowel
   function isVowel(char: string): boolean {
@@ -33,4 +36,41 @@ export const reverseVowels: ReverseVowels = (s) => {
 
   // Convert the array back to a string and return it
   return chars.join('');
+};
+
+/**
+ * Accepted
+ */
+export const reverseVowels2: ReverseVowels = (s) => {
+  // Helper function to check if a character is a vowel
+  function isVowel(char: string): boolean {
+    return 'aeiouAEIOU'.includes(char);
+  }
+
+  // Extract all vowels from the string
+  const vowels: string[] = [];
+
+  for (const char of s) {
+    if (isVowel(char)) vowels.push(char);
+  }
+
+  // Reverse the list of vowels
+  vowels.reverse();
+
+  // Reconstruct the string, replacing vowels with reversed vowels
+  const result: string[] = [];
+
+  let vowelIndex = 0;
+
+  for (const char of s) {
+    if (isVowel(char)) {
+      result.push(vowels[vowelIndex]);
+      vowelIndex += 1;
+    } else {
+      result.push(char);
+    }
+  }
+
+  // Convert the array back to a string and return it
+  return result.join('');
 };
