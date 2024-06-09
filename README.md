@@ -25,7 +25,18 @@ $ pnpm test
 # run a specific test file
 $ pnpm test <FILE_NAME>
 # e.g.
-$ pnpm test twoSum.spec.ts
+$ pnpm test twoSum.test.ts
+```
+
+4. Run benchmarks
+
+```sh
+$ pnpm bench
+
+# run a specific bench file
+$ pnpm bench <FILE_NAME>
+# e.g.
+$ pnpm bench twoSum.bench.ts
 ```
 
 ## Directory Structure
@@ -67,9 +78,9 @@ Ace Coding Interview with 75 Qs
 | 605. Can Place Flowers                         | [Solution][605]  | Easy   |
 | 345. Reverse Vowels of a String                | [Solution][345]  | Easy   |
 | 151. Reverse Words in a String                 | [Solution][151]  | Medium |
-| 238. Product of Array Except Self              | Solution         | Medium |
-| 334. Increasing Triplet Subsequence            | Solution         | Medium |
-| 443. String Compression                        | Solution         | Medium |
+| 238. Product of Array Except Self              | [Solution][238]  | Medium |
+| 334. Increasing Triplet Subsequence            | [Solution][334]  | Medium |
+| 443. String Compression                        | [Solution][443]  | Medium |
 
 [1768]: ./src/page-17/1768.%20Merge%20Strings%20Alternately/mergeAlternately.ts
 [1071]: ./src/page-11/1071.%20Greatest%20Common%20Divisor%20of%20Strings/gcdOfStrings.ts
@@ -77,6 +88,9 @@ Ace Coding Interview with 75 Qs
 [605]: ./src/page-6/605.%20Can%20Place%20Flowers/canPlaceFlowers.ts
 [345]: ./src/page-4/345.%20Reverse%20Vowels%20of%20a%20String/reverseVowels.ts
 [151]: ./src/page-2/151.%20Reverse%20Words%20in%20a%20String/reverseWords.ts
+[238]: ./src/page-3/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
+[334]: ./src/page-4/334.%20Increasing%20Triplet%20Subsequence/increasingTriplet.ts
+[443]: ./src/page-5/443.%20String%20Compression/compress.ts
 
 | Two Pointers                    |                 |        |
 | ------------------------------- | --------------- | ------ |
@@ -85,7 +99,7 @@ Ace Coding Interview with 75 Qs
 | 11. Container With Most Water   | Solution        | Medium |
 | 1679. Max Number of K-Sum Pairs | Solution        | Medium |
 
-[283]: ./src/page-3/283.%20Move%20Zeroes/move-zeroes.ts
+[283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
 
 | Sliding Window                                                |          |        |
 | ------------------------------------------------------------- | -------- | ------ |
@@ -266,5 +280,230 @@ Must-do List for Interview Prep
 [14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longest-common-prefix.ts
 [28]: ./src/page-1/28.%20Implement%20strStr()/str-str.ts
 [68]: ./src/page-1/68.%20Text%20Justification/fullJustify.ts
+
+| Two Pointers                            |          |        |
+| --------------------------------------- | -------- | ------ |
+| 125. Valid Palindrome                   | Solution | Easy   |
+| 392. Is Subsequence                     | Solution | Easy   |
+| 167. Two Sum II - Input Array Is Sorted | Solution | Medium |
+| 11. Container With Most Water           | Solution | Medium |
+| 15. 3Sum                                | Solution | Medium |
+
+| Sliding Window                                    |               |        |
+| ------------------------------------------------- | ------------- | ------ |
+| 209. Minimum Size Subarray Sum                    | Solution      | Medium |
+| 3. Longest Substring Without Repeating Characters | [Solution][3] | Medium |
+| 30. Substring with Concatenation of All Words     | Solution      | Hard   |
+| 76. Minimum Window Substring                      | Solution      | Hard   |
+
+[3]: ./src/page-1/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.ts
+
+| Matrix                |          |        |
+| --------------------- | -------- | ------ |
+| 36. Valid Sudoku      | Solution | Medium |
+| 54. Spiral Matrix     | Solution | Medium |
+| 48. Rotate Image      | Solution | Medium |
+| 73. Set Matrix Zeroes | Solution | Medium |
+| 289. Game of Life     | Solution | Medium |
+
+| Hashmap                           |               |        |
+| --------------------------------- | ------------- | ------ |
+| 383. Ransom Note                  | Solution      | Easy   |
+| 205. Isomorphic Strings           | Solution      | Easy   |
+| 290. Word Pattern                 | Solution      | Easy   |
+| 242. Valid Anagram                | Solution      | Easy   |
+| 49. Group Anagrams                | Solution      | Medium |
+| 1. Two Sum                        | [Solution][1] | Easy   |
+| 202. Happy Number                 | Solution      | Easy   |
+| 219. Contains Duplicate II        | Solution      | Easy   |
+| 128. Longest Consecutive Sequence | Solution      | Medium |
+
+[1]: ./src/page-1/1.%20Two%20Sum/twoSum.ts
+
+| Intervals                                       |          |        |
+| ----------------------------------------------- | -------- | ------ |
+| 228. Summary Ranges                             | Solution | Easy   |
+| 56. Merge Intervals                             | Solution | Medium |
+| 57. Insert Interval                             | Solution | Medium |
+| 452. Minimum Number of Arrows to Burst Balloons | Solution | Medium |
+
+| Stack                                 |                 |        |
+| ------------------------------------- | --------------- | ------ |
+| 20. Valid Parentheses                 | [Solution][20]  | Easy   |
+| 71. Simplify Path                     | Solution        | Medium |
+| 155. Min Stack                        | [Solution][155] | Medium |
+| 150. Evaluate Reverse Polish Notation | Solution        | Medium |
+| 224. Basic Calculator                 | Solution        | Hard   |
+
+[20]: ./src/page-1/20.%20Valid%20Parentheses/is-valid.ts
+[155]: ./src/page-2/155.%20Min%20Stack/min-stack.ts
+
+| Linked List                               |                 |        |
+| ----------------------------------------- | --------------- | ------ |
+| 141. Linked List Cycle                    | [Solution][141] | Easy   |
+| 2. Add Two Numbers                        | [Solution][2]   | Medium |
+| 21. Merge Two Sorted Lists                | [Solution][21]  | Easy   |
+| 138. Copy List with Random Pointer        | Solution        | Medium |
+| 92. Reverse Linked List II                | Solution        | Medium |
+| 25. Reverse Nodes in k-Group              | Solution        | Hard   |
+| 19. Remove Nth Node From End of List      | Solution        | Medium |
+| 82. Remove Duplicates from Sorted List II | Solution        | Medium |
+| 61. Rotate List                           | Solution        | Medium |
+| 86. Partition List                        | Solution        | Medium |
+| 146. LRU Cache                            | Solution        | Medium |
+
+[141]: ./src/page-2/141.%20Linked%20List%20Cycle/has-cycle.ts
+[2]: ./src/page-1/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
+[21]: ./src/page-1/21.%20Merge%20Two%20Sorted%20Lists/merge-two-lists.ts
+
+| Binary Tree General                                             |                 |        |
+| --------------------------------------------------------------- | --------------- | ------ |
+| 104. Maximum Depth of Binary Tree                               | [Solution][104] | Easy   |
+| 100. Same Tree                                                  | [Solution][100] | Easy   |
+| 226. Invert Binary Tree                                         | Solution        | Easy   |
+| 101. Symmetric Tree                                             | [Solution][101] | Easy   |
+| 105. Construct Binary Tree from Preorder and Inorder Traversal  | Solution        | Medium |
+| 106. Construct Binary Tree from Inorder and Postorder Traversal | Solution        | Medium |
+| 117. Populating Next Right Pointers in Each Node II             | Solution        | Medium |
+| 114. Flatten Binary Tree to Linked List                         | Solution        | Medium |
+| 112. Path Sum                                                   | [Solution][112] | Easy   |
+| 129. Sum Root to Leaf Numbers                                   | Solution        | Medium |
+| 124. Binary Tree Maximum Path Sum                               | Solution        | Hard   |
+| 173. Binary Search Tree Iterator                                | Solution        | Medium |
+| 222. Count Complete Tree Nodes                                  | Solution        | Easy   |
+| 236. Lowest Common Ancestor of a Binary Tree                    | Solution        | Medium |
+
+[104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/max-depth.ts
+[100]: ./src/page-1/100.%20Same%20Tree/isSameTree.ts
+[101]: ./src/page-2/101.%20Symmetric%20Tree/is-symmetric.ts
+[112]: ./src/page-2/112.%20Path%20Sum/has-path-sum.ts
+
+| Binary Tree BFS                               |          |        |
+| --------------------------------------------- | -------- | ------ |
+| 199. Binary Tree Right Side View              | Solution | Medium |
+| 637. Average of Levels in Binary Tree         | Solution | Easy   |
+| 102. Binary Tree Level Order Traversal        | Solution | Medium |
+| 103. Binary Tree Zigzag Level Order Traversal | Solution | Medium |
+
+| Binary Search Tree                      |          |        |
+| --------------------------------------- | -------- | ------ |
+| 530. Minimum Absolute Difference in BST | Solution | Easy   |
+| 230. Kth Smallest Element in a BST      | Solution | Medium |
+| 98. Validate Binary Search Tree         | Solution | Medium |
+
+| Graph General           |          |        |
+| ----------------------- | -------- | ------ |
+| 200. Number of Islands  | Solution | Medium |
+| 130. Surrounded Regions | Solution | Medium |
+| 133. Clone Graph        | Solution | Medium |
+| 399. Evaluate Division  | Solution | Medium |
+| 207. Course Schedule    | Solution | Medium |
+| 210. Course Schedule II | Solution | Medium |
+
+| Graph BFS                     |          |        |
+| ----------------------------- | -------- | ------ |
+| 909. Snakes and Ladders       | Solution | Medium |
+| 433. Minimum Genetic Mutation | Solution | Medium |
+| 127. Word Ladder              | Solution | Hard   |
+
+| Trie                                            |          |        |
+| ----------------------------------------------- | -------- | ------ |
+| 208. Implement Trie (Prefix Tree)               | Solution | Medium |
+| 211. Design Add and Search Words Data Structure | Solution | Medium |
+| 212. Word Search II                             | Solution | Hard   |
+
+| Backtracking                              |          |        |
+| ----------------------------------------- | -------- | ------ |
+| 17. Letter Combinations of a Phone Number | Solution | Medium |
+| 77. Combinations                          | Solution | Medium |
+| 46. Permutations                          | Solution | Medium |
+| 39. Combination Sum                       | Solution | Medium |
+| 52. N-Queens II                           | Solution | Hard   |
+| 22. Generate Parentheses                  | Solution | Medium |
+| 79. Word Search                           | Solution | Medium |
+
+| Divide & Conquer                                |                 |        |
+| ----------------------------------------------- | --------------- | ------ |
+| 108. Convert Sorted Array to Binary Search Tree | [Solution][108] | Easy   |
+| 148. Sort List                                  | Solution        | Medium |
+| 427. Construct Quad Tree                        | Solution        | Medium |
+| 23. Merge k Sorted Lists                        | Solution        | Hard   |
+
+[108]: ./src/page-2/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/sortedArrayToBST.ts
+
+| Kadane's Algorithm                 |                |        |
+| ---------------------------------- | -------------- | ------ |
+| 53. Maximum Subarray               | [Solution][53] | Medium |
+| 918. Maximum Sum Circular Subarray | Solution       | Medium |
+
+[53]: ./src/page-1/53.%20Maximum%20Subarray/max-sub-array.ts
+
+| Binary Search                                               |                |        |
+| ----------------------------------------------------------- | -------------- | ------ |
+| 35. Search Insert Position                                  | [Solution][35] | Easy   |
+| 74. Search a 2D Matrix                                      | Solution       | Medium |
+| 162. Find Peak Element                                      | Solution       | Medium |
+| 33. Search in Rotated Sorted Array                          | Solution       | Medium |
+| 34. Find First and Last Position of Element in Sorted Array | [Solution][34] | Medium |
+| 153. Find Minimum in Rotated Sorted Array                   | Solution       | Medium |
+| 4. Median of Two Sorted Arrays                              | Solution       | Hard   |
+
+[35]: ./src/page-1/35.%20Search%20Insert%20Position/search-insert.ts
+[34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/search-range.ts
+
+| Heap                                 |          |        |
+| ------------------------------------ | -------- | ------ |
+| 215. Kth Largest Element in an Array | Solution | Medium |
+| 502. IPO                             | Solution | Hard   |
+| 373. Find K Pairs with Smallest Sums | Solution | Medium |
+| 295. Find Median from Data Stream    | Solution | Hard   |
+
+| Bit Manipulation                  |                 |        |
+| --------------------------------- | --------------- | ------ |
+| 67. Add Binary                    | [Solution][67]  | Easy   |
+| 190. Reverse Bits                 | [Solution][190] | Easy   |
+| 191. Number of 1 Bits             | [Solution][191] | Easy   |
+| 136. Single Number                | [Solution][136] | Easy   |
+| 137. Single Number II             | Solution        | Medium |
+| 201. Bitwise AND of Numbers Range | Solution        | Medium |
+
+[67]: ./src/page-1/67.%20Add%20Binary/add-binary.ts
+[190]: ./src/page-2/190.%20Reverse%20Bits/reverse-bits.ts
+[191]: ./src/page-2/191.%20Number%20of%201%20Bits/hamming-weight.ts
+[136]: ./src/page-2/136.%20Single%20Number/single-number.ts
+
+| Math                           |                |        |
+| ------------------------------ | -------------- | ------ |
+| 9. Palindrome Number           | [Solution][9]  | Easy   |
+| 66. Plus One                   | [Solution][66] | Easy   |
+| 172. Factorial Trailing Zeroes | Solution       | Medium |
+| 69. Sqrt(x)                    | [Solution][69] | Easy   |
+| 50. Pow(x, n)                  | [Solution][50] | Medium |
+| 149. Max Points on a Line      | Solution       | Hard   |
+
+[9]: ./src/page-1/9.%20Palindrome%20Number/is-palindrome.ts
+[66]: ./src/page-1/66.%20Plus%20One/plus-one.ts
+[69]: ./src/page-1/69.%20Sqrt(x)/my-sqrt.ts
+[50]: ./src/page-1/50.%20Pow(x,%20n)/pow.ts
+
+| 1D DP                               |                |        |
+| ----------------------------------- | -------------- | ------ |
+| 70. Climbing Stairs                 | [Solution][70] | Easy   |
+| 198. House Robber                   | Solution       | Medium |
+| 139. Word Break                     | Solution       | Medium |
+| 322. Coin Change                    | Solution       | Medium |
+| 300. Longest Increasing Subsequence | Solution       | Medium |
+
+| Multidimensional DP                      |          |        |
+| ---------------------------------------- | -------- | ------ |
+| 120. Triangle                            | Solution | Medium |
+| 64. Minimum Path Sum                     | Solution | Medium |
+| 63. Unique Paths II                      | Solution | Medium |
+| 5. Longest Palindromic Substring         | Solution | Medium |
+| 97. Interleaving String                  | Solution | Medium |
+| 72. Edit Distance                        | Solution | Medium |
+| 123. Best Time to Buy and Sell Stock III | Solution | Hard   |
+| 188. Best Time to Buy and Sell Stock IV  | Solution | Hard   |
+| 221. Maximal Square                      | Solution | Medium |
 
 </details>
