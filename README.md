@@ -280,7 +280,7 @@ Must-do List for Interview Prep
 [27]: ./src/page-1/27.%20Remove%20Element/remove-element.ts
 [26]: ./src/page-1/26.%20Remove%20Duplicates%20from%20Sorted%20Array/remove-duplicates.ts
 [189]: ./src/page-2/189.%20Rotate%20Array/rotate.ts
-[13]: ./src/page-1/13.%20Roman%20to%20Integer/roman-to-int.ts
+[13]: ./src/page-1/13.%20Roman%20to%20Integer/romanToInt.ts
 [58]: ./src/page-1/58.%20Length%20of%20Last%20Word/length-of-last-word.ts
 [14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longest-common-prefix.ts
 [28]: ./src/page-1/28.%20Implement%20strStr()/str-str.ts
@@ -451,10 +451,11 @@ Must-do List for Interview Prep
 | 33. Search in Rotated Sorted Array                          | Solution       | Medium |
 | 34. Find First and Last Position of Element in Sorted Array | [Solution][34] | Medium |
 | 153. Find Minimum in Rotated Sorted Array                   | Solution       | Medium |
-| 4. Median of Two Sorted Arrays                              | Solution       | Hard   |
+| 4. Median of Two Sorted Arrays                              | [Solution][4]  | Hard   |
 
 [35]: ./src/page-1/35.%20Search%20Insert%20Position/search-insert.ts
 [34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/search-range.ts
+[4]: ./src/page-1/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
 
 | Heap                                 |          |        |
 | ------------------------------------ | -------- | ------ |
@@ -486,7 +487,7 @@ Must-do List for Interview Prep
 | 50. Pow(x, n)                  | [Solution][50] | Medium |
 | 149. Max Points on a Line      | Solution       | Hard   |
 
-[9]: ./src/page-1/9.%20Palindrome%20Number/is-palindrome.ts
+[9]: ./src/page-1/9.%20Palindrome%20Number/isPalindrome.ts
 [66]: ./src/page-1/66.%20Plus%20One/plus-one.ts
 [69]: ./src/page-1/69.%20Sqrt(x)/my-sqrt.ts
 [50]: ./src/page-1/50.%20Pow(x,%20n)/pow.ts
