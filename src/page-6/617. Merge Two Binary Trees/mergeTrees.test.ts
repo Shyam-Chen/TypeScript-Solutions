@@ -26,7 +26,7 @@ describe('617. Merge Two Binary Trees', () => {
       // 5   4   7
       const merged = generateBinaryTree([3, 4, 5, 5, 4, null, 7]);
 
-      expect(mergeTrees(root1, root2)).toEqual(merged);
+      expect(mergeTrees(root1, root2)).toStrictEqual(merged);
     }
 
     {
@@ -43,7 +43,7 @@ describe('617. Merge Two Binary Trees', () => {
       // 2
       const merged = generateBinaryTree([2, 2]);
 
-      expect(mergeTrees(root1, root2)).toEqual(merged);
+      expect(mergeTrees(root1, root2)).toStrictEqual(merged);
     }
   });
 });
