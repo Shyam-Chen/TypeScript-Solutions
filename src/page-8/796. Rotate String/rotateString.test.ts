@@ -1,4 +1,4 @@
-import { rotateString } from './rotate-string';
+import { rotateString } from './rotateString';
 
 describe('796. Rotate String', () => {
   test('rotateString', () => {

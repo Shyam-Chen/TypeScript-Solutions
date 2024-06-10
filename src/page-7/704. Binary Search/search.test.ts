@@ -1,4 +1,4 @@
-import { search, search2 } from './binary-search';
+import { search, search2 } from './search';
 
 describe('704. Binary Search', () => {
   test('search', () => {

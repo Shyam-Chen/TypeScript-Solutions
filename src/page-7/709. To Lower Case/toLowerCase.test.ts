@@ -1,4 +1,4 @@
-import { toLowerCase, toLowerCase2 } from './to-lower-case';
+import { toLowerCase, toLowerCase2 } from './toLowerCase';
 
 describe('709. To Lower Case', () => {
   test('toLowerCase', () => {

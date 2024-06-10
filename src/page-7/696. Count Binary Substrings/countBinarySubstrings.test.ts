@@ -1,4 +1,4 @@
-import { countBinarySubstrings } from './count-binary-substrings';
+import { countBinarySubstrings } from './countBinarySubstrings';
 
 describe('696. Count Binary Substrings', () => {
   test('countBinarySubstrings', () => {

@@ -1,4 +1,4 @@
-import { numJewelsInStones } from './num-jewels-in-stones';
+import { numJewelsInStones } from './numJewelsInStones';
 
 describe('771. Jewels and Stones', () => {
   test('numJewelsInStones', () => {

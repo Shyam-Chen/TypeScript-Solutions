@@ -1,5 +1,8 @@
 type ReplaceWords = (dictionary: string[], sentence: string) => string;
 
+/**
+ * Accepted
+ */
 export const replaceWords: ReplaceWords = (dictionary, sentence) => {
   const result = [];
 
