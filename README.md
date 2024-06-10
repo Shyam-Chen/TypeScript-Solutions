@@ -43,6 +43,7 @@ $ pnpm bench twoSum.bench.ts
 
 ```ts
 .
+├── .github/workflows/ci.yaml
 ├── src
 │   ├── page-<NUM> -> set the table to display 100 rows per page
 │   │   └── <TITLE>
@@ -52,6 +53,8 @@ $ pnpm bench twoSum.bench.ts
 ├── .editorconfig
 ├── .gitignore
 ├── biome.json
+├── compose.yaml
+├── Dockerfile
 ├── package.json
 ├── pnpm-lock.yaml
 ├── README.md
@@ -95,11 +98,13 @@ Ace Coding Interview with 75 Qs
 | Two Pointers                    |                 |        |
 | ------------------------------- | --------------- | ------ |
 | 283. Move Zeroes                | [Solution][283] | Easy   |
-| 392. Is Subsequence             | Solution        | Easy   |
-| 11. Container With Most Water   | Solution        | Medium |
+| 392. Is Subsequence             | [Solution][392] | Easy   |
+| 11. Container With Most Water   | [Solution][11]  | Medium |
 | 1679. Max Number of K-Sum Pairs | Solution        | Medium |
 
 [283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
+[392]: ./src/page-4/392.%20Is%20Subsequence/isSubsequence.ts
+[11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
 
 | Sliding Window                                                |          |        |
 | ------------------------------------------------------------- | -------- | ------ |
