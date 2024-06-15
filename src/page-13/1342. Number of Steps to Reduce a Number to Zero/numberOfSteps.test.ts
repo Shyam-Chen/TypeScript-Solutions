@@ -1,4 +1,4 @@
-import { numberOfSteps } from './number-of-steps';
+import { numberOfSteps } from './numberOfSteps';
 
 describe('1342. Number of Steps to Reduce a Number to Zero', () => {
   test('numberOfSteps', () => {

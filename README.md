@@ -277,13 +277,13 @@ Must-do List for Interview Prep
 | 68. Text Justification                                 | [Solution][68]  | Hard   |
 
 [88]: ./src/page-1//88.%20Merge%20Sorted%20Array/merge.ts
-[27]: ./src/page-1/27.%20Remove%20Element/remove-element.ts
-[26]: ./src/page-1/26.%20Remove%20Duplicates%20from%20Sorted%20Array/remove-duplicates.ts
+[27]: ./src/page-1/27.%20Remove%20Element/removeElement.ts
+[26]: ./src/page-1/26.%20Remove%20Duplicates%20from%20Sorted%20Array/removeDuplicates.ts
 [189]: ./src/page-2/189.%20Rotate%20Array/rotate.ts
 [13]: ./src/page-1/13.%20Roman%20to%20Integer/romanToInt.ts
 [58]: ./src/page-1/58.%20Length%20of%20Last%20Word/length-of-last-word.ts
-[14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longest-common-prefix.ts
-[28]: ./src/page-1/28.%20Implement%20strStr()/str-str.ts
+[14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longestCommonPrefix.ts
+[28]: ./src/page-1/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/strStr.ts
 [68]: ./src/page-1/68.%20Text%20Justification/fullJustify.ts
 
 | Two Pointers                            |          |        |
@@ -340,7 +340,7 @@ Must-do List for Interview Prep
 | 150. Evaluate Reverse Polish Notation | Solution        | Medium |
 | 224. Basic Calculator                 | Solution        | Hard   |
 
-[20]: ./src/page-1/20.%20Valid%20Parentheses/is-valid.ts
+[20]: ./src/page-1/20.%20Valid%20Parentheses/isValid.ts
 [155]: ./src/page-2/155.%20Min%20Stack/min-stack.ts
 
 | Linked List                               |                 |        |
@@ -359,7 +359,7 @@ Must-do List for Interview Prep
 
 [141]: ./src/page-2/141.%20Linked%20List%20Cycle/has-cycle.ts
 [2]: ./src/page-1/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
-[21]: ./src/page-1/21.%20Merge%20Two%20Sorted%20Lists/merge-two-lists.ts
+[21]: ./src/page-1/21.%20Merge%20Two%20Sorted%20Lists/mergeTwoLists.ts
 
 | Binary Tree General                                             |                 |        |
 | --------------------------------------------------------------- | --------------- | ------ |
