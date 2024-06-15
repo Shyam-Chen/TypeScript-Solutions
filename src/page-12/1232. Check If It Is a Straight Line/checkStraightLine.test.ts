@@ -1,4 +1,4 @@
-import { checkStraightLine } from './check-straight-line';
+import { checkStraightLine } from './checkStraightLine';
 
 describe('1232. Check If It Is a Straight Line', () => {
   test('checkStraightLine', () => {

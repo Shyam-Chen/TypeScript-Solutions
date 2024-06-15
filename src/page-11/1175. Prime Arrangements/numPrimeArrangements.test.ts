@@ -1,4 +1,4 @@
-import { numPrimeArrangements } from './num-prime-arrangements';
+import { numPrimeArrangements } from './numPrimeArrangements';
 
 describe('1175. Prime Arrangements', () => {
   test('numPrimeArrangements', () => {

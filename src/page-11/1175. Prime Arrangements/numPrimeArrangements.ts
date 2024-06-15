@@ -1,4 +1,9 @@
-export const numPrimeArrangements = (n: number): number => {
+type NumPrimeArrangements = (n: number) => number;
+
+/**
+ * Accepted
+ */
+export const numPrimeArrangements: NumPrimeArrangements = (n) => {
   const kMod = 1e9 + 7;
 
   const isPrime = (val: number): boolean => {
