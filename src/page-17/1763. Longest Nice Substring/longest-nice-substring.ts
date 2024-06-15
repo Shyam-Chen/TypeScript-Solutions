@@ -6,11 +6,11 @@ export const longestNiceSubstring: LongestNiceSubstring = (str) => {
   const charArr = Array.from(str);
   const charSet = new Set();
 
-  for (let i = 0; i < charArr.length; i += 1) {
+  for (let i = 0; i < charArr.length; i++) {
     charSet.add(charArr[i]);
   }
 
-  for (let i = 0; i < charArr.length; i += 1) {
+  for (let i = 0; i < charArr.length; i++) {
     const char = charArr[i];
 
     if (!charSet.has(char.toUpperCase()) || !charSet.has(char.toLowerCase())) {

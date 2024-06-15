@@ -9,7 +9,7 @@ export const sumOddLengthSubarrays: SumOddLengthSubarrays = (arr) => {
   let result = 0;
 
   for (let i = 0, sum = 0; i < arr.length; i += 1, sum = 0) {
-    for (let j = i; j < arr.length; j += 1) {
+    for (let j = i; j < arr.length; j++) {
       // accumulator
       sum += arr[j];
 

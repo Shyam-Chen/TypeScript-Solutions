@@ -19,7 +19,7 @@ export const levelOrderBottom: LevelOrderBottom = (root) => {
   };
 
   // two-dimensional array
-  for (let i = 0; i < maxDepth(root); i += 1) {
+  for (let i = 0; i < maxDepth(root); i++) {
     result[i] = [];
   }
 

@@ -1,4 +1,4 @@
-import { transpose } from './transpose-matrix';
+import { transpose } from './transpose';
 
 describe('867. Transpose Matrix', () => {
   test('transpose', () => {

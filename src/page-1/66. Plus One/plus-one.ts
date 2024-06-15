@@ -4,7 +4,7 @@ type PlusOne = (digits: number[]) => number[];
  * Accepted
  */
 export const plusOne: PlusOne = (digits) => {
-  for (let i = digits.length - 1; i >= 0; i -= 1) {
+  for (let i = digits.length - 1; i >= 0; i--) {
     // single digit plus one
     digits[i] += 1;
 

@@ -7,7 +7,7 @@ export const truncateSentence: TruncateSentence = (s, k) => {
 export const truncateSentence2: TruncateSentence = (s, k) => {
   let spaceCount = 0;
 
-  for (let i = 0; i < s.length; i += 1) {
+  for (let i = 0; i < s.length; i++) {
     if (s[i] === ' ') {
       spaceCount += 1;
 

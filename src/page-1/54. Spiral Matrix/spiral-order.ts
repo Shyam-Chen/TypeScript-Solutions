@@ -22,7 +22,7 @@ export const spiralOrder: SpiralOrder = (matrix) => {
 
   while (Number.POSITIVE_INFINITY) {
     // up
-    for (let col = left; col <= right; col += 1) {
+    for (let col = left; col <= right; col++) {
       result.push(matrix[up][col]);
     }
 
@@ -30,7 +30,7 @@ export const spiralOrder: SpiralOrder = (matrix) => {
     if (up > down) break;
 
     // right
-    for (let row = up; row <= down; row += 1) {
+    for (let row = up; row <= down; row++) {
       result.push(matrix[row][right]);
     }
 
@@ -38,7 +38,7 @@ export const spiralOrder: SpiralOrder = (matrix) => {
     if (right < left) break;
 
     // down
-    for (let col = right; col >= left; col -= 1) {
+    for (let col = right; col >= left; col--) {
       result.push(matrix[down][col]);
     }
 
@@ -46,7 +46,7 @@ export const spiralOrder: SpiralOrder = (matrix) => {
     if (down < up) break;
 
     // left
-    for (let row = down; row >= up; row -= 1) {
+    for (let row = down; row >= up; row--) {
       result.push(matrix[row][left]);
     }
 

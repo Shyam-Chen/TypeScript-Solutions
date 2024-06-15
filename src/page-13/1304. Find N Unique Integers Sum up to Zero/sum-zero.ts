@@ -6,7 +6,7 @@ export const sumZero: SumZero = (n) => {
   // If n is odd, append value 0 in your returned array.
   if (n % 2 === 1) result.push(0);
 
-  for (let i = 1; i <= n / 2; i += 1) {
+  for (let i = 1; i <= n / 2; i++) {
     // Return an array where the values are symmetric. (+x , -x).
     result.push(i, -i);
   }

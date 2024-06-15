@@ -16,7 +16,7 @@ export const countBits: CountBits = (n) => {
 
   result.push(0); // 0 0 0 0 -> 0
 
-  for (let i = 1; i <= n; i += 1) {
+  for (let i = 1; i <= n; i++) {
     result[i] = (result[i] || 0) + result[i & (i - 1)] + 1;
   }
 

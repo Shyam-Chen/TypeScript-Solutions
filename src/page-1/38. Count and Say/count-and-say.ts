@@ -11,7 +11,7 @@ type CountAndSay = (n: number) => string;
 export const countAndSay: CountAndSay = (n) => {
   let result = '1';
 
-  for (let i = 2; i <= n; i += 1) {
+  for (let i = 2; i <= n; i++) {
     const temp = result;
 
     let num = result[0];
@@ -19,7 +19,7 @@ export const countAndSay: CountAndSay = (n) => {
 
     result = '';
 
-    for (let j = 1; j < temp.length; j += 1) {
+    for (let j = 1; j < temp.length; j++) {
       if (temp[j] === num) {
         count += 1;
       } else {

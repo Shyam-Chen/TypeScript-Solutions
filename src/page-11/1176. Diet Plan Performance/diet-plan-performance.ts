@@ -6,10 +6,10 @@ export const dietPlanPerformance = <T extends number>(
 ): number => {
   let sum = 0;
 
-  for (let i = 0; i + k - 1 < calories.length; i += 1) {
+  for (let i = 0; i + k - 1 < calories.length; i++) {
     let temp = 0;
 
-    for (let j = 0; j < k; j += 1) {
+    for (let j = 0; j < k; j++) {
       temp += calories[i + j];
     }
 

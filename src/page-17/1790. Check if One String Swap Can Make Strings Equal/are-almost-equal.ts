@@ -5,7 +5,7 @@ export const areAlmostEqual: AreAlmostEqual = (s1, s2) => {
 
   let diff = 0;
 
-  for (let i = 0; i < s1.length / 2; i += 1) {
+  for (let i = 0; i < s1.length / 2; i++) {
     const arr = [...Array.from(s1)];
     const temp = arr[i];
 

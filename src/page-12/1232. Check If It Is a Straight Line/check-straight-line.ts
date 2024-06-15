@@ -6,7 +6,7 @@ export const checkStraightLine: CheckStraightLine = (coordinates) => {
   const y = coordinates[1][1] - coordinates[0][1];
 
   // 迭代後續的座標
-  for (let i = 2; i < coordinates.length; i += 1) {
+  for (let i = 2; i < coordinates.length; i++) {
     // 如果有不是等距離的
     if (
       (coordinates[i][0] - coordinates[0][0]) * y !==

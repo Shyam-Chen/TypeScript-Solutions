@@ -15,7 +15,7 @@ export const reorderSpaces: ReorderSpaces = (text) => {
     spaces.slice(i * divideLength, i * divideLength + divideLength),
   ).map((i) => i.join(''));
 
-  for (let j = 0; j < dividedspaces.length; j += 1) {
+  for (let j = 0; j < dividedspaces.length; j++) {
     words.splice(j * 2 + 1, 0, dividedspaces[j]);
   }
 

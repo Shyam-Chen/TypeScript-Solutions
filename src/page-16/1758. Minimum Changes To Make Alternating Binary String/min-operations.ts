@@ -7,7 +7,7 @@ export const minOperations: MinOperations = (s) => {
 
   let count = 0;
 
-  for (let i = 0; i < s.length; i += 1) {
+  for (let i = 0; i < s.length; i++) {
     if (s[i] !== final[i]) count += 1;
   }
 
@@ -19,7 +19,7 @@ export const minOperations2: MinOperations = (s) => {
 
   let count = 0;
 
-  for (let i = 0; i < s.length; i += 1) {
+  for (let i = 0; i < s.length; i++) {
     if (chars[i % 2] === s[i]) count += 1;
   }
 

@@ -1,4 +1,4 @@
-import { commonChars, commonChars2 } from './common-chars';
+import { commonChars, commonChars2 } from './commonChars';
 
 describe('1002. Find Common Characters', () => {
   test('commonChars', () => {

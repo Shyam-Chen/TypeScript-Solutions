@@ -13,7 +13,7 @@ export const toLowerCase: ToLowerCase = (s) => {
 export const toLowerCase2: ToLowerCase = (s) => {
   let result = '';
 
-  for (let i = 0; i < s.length; i += 1) {
+  for (let i = 0; i < s.length; i++) {
     const unicode = s[i].charCodeAt(0);
 
     if (unicode >= 'A'.charCodeAt(0) && unicode <= 'Z'.charCodeAt(0)) {

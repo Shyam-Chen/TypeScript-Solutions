@@ -6,8 +6,8 @@ export const decrypt: Decrypt = (code, k) => {
 
   let sum = 0;
 
-  for (let i = 0; i < code.length; i += 1) {
-    for (let j = 1; j <= Math.abs(k); j += 1) {
+  for (let i = 0; i < code.length; i++) {
+    for (let j = 1; j <= Math.abs(k); j++) {
       let p = 0;
 
       if (k > 0) {

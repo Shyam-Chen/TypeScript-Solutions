@@ -17,7 +17,7 @@ export const minOperations: MinOperations = (logs) => {
 export const minOperations2: MinOperations = (logs) => {
   let depth = 0;
 
-  for (let i = 0; i < logs.length; i += 1) {
+  for (let i = 0; i < logs.length; i++) {
     if (logs[i] === '../') {
       if (depth > 0) depth -= 1;
     } else if (logs[i] !== './') {

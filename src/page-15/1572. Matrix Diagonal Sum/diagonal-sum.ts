@@ -3,7 +3,7 @@ type DiagonalSum = (mat: number[][]) => number;
 export const diagonalSum: DiagonalSum = (mat) => {
   let result = 0;
 
-  for (let i = 0; i < mat.length; i += 1) {
+  for (let i = 0; i < mat.length; i++) {
     // primary diagonal (從左上到右下) + secondary diagonal (從右上到左下)
     result += mat[i][i] + mat[i][mat.length - i - 1];
   }

@@ -6,7 +6,7 @@ export const maximumPopulation: MaximumPopulation = (logs) => {
   for (const log of logs) {
     const [birth, death] = log;
 
-    for (let year = birth; year < death; year += 1) {
+    for (let year = birth; year < death; year++) {
       map.set(year, 1 + (map.get(year) || 0));
     }
   }
@@ -16,7 +16,7 @@ export const maximumPopulation: MaximumPopulation = (logs) => {
 
   let maxYear = birthi;
 
-  for (let year = birthi; year <= deathi; year += 1) {
+  for (let year = birthi; year <= deathi; year++) {
     if (map.get(year) === maxCount) {
       maxYear = year;
       break;

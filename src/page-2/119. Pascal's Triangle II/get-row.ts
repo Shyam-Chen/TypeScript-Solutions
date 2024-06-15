@@ -8,8 +8,8 @@ export const getRow: GetRow = (rowIndex) => {
 
   const result = [1];
 
-  for (let i = 1; i <= rowIndex; i += 1) {
-    for (let j = result.length - 1; j > 0; j -= 1) {
+  for (let i = 1; i <= rowIndex; i++) {
+    for (let j = result.length - 1; j > 0; j--) {
       result[j] += result[j - 1];
     }
 

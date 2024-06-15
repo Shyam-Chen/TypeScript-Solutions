@@ -10,7 +10,7 @@ export const arraySign: ArraySign = (nums) => {
 export const arraySign2: ArraySign = (nums) => {
   let result = 1;
 
-  for (let i = 0; i < nums.length; i += 1) {
+  for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
     if (num === 0) return 0;
     if (num < 0) result *= -1;

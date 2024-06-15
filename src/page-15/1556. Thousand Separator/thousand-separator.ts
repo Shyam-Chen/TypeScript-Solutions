@@ -14,7 +14,7 @@ export const thousandSeparator3: ThousandSeparator = (n) => {
 
   let count = 0;
 
-  for (let i = 0; i < arr.length; i += 1) {
+  for (let i = 0; i < arr.length; i++) {
     count += 1;
 
     if (count % 3 === 0) {

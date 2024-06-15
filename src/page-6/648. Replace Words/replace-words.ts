@@ -9,7 +9,7 @@ export const replaceWords: ReplaceWords = (dictionary, sentence) => {
   const dicts = dictionary.sort();
   const words = sentence.split(' ');
 
-  for (let i = 0; i < words.length; i += 1) {
+  for (let i = 0; i < words.length; i++) {
     let word = words[i];
 
     for (const dict of dicts) {

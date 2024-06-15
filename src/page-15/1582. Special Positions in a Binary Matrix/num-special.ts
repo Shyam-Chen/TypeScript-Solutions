@@ -7,8 +7,8 @@ export const numSpecial: NumSpecial = (mat) => {
   const row = Array.from({ length: rows }).fill(0) as number[];
   const col = Array.from({ length: cols }).fill(0) as number[];
 
-  for (let i = 0; i < rows; i += 1) {
-    for (let j = 0; j < cols; j += 1) {
+  for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
       if (mat[i][j] === 1) {
         row[i] += 1;
         col[j] += 1;
@@ -18,8 +18,8 @@ export const numSpecial: NumSpecial = (mat) => {
 
   let count = 0;
 
-  for (let i = 0; i < rows; i += 1) {
-    for (let j = 0; j < cols; j += 1) {
+  for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
       if (mat[i][j] === 1 && row[i] === 1 && col[j] === 1) {
         count += 1;
       }

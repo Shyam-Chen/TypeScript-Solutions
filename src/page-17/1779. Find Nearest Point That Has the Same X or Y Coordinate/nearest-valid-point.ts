@@ -10,7 +10,7 @@ export const nearestValidPoint: NearestValidPoint = (x, y, points) => {
   let result = -1;
   let count = -1;
 
-  for (let i = 0; i < points.length; i += 1) {
+  for (let i = 0; i < points.length; i++) {
     const point = points[i];
     count += 1;
 
