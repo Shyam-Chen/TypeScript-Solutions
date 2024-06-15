@@ -1,4 +1,4 @@
-import { minOperations, minOperations2 } from './min-operations';
+import { minOperations, minOperations2 } from './minOperations';
 
 describe('1598. Crawler Log Folder', () => {
   test('minOperations', () => {

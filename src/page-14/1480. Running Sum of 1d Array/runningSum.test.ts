@@ -1,4 +1,4 @@
-import { runningSum } from './running-sum';
+import { runningSum } from './runningSum';
 
 describe('1480. Running Sum of 1d Array', () => {
   test('runningSum', () => {

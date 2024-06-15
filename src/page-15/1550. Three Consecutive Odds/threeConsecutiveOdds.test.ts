@@ -1,4 +1,4 @@
-import { threeConsecutiveOdds } from './three-consecutive-odds';
+import { threeConsecutiveOdds } from './threeConsecutiveOdds';
 
 describe('1550. Three Consecutive Odds', () => {
   test('threeConsecutiveOdds', () => {

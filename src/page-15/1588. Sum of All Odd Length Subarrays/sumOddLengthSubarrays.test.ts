@@ -1,4 +1,4 @@
-import { sumOddLengthSubarrays } from './sum-odd-length-subarrays';
+import { sumOddLengthSubarrays } from './sumOddLengthSubarrays';
 
 describe('1588. Sum of All Odd Length Subarrays', () => {
   test('sumOddLengthSubarrays', () => {

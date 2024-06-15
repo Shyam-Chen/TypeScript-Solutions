@@ -1,4 +1,4 @@
-import { diagonalSum } from './diagonal-sum';
+import { diagonalSum } from './diagonalSum';
 
 describe('1572. Matrix Diagonal Sum', () => {
   test('diagonalSum', () => {

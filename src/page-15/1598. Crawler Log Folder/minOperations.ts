@@ -1,7 +1,10 @@
 type MinOperations = (logs: string[]) => number;
 
+/**
+ * Accepted
+ */
 export const minOperations: MinOperations = (logs) => {
-  const stack = [] as string[];
+  const stack: string[] = [];
 
   for (const log of logs) {
     if (log === '../') {
@@ -14,26 +17,19 @@ export const minOperations: MinOperations = (logs) => {
   return stack.length;
 };
 
+/**
+ * Accepted
+ */
 export const minOperations2: MinOperations = (logs) => {
   let depth = 0;
 
-  for (let i = 0; i < logs.length; i++) {
-    if (logs[i] === '../') {
+  for (const log of logs) {
+    if (log === '../') {
       if (depth > 0) depth -= 1;
-    } else if (logs[i] !== './') {
+    } else if (log !== './') {
       depth += 1;
     }
   }
 
   return depth;
-
-  // reducer
-  // return logs.reduce((acc, cur) => {
-  //   if (cur === '../') {
-  //     if (acc > 0) acc -= 1;
-  //   } else if (cur !== './') {
-  //     acc += 1;
-  //   }
-  //   return acc;
-  // }, 0);
 };
