@@ -95,16 +95,17 @@ Ace Coding Interview with 75 Qs
 [334]: ./src/page-4/334.%20Increasing%20Triplet%20Subsequence/increasingTriplet.ts
 [443]: ./src/page-5/443.%20String%20Compression/compress.ts
 
-| Two Pointers                    |                 |        |
-| ------------------------------- | --------------- | ------ |
-| 283. Move Zeroes                | [Solution][283] | Easy   |
-| 392. Is Subsequence             | [Solution][392] | Easy   |
-| 11. Container With Most Water   | [Solution][11]  | Medium |
-| 1679. Max Number of K-Sum Pairs | Solution        | Medium |
+| Two Pointers                    |                  |        |
+| ------------------------------- | ---------------- | ------ |
+| 283. Move Zeroes                | [Solution][283]  | Easy   |
+| 392. Is Subsequence             | [Solution][392]  | Easy   |
+| 11. Container With Most Water   | [Solution][11]   | Medium |
+| 1679. Max Number of K-Sum Pairs | [Solution][1679] | Medium |
 
 [283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
 [392]: ./src/page-4/392.%20Is%20Subsequence/isSubsequence.ts
 [11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
+[1679]: ./src/page-16/1679.%20Max%20Number%20of%20K-Sum%20Pairs/maxOperations.ts
 
 | Sliding Window                                                |          |        |
 | ------------------------------------------------------------- | -------- | ------ |
@@ -272,7 +273,7 @@ Must-do List for Interview Prep
 | 58. Length of Last Word                                | [Solution][58]  | Easy   |
 | 14. Longest Common Prefix                              | [Solution][14]  | Easy   |
 | 151. Reverse Words in a String                         | Solution        | Medium |
-| 6. Zigzag Conversion                                   | Solution        | Medium |
+| 6. Zigzag Conversion                                   | [Solution][6]   | Medium |
 | 28. Find the Index of the First Occurrence in a String | [Solution][28]  | Easy   |
 | 68. Text Justification                                 | [Solution][68]  | Hard   |
 
@@ -283,6 +284,7 @@ Must-do List for Interview Prep
 [13]: ./src/page-1/13.%20Roman%20to%20Integer/romanToInt.ts
 [58]: ./src/page-1/58.%20Length%20of%20Last%20Word/length-of-last-word.ts
 [14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longestCommonPrefix.ts
+[6]: ./src/page-1/6.%20Zigzag%20Conversion/convert.ts
 [28]: ./src/page-1/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/strStr.ts
 [68]: ./src/page-1/68.%20Text%20Justification/fullJustify.ts
 
@@ -500,16 +502,20 @@ Must-do List for Interview Prep
 | 322. Coin Change                    | Solution       | Medium |
 | 300. Longest Increasing Subsequence | Solution       | Medium |
 
-| Multidimensional DP                      |          |        |
-| ---------------------------------------- | -------- | ------ |
-| 120. Triangle                            | Solution | Medium |
-| 64. Minimum Path Sum                     | Solution | Medium |
-| 63. Unique Paths II                      | Solution | Medium |
-| 5. Longest Palindromic Substring         | Solution | Medium |
-| 97. Interleaving String                  | Solution | Medium |
-| 72. Edit Distance                        | Solution | Medium |
-| 123. Best Time to Buy and Sell Stock III | Solution | Hard   |
-| 188. Best Time to Buy and Sell Stock IV  | Solution | Hard   |
-| 221. Maximal Square                      | Solution | Medium |
+[70]: ./src/page-1/70.%20Climbing%20Stairs/climb-stairs.ts
+
+| Multidimensional DP                      |               |        |
+| ---------------------------------------- | ------------- | ------ |
+| 120. Triangle                            | Solution      | Medium |
+| 64. Minimum Path Sum                     | Solution      | Medium |
+| 63. Unique Paths II                      | Solution      | Medium |
+| 5. Longest Palindromic Substring         | [Solution][5] | Medium |
+| 97. Interleaving String                  | Solution      | Medium |
+| 72. Edit Distance                        | Solution      | Medium |
+| 123. Best Time to Buy and Sell Stock III | Solution      | Hard   |
+| 188. Best Time to Buy and Sell Stock IV  | Solution      | Hard   |
+| 221. Maximal Square                      | Solution      | Medium |
+
+[5]: ./src/page-1/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
 
 </details>
