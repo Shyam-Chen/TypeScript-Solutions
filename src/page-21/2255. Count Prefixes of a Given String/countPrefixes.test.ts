@@ -1,4 +1,4 @@
-import { countPrefixes } from './count-prefixes';
+import { countPrefixes } from './countPrefixes';
 
 describe('2255. Count Prefixes of a Given String', () => {
   test('countPrefixes', () => {

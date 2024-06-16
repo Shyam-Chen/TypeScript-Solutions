@@ -1,6 +1,8 @@
 type MaxProductDifference = (nums: number[]) => number;
 
-// Accepted
+/**
+ * Accepted
+ */
 export const maxProductDifference: MaxProductDifference = (nums) => {
   const sorted = nums.sort((a, b) => b - a);
   const [max1, max2] = [sorted[0], sorted[1]];

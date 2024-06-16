@@ -1,4 +1,4 @@
-import { isSumEqual } from './is-sum-equal';
+import { isSumEqual } from './isSumEqual';
 
 describe('1880. Check if Word Equals Summation of Two Words', () => {
   test('isSumEqual', () => {
