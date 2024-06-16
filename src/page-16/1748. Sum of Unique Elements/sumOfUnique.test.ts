@@ -1,4 +1,4 @@
-import { sumOfUnique, sumOfUnique2 } from './sum-of-unique';
+import { sumOfUnique, sumOfUnique2 } from './sumOfUnique';
 
 describe('1748. Sum of Unique Elements', () => {
   test('sumOfUnique', () => {

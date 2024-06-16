@@ -1,7 +1,10 @@
 type SumOfUnique = (nums: number[]) => number;
 
+/**
+ * Accepted
+ */
 export const sumOfUnique: SumOfUnique = (nums) => {
-  const arr = [];
+  const arr: number[] = [];
 
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
@@ -14,22 +17,22 @@ export const sumOfUnique: SumOfUnique = (nums) => {
   return arr.reduce((acc, cur) => acc + cur, 0);
 };
 
+/**
+ * Accepted
+ */
 export const sumOfUnique2: SumOfUnique = (nums) => {
-  const dict = new Map();
+  const map = new Map<number, number>();
 
-  for (let i = 0; i < nums.length; i++) {
-    const num = nums[i];
-    const count = dict.get(num) || 0;
-    dict.set(num, count + 1);
+  for (const num of nums) {
+    const count = map.get(num) || 0;
+    map.set(num, count + 1);
   }
 
-  let result = 0;
+  let sum = 0;
 
-  dict.forEach((val, key) => {
-    if (val === 1) {
-      result += key;
-    }
-  });
+  for (const [key, value] of map) {
+    if (value === 1) sum += key;
+  }
 
-  return result;
+  return sum;
 };

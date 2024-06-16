@@ -1,4 +1,4 @@
-import { OrderedStream } from './ordered-stream';
+import { OrderedStream } from './OrderedStream';
 
 describe('1656. Design an Ordered Stream', () => {
   test('OrderedStream', () => {
@@ -10,6 +10,6 @@ describe('1656. Design an Ordered Stream', () => {
     expect(os.insert(5, 'eeeee')).toStrictEqual([]);
     expect(os.insert(4, 'ddddd')).toStrictEqual(['ddddd', 'eeeee']);
 
-    expect(os.list).toStrictEqual(['aaaaa', 'bbbbb', 'ccccc', 'ddddd', 'eeeee']);
+    expect(os.stream).toStrictEqual(['aaaaa', 'bbbbb', 'ccccc', 'ddddd', 'eeeee']);
   });
 });
