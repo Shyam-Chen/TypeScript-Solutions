@@ -1,4 +1,4 @@
-import { getMinDistance } from './get-min-distance';
+import { getMinDistance } from './getMinDistance';
 
 describe('1848. Minimum Distance to the Target Element', () => {
   test('getMinDistance', () => {

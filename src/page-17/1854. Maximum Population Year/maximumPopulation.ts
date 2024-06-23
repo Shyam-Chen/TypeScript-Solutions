@@ -1,7 +1,10 @@
 type MaximumPopulation = (logs: number[][]) => number;
 
+/**
+ * Accepted
+ */
 export const maximumPopulation: MaximumPopulation = (logs) => {
-  const map = new Map();
+  const map = new Map<number, number>();
 
   for (const log of logs) {
     const [birth, death] = log;

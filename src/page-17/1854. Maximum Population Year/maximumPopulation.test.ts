@@ -1,4 +1,4 @@
-import { maximumPopulation } from './maximum-population';
+import { maximumPopulation } from './maximumPopulation';
 
 describe('1854. Maximum Population Year', () => {
   test('maximumPopulation', () => {

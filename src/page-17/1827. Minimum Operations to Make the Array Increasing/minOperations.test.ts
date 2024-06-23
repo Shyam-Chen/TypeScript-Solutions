@@ -1,4 +1,4 @@
-import { minOperations } from './min-operations';
+import { minOperations } from './minOperations';
 
 describe('1827. Minimum Operations to Make the Array Increasing', () => {
   test('minOperations', () => {

@@ -1,4 +1,4 @@
-import { replaceDigits } from './replace-digits';
+import { replaceDigits } from './replaceDigits';
 
 describe('1844. Replace All Digits with Characters', () => {
   test('replaceDigits', () => {

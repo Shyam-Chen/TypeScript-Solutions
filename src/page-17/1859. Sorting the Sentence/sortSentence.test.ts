@@ -1,4 +1,4 @@
-import { sortSentence } from './sort-sentence';
+import { sortSentence } from './sortSentence';
 
 describe('1859. Sorting the Sentence', () => {
   test('sortSentence', () => {
