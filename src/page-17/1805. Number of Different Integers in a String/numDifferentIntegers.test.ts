@@ -1,4 +1,4 @@
-import { numDifferentIntegers } from './num-different-integers';
+import { numDifferentIntegers } from './numDifferentIntegers';
 
 describe('1805. Number of Different Integers in a String', () => {
   test('numDifferentIntegers', () => {

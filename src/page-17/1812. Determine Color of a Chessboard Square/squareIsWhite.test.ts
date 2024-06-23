@@ -1,4 +1,4 @@
-import { squareIsWhite } from './square-is-white';
+import { squareIsWhite } from './squareIsWhite';
 
 describe('1812. Determine Color of a Chessboard Square', () => {
   test('squareIsWhite', () => {

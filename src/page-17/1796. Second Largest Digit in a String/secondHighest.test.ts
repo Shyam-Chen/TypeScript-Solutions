@@ -1,4 +1,4 @@
-import { secondHighest } from './second-highest';
+import { secondHighest } from './secondHighest';
 
 describe('1796. Second Largest Digit in a String', () => {
   test('secondHighest', () => {
