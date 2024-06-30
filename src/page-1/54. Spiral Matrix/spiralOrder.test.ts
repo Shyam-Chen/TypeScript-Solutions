@@ -1,4 +1,4 @@
-import { spiralOrder } from './spiral-order';
+import { spiralOrder } from './spiralOrder';
 
 describe('54. Spiral Matrix', () => {
   test('spiralOrder', () => {

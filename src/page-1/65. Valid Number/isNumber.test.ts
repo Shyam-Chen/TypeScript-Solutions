@@ -1,4 +1,4 @@
-import { isNumber } from './is-number';
+import { isNumber } from './isNumber';
 
 describe('65. Valid Number', () => {
   test('isNumber', () => {

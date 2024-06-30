@@ -1,4 +1,4 @@
-import { climbStairs } from './climb-stairs';
+import { climbStairs } from './climbStairs';
 
 describe('70. Climbing Stairs', () => {
   test('climbStairs', () => {

@@ -1,4 +1,4 @@
-import { lengthOfLastWord } from './length-of-last-word';
+import { lengthOfLastWord } from './lengthOfLastWord';
 
 describe('58. Length of Last Word', () => {
   test('lengthOfLastWord', () => {

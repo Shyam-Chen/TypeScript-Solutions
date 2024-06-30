@@ -1,4 +1,4 @@
-import { maxSubArray } from './max-sub-array';
+import { maxSubArray } from './maxSubArray';
 
 describe('53. Maximum Subarray', () => {
   test('maxSubArray', () => {

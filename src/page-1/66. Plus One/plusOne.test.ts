@@ -1,4 +1,4 @@
-import { plusOne, plusOne2 } from './plus-one';
+import { plusOne, plusOne2 } from './plusOne';
 
 describe('66. Plus One', () => {
   test('plusOne', () => {

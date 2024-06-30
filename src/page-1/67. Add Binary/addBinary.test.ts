@@ -1,4 +1,4 @@
-import { addBinary } from './add-binary';
+import { addBinary } from './addBinary';
 
 describe('67. Add Binary', () => {
   test('addBinary', () => {

@@ -1,4 +1,4 @@
-import { generateMatrix } from './generate-matrix';
+import { generateMatrix } from './generateMatrix';
 
 describe('59. Spiral Matrix II', () => {
   test('generateMatrix', () => {

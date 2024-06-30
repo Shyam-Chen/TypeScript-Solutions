@@ -1,4 +1,4 @@
-import { myPow, myPow2 } from './pow';
+import { myPow, myPow2 } from './myPow';
 
 describe('50. Pow(x, n)', () => {
   test('myPow', () => {

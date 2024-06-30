@@ -1,4 +1,4 @@
-import { countAndSay } from './count-and-say';
+import { countAndSay } from './countAndSay';
 
 describe('38. Count and Say', () => {
   test('countAndSay', () => {

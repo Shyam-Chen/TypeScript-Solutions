@@ -1,4 +1,4 @@
-import { mySqrt, mySqrt2 } from './my-sqrt';
+import { mySqrt, mySqrt2 } from './mySqrt';
 
 describe('69. Sqrt(x)', () => {
   test('mySqrt', () => {
