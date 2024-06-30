@@ -1,4 +1,4 @@
-import { hammingWeight } from './hamming-weight';
+import { hammingWeight } from './hammingWeight';
 
 describe('191. Number of 1 Bits', () => {
   test('hammingWeight', () => {

@@ -1,4 +1,4 @@
-import { convertToBase7, convertToBase72 } from './convert-to-base7';
+import { convertToBase7, convertToBase72 } from './convertToBase7';
 
 describe('504. Base 7', () => {
   test('convertToBase7', () => {

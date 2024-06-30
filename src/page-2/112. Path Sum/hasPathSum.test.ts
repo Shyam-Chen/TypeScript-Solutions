@@ -1,6 +1,6 @@
 import { generateBinaryTree } from '~/utils/binary-tree';
 
-import { hasPathSum } from './has-path-sum';
+import { hasPathSum } from './hasPathSum';
 
 describe('112. Path Sum', () => {
   test('hasPathSum', () => {

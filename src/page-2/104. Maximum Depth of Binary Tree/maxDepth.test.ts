@@ -1,6 +1,6 @@
 import { generateBinaryTree } from '~/utils/binary-tree';
 
-import { maxDepth } from './max-depth';
+import { maxDepth } from './maxDepth';
 
 describe('104. Maximum Depth of Binary Tree', () => {
   test('maxDepth', () => {

@@ -2,7 +2,7 @@ import { stringify } from 'flatted';
 
 import { generateLinkedList } from '~/utils/linked-list';
 
-import { reverseList } from './reverse-list';
+import { reverseList } from './reverseList';
 
 describe('206. Reverse Linked List', () => {
   test('reverseList', () => {

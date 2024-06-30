@@ -1,4 +1,4 @@
-import { MinStack } from './min-stack';
+import { MinStack } from './MinStack';
 
 describe('155. Min Stack', () => {
   test('MinStack', () => {

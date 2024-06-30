@@ -1,6 +1,6 @@
 import { generateLinkedListCycle } from '~/utils/linked-list';
 
-import { hasCycle } from './has-cycle';
+import { hasCycle } from './hasCycle';
 
 describe('141. Linked List Cycle', () => {
   test('hasCycle', () => {

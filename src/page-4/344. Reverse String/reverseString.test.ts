@@ -1,4 +1,4 @@
-import { reverseString, reverseString2 } from './reverse-string';
+import { reverseString, reverseString2 } from './reverseString';
 
 describe('344. Reverse String', () => {
   test('reverseString', () => {

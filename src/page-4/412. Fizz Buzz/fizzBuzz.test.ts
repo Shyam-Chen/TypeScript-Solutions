@@ -1,4 +1,4 @@
-import { fizzBuzz } from './fizz-buzz';
+import { fizzBuzz } from './fizzBuzz';
 
 describe('412. Fizz Buzz', () => {
   test('fizzBuzz', () => {

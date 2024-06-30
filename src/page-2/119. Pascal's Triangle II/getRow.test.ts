@@ -1,4 +1,4 @@
-import { getRow } from './get-row';
+import { getRow } from './getRow';
 
 describe("119. Pascal's Triangle II", () => {
   test('getRow', () => {

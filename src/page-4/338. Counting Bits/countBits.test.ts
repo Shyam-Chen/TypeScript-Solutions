@@ -1,4 +1,4 @@
-import { countBits } from './count-bits';
+import { countBits } from './countBits';
 
 describe('338. Counting Bits', () => {
   test('countBits', () => {

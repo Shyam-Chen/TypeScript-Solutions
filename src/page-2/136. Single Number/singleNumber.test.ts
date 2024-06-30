@@ -1,4 +1,4 @@
-import { singleNumber } from './single-number';
+import { singleNumber } from './singleNumber';
 
 describe('136. Single Number', () => {
   test('singleNumber', () => {

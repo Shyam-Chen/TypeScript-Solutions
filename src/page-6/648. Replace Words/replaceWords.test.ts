@@ -1,4 +1,4 @@
-import { replaceWords } from './replace-words';
+import { replaceWords } from './replaceWords';
 
 describe('648. Replace Words', () => {
   test('replaceWords', () => {

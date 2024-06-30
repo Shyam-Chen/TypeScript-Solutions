@@ -1,4 +1,4 @@
-import { getSum, getSum2 } from './get-sum';
+import { getSum, getSum2 } from './getSum';
 
 describe('371. Sum of Two Integers', () => {
   test('getSum', () => {

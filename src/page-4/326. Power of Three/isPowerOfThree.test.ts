@@ -1,4 +1,4 @@
-import { isPowerOfThree, isPowerOfThree2, isPowerOfThree3 } from './is-power-of-three';
+import { isPowerOfThree, isPowerOfThree2, isPowerOfThree3 } from './isPowerOfThree';
 
 describe('326. Power of Three', () => {
   test('isPowerOfThree', () => {

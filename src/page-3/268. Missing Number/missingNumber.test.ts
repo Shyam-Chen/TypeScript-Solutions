@@ -1,4 +1,4 @@
-import { missingNumber } from './missing-number';
+import { missingNumber } from './missingNumber';
 
 describe('268. Missing Number', () => {
   test('missingNumber', () => {

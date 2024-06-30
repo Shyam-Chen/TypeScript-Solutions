@@ -144,7 +144,7 @@ Ace Coding Interview with 75 Qs
 | 206. Reverse Linked List                      | [Solution][206] | Easy   |
 | 2130. Maximum Twin Sum of a Linked List       | Solution        | Medium |
 
-[206]: ./src//page-2/206.%20Reverse%20Linked%20List/reverse-list.ts
+[206]: ./src/page-2/206.%20Reverse%20Linked%20List/reverseList.ts
 
 | Binary Tree - DFS                            |                 |        |
 | -------------------------------------------- | --------------- | ------ |
@@ -155,7 +155,7 @@ Ace Coding Interview with 75 Qs
 | 1372. Longest ZigZag Path in a Binary Tree   | Solution        | Medium |
 | 236. Lowest Common Ancestor of a Binary Tree | Solution        | Medium |
 
-[104]: ./src//page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/max-depth.ts
+[104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
 
 | Binary Tree - BFS                        |          |        |
 | ---------------------------------------- | -------- | ------ |
@@ -218,8 +218,8 @@ Ace Coding Interview with 75 Qs
 | 136. Single Number                            | [Solution][136] | Easy   |
 | 1318. Minimum Flips to Make a OR b Equal to c | Solution        | Medium |
 
-[338]: ./src/page-4/338.%20Counting%20Bits/count-bits.ts
-[136]: ./src/page-2/136.%20Single%20Number/single-number.ts
+[338]: ./src/page-4/338.%20Counting%20Bits/countBits.ts
+[136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
 
 | Trie                              |          |        |
 | --------------------------------- | -------- | ------ |
@@ -282,7 +282,7 @@ Must-do List for Interview Prep
 [26]: ./src/page-1/26.%20Remove%20Duplicates%20from%20Sorted%20Array/removeDuplicates.ts
 [189]: ./src/page-2/189.%20Rotate%20Array/rotate.ts
 [13]: ./src/page-1/13.%20Roman%20to%20Integer/romanToInt.ts
-[58]: ./src/page-1/58.%20Length%20of%20Last%20Word/length-of-last-word.ts
+[58]: ./src/page-1/58.%20Length%20of%20Last%20Word/lengthOfLastWord.ts
 [14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longestCommonPrefix.ts
 [6]: ./src/page-1/6.%20Zigzag%20Conversion/convert.ts
 [28]: ./src/page-1/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/strStr.ts
@@ -343,7 +343,7 @@ Must-do List for Interview Prep
 | 224. Basic Calculator                 | Solution        | Hard   |
 
 [20]: ./src/page-1/20.%20Valid%20Parentheses/isValid.ts
-[155]: ./src/page-2/155.%20Min%20Stack/min-stack.ts
+[155]: ./src/page-2/155.%20Min%20Stack/MinStack.ts
 
 | Linked List                               |                 |        |
 | ----------------------------------------- | --------------- | ------ |
@@ -359,7 +359,7 @@ Must-do List for Interview Prep
 | 86. Partition List                        | Solution        | Medium |
 | 146. LRU Cache                            | Solution        | Medium |
 
-[141]: ./src/page-2/141.%20Linked%20List%20Cycle/has-cycle.ts
+[141]: ./src/page-2/141.%20Linked%20List%20Cycle/hasCycle.ts
 [2]: ./src/page-1/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
 [21]: ./src/page-1/21.%20Merge%20Two%20Sorted%20Lists/mergeTwoLists.ts
 
@@ -380,10 +380,10 @@ Must-do List for Interview Prep
 | 222. Count Complete Tree Nodes                                  | Solution        | Easy   |
 | 236. Lowest Common Ancestor of a Binary Tree                    | Solution        | Medium |
 
-[104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/max-depth.ts
+[104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
 [100]: ./src/page-1/100.%20Same%20Tree/isSameTree.ts
-[101]: ./src/page-2/101.%20Symmetric%20Tree/is-symmetric.ts
-[112]: ./src/page-2/112.%20Path%20Sum/has-path-sum.ts
+[101]: ./src/page-2/101.%20Symmetric%20Tree/isSymmetric.ts
+[112]: ./src/page-2/112.%20Path%20Sum/hasPathSum.ts
 
 | Binary Tree BFS                               |          |        |
 | --------------------------------------------- | -------- | ------ |
@@ -443,7 +443,7 @@ Must-do List for Interview Prep
 | 53. Maximum Subarray               | [Solution][53] | Medium |
 | 918. Maximum Sum Circular Subarray | Solution       | Medium |
 
-[53]: ./src/page-1/53.%20Maximum%20Subarray/max-sub-array.ts
+[53]: ./src/page-1/53.%20Maximum%20Subarray/maxSubArray.ts
 
 | Binary Search                                               |                |        |
 | ----------------------------------------------------------- | -------------- | ------ |
@@ -455,8 +455,8 @@ Must-do List for Interview Prep
 | 153. Find Minimum in Rotated Sorted Array                   | Solution       | Medium |
 | 4. Median of Two Sorted Arrays                              | [Solution][4]  | Hard   |
 
-[35]: ./src/page-1/35.%20Search%20Insert%20Position/search-insert.ts
-[34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/search-range.ts
+[35]: ./src/page-1/35.%20Search%20Insert%20Position/searchInsert.ts
+[34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/searchRange.ts
 [4]: ./src/page-1/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
 
 | Heap                                 |          |        |
@@ -475,10 +475,10 @@ Must-do List for Interview Prep
 | 137. Single Number II             | Solution        | Medium |
 | 201. Bitwise AND of Numbers Range | Solution        | Medium |
 
-[67]: ./src/page-1/67.%20Add%20Binary/add-binary.ts
-[190]: ./src/page-2/190.%20Reverse%20Bits/reverse-bits.ts
-[191]: ./src/page-2/191.%20Number%20of%201%20Bits/hamming-weight.ts
-[136]: ./src/page-2/136.%20Single%20Number/single-number.ts
+[67]: ./src/page-1/67.%20Add%20Binary/addBinary.ts
+[190]: ./src/page-2/190.%20Reverse%20Bits/reverseBits.ts
+[191]: ./src/page-2/191.%20Number%20of%201%20Bits/hammingWeight.ts
+[136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
 
 | Math                           |                |        |
 | ------------------------------ | -------------- | ------ |
@@ -490,9 +490,9 @@ Must-do List for Interview Prep
 | 149. Max Points on a Line      | Solution       | Hard   |
 
 [9]: ./src/page-1/9.%20Palindrome%20Number/isPalindrome.ts
-[66]: ./src/page-1/66.%20Plus%20One/plus-one.ts
-[69]: ./src/page-1/69.%20Sqrt(x)/my-sqrt.ts
-[50]: ./src/page-1/50.%20Pow(x,%20n)/pow.ts
+[66]: ./src/page-1/66.%20Plus%20One/plusOne.ts
+[69]: ./src/page-1/69.%20Sqrt(x)/mySqrt.ts
+[50]: ./src/page-1/50.%20Pow(x,%20n)/myPow.ts
 
 | 1D DP                               |                |        |
 | ----------------------------------- | -------------- | ------ |
@@ -502,7 +502,7 @@ Must-do List for Interview Prep
 | 322. Coin Change                    | Solution       | Medium |
 | 300. Longest Increasing Subsequence | Solution       | Medium |
 
-[70]: ./src/page-1/70.%20Climbing%20Stairs/climb-stairs.ts
+[70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
 
 | Multidimensional DP                      |               |        |
 | ---------------------------------------- | ------------- | ------ |

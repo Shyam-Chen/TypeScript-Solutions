@@ -1,4 +1,4 @@
-import { reverseBits, reverseBits2 } from './reverse-bits';
+import { reverseBits, reverseBits2 } from './reverseBits';
 
 describe('190. Reverse Bits', () => {
   test('reverseBits', () => {

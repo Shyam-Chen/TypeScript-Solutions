@@ -1,4 +1,4 @@
-import { addDigits, addDigits2, addDigits3, addDigits4, addDigits5 } from './add-digits';
+import { addDigits, addDigits2, addDigits3, addDigits4, addDigits5 } from './addDigits';
 
 describe('258. Add Digits', () => {
   test('addDigits', () => {

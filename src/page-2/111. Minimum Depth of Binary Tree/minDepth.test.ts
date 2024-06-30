@@ -1,6 +1,6 @@
 import { generateBinaryTree } from '~/utils/binary-tree';
 
-import { minDepth } from './min-depth';
+import { minDepth } from './minDepth';
 
 describe('111. Minimum Depth of Binary Tree', () => {
   test('minDepth', () => {

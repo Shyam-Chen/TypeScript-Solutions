@@ -1,6 +1,6 @@
 import { generateBinaryTree } from '~/utils/binary-tree';
 
-import { levelOrderBottom } from './level-order-bottom';
+import { levelOrderBottom } from './levelOrderBottom';
 
 describe('107. Binary Tree Level Order Traversal II', () => {
   test('levelOrderBottom', () => {

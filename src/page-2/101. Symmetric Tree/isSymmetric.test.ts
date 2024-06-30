@@ -1,6 +1,6 @@
 import { generateBinaryTree } from '~/utils/binary-tree';
 
-import { isSymmetric } from './is-symmetric';
+import { isSymmetric } from './isSymmetric';
 
 describe('101. Symmetric Tree', () => {
   test('isSymmetric', () => {
