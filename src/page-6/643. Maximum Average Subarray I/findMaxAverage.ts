@@ -1,5 +1,8 @@
 type FindMaxAverage = (nums: number[], k: number) => number;
 
+/**
+ * Accepted
+ */
 export const findMaxAverage: FindMaxAverage = (nums, k) => {
   const n = nums.length;
 
@@ -12,7 +15,7 @@ export const findMaxAverage: FindMaxAverage = (nums, k) => {
 
   // Slide the window over the array from the start to the end
   for (let i = k; i < n; i++) {
-    sum = sum - nums[i - k] + nums[i];
+    sum = sum - nums[i - k] + nums[i]; // Slide the window to the right
     maxSum = Math.max(maxSum, sum);
   }
 
