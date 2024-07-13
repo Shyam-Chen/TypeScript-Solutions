@@ -107,12 +107,14 @@ Ace Coding Interview with 75 Qs
 [11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
 [1679]: ./src/page-16/1679.%20Max%20Number%20of%20K-Sum%20Pairs/maxOperations.ts
 
-| Sliding Window                                                |          |        |
-| ------------------------------------------------------------- | -------- | ------ |
-| 643. Maximum Average Subarray I                               | Solution | Easy   |
-| 1456. Maximum Number of Vowels in a Substring of Given Length | Solution | Medium |
-| 1004. Max Consecutive Ones III                                | Solution | Medium |
-| 1493. Longest Subarray of 1's After Deleting One Element      | Solution | Medium |
+| Sliding Window                                                |                 |        |
+| ------------------------------------------------------------- | --------------- | ------ |
+| 643. Maximum Average Subarray I                               | [Solution][643] | Easy   |
+| 1456. Maximum Number of Vowels in a Substring of Given Length | Solution        | Medium |
+| 1004. Max Consecutive Ones III                                | Solution        | Medium |
+| 1493. Longest Subarray of 1's After Deleting One Element      | Solution        | Medium |
+
+[643]: ./src/page-6/643.%20Maximum%20Average%20Subarray%20I/findMaxAverage.ts
 
 | Prefix Sum                      |          |      |
 | ------------------------------- | -------- | ---- |
