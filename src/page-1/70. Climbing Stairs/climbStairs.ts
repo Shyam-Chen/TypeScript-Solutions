@@ -2,9 +2,6 @@ type ClimbStairs = (n: number) => number;
 
 /**
  * Accepted
- *
- * 1 step from the n - 1 ladder
- * 2 steps from the n - 2 ladder
  */
 export const climbStairs: ClimbStairs = (n) => {
   const temp = [1, 2];

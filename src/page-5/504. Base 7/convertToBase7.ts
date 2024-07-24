@@ -2,8 +2,6 @@ type ConvertToBase7 = (num: number) => string;
 
 /**
  * Accepted
- *
- * Math
  */
 export const convertToBase7: ConvertToBase7 = (num) => {
   if (num === 0 || num === 1) return String(num);

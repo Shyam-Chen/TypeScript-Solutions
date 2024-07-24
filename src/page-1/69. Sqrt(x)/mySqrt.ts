@@ -2,8 +2,6 @@ type MySqrt = (x: number) => number;
 
 /**
  * Accepted
- *
- * Math
  */
 export const mySqrt: MySqrt = (x) => {
   let result = x;
@@ -17,8 +15,6 @@ export const mySqrt: MySqrt = (x) => {
 
 /**
  * Accepted
- *
- * Binary Search
  */
 export const mySqrt2: MySqrt = (x) => {
   let [left, right] = [0, x];

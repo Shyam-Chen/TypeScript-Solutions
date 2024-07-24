@@ -2,8 +2,6 @@ type IsPowerOfTwo = (n: number) => boolean;
 
 /**
  * Accepted
- *
- * Math
  */
 export const isPowerOfTwo: IsPowerOfTwo = (n) => {
   return Number.isInteger(Math.log2(n));
@@ -11,8 +9,6 @@ export const isPowerOfTwo: IsPowerOfTwo = (n) => {
 
 /**
  * Accepted
- *
- * Bit Manipulation
  */
 export const isPowerOfTwo2: IsPowerOfTwo = (n) => {
   if (n === 0) return false;
@@ -22,8 +18,6 @@ export const isPowerOfTwo2: IsPowerOfTwo = (n) => {
 
 /**
  * Accepted
- *
- * Recursion
  */
 export const isPowerOfTwo3: IsPowerOfTwo = (n) => {
   if (n === 0) return false;

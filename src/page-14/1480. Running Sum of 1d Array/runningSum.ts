@@ -1,5 +1,8 @@
 type RunningSum = (nums: number[]) => number[];
 
+/**
+ * Accepted
+ */
 export const runningSum: RunningSum = (nums) => {
   // Initialize an array to store the running sums
   const result: number[] = [];

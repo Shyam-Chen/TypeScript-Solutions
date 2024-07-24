@@ -2,8 +2,6 @@ type IsPowerOfThree = (n: number) => boolean;
 
 /**
  * Accepted
- *
- * Math
  */
 export const isPowerOfThree: IsPowerOfThree = (n) => {
   return n > 0 && (Math.log10(n) / Math.log10(3)) % 1 === 0;
@@ -11,8 +9,6 @@ export const isPowerOfThree: IsPowerOfThree = (n) => {
 
 /**
  * Accepted
- *
- * Recursion
  */
 export const isPowerOfThree2: IsPowerOfThree = (n) => {
   if (n === 0) return false;

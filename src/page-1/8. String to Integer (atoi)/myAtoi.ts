@@ -1,4 +1,9 @@
-export function myAtoi(s: string): number {
+type MyAtoi = (s: string) => number;
+
+/**
+ * Accepted
+ */
+export const myAtoi: MyAtoi = (s) => {
   const INT_MAX = 2 ** 31 - 1;
   const INT_MIN = -(2 ** 31);
 
@@ -34,4 +39,4 @@ export function myAtoi(s: string): number {
   }
 
   return result * sign;
-}
+};

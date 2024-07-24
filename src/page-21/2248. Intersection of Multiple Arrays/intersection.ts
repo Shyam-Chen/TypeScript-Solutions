@@ -2,10 +2,6 @@ type Intersection = (nums: number[][]) => number[];
 
 /**
  * Accepted
- *
- * [A, B, C]
- * A vs B -> current
- * current vs C -> result
  */
 export const intersection: Intersection = (nums) => {
   let result = new Set<number>(nums[0]);
@@ -31,8 +27,6 @@ export const intersection: Intersection = (nums) => {
 
 /**
  * Accepted
- *
- * Counting
  */
 export const intersection2: Intersection = (nums) => {
   const result = [] as number[];

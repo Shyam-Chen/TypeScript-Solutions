@@ -2,14 +2,6 @@ type SpiralOrder = (matrix: number[][]) => number[];
 
 /**
  * Accepted
- *
- * first lap
- * 1. up: left -> right
- * 2. right: up -> down
- * 3. down: right -> left
- * 4. left: down -> up
- * second lap (-1)
- * ...
  */
 export const spiralOrder: SpiralOrder = (matrix) => {
   const result = [];

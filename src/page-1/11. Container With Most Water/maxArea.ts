@@ -1,5 +1,8 @@
 type MaxArea = (height: number[]) => number;
 
+/**
+ * Accepted
+ */
 export const maxArea: MaxArea = (height) => {
   let [left, right] = [0, height.length - 1];
   let maxArea = 0;
