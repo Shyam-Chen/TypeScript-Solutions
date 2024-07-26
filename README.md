@@ -119,10 +119,12 @@ Ace Coding Interview with 75 Qs
 [1004]: ./src/page-10/1004.%20Max%20Consecutive%20Ones%20III/longestOnes.ts
 [1493]: ./src/page-14/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element/longestSubarray.ts
 
-| Prefix Sum                      |          |      |
-| ------------------------------- | -------- | ---- |
-| 1732. Find the Highest Altitude | Solution | Easy |
-| 724. Find Pivot Index           | Solution | Easy |
+| Prefix Sum                      |                  |      |
+| ------------------------------- | ---------------- | ---- |
+| 1732. Find the Highest Altitude | [Solution][1732] | Easy |
+| 724. Find Pivot Index           | Solution         | Easy |
+
+[1732]: ./src/page-16/1732.%20Find%20the%20Highest%20Altitude/largestAltitude.ts
 
 | Hash Map / Set                           |          |        |
 | ---------------------------------------- | -------- | ------ |
