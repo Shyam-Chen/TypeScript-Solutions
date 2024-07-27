@@ -127,12 +127,14 @@ Ace Coding Interview with 75 Qs
 [1732]: ./src/page-16/1732.%20Find%20the%20Highest%20Altitude/largestAltitude.ts
 [724]: ./src/page-7/724.%20Find%20Pivot%20Index/pivotIndex.ts
 
-| Hash Map / Set                           |          |        |
-| ---------------------------------------- | -------- | ------ |
-| 2215. Find the Difference of Two Arrays  | Solution | Easy   |
-| 1207. Unique Number of Occurrences       | Solution | Easy   |
-| 1657. Determine if Two Strings Are Close | Solution | Medium |
-| 2352. Equal Row and Column Pairs         | Solution | Medium |
+| Hash Map / Set                           |                  |        |
+| ---------------------------------------- | ---------------- | ------ |
+| 2215. Find the Difference of Two Arrays  | [Solution][2215] | Easy   |
+| 1207. Unique Number of Occurrences       | Solution         | Easy   |
+| 1657. Determine if Two Strings Are Close | Solution         | Medium |
+| 2352. Equal Row and Column Pairs         | Solution         | Medium |
+
+[2215]: ./src/page-21/2215.%20Find%20the%20Difference%20of%20Two%20Arrays/findDifference.ts
 
 | Stack                              |          |        |
 | ---------------------------------- | -------- | ------ |
