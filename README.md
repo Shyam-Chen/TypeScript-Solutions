@@ -130,11 +130,12 @@ Ace Coding Interview with 75 Qs
 | Hash Map / Set                           |                  |        |
 | ---------------------------------------- | ---------------- | ------ |
 | 2215. Find the Difference of Two Arrays  | [Solution][2215] | Easy   |
-| 1207. Unique Number of Occurrences       | Solution         | Easy   |
+| 1207. Unique Number of Occurrences       | [Solution][1207] | Easy   |
 | 1657. Determine if Two Strings Are Close | Solution         | Medium |
 | 2352. Equal Row and Column Pairs         | Solution         | Medium |
 
 [2215]: ./src/page-21/2215.%20Find%20the%20Difference%20of%20Two%20Arrays/findDifference.ts
+[1207]: ./src/page-12/1207.%20Unique%20Number%20of%20Occurrences/uniqueOccurrences.ts
 
 | Stack                              |          |        |
 | ---------------------------------- | -------- | ------ |
