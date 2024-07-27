@@ -122,9 +122,10 @@ Ace Coding Interview with 75 Qs
 | Prefix Sum                      |                  |      |
 | ------------------------------- | ---------------- | ---- |
 | 1732. Find the Highest Altitude | [Solution][1732] | Easy |
-| 724. Find Pivot Index           | Solution         | Easy |
+| 724. Find Pivot Index           | [Solution][724]  | Easy |
 
 [1732]: ./src/page-16/1732.%20Find%20the%20Highest%20Altitude/largestAltitude.ts
+[724]: ./src/page-7/724.%20Find%20Pivot%20Index/pivotIndex.ts
 
 | Hash Map / Set                           |          |        |
 | ---------------------------------------- | -------- | ------ |
