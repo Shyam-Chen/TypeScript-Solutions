@@ -139,11 +139,13 @@ Ace Coding Interview with 75 Qs
 [1657]: ./src/page-16/1657.%20Determine%20if%20Two%20Strings%20Are%20Close/closeStrings.ts
 [2352]: ./src/page-22/2352.%20Equal%20Row%20and%20Column%20Pairs/equalPairs.ts
 
-| Stack                              |          |        |
-| ---------------------------------- | -------- | ------ |
-| 2390. Removing Stars From a String | Solution | Medium |
-| 735. Asteroid Collision            | Solution | Medium |
-| 394. Decode String                 | Solution | Medium |
+| Stack                              |                  |        |
+| ---------------------------------- | ---------------- | ------ |
+| 2390. Removing Stars From a String | [Solution][2390] | Medium |
+| 735. Asteroid Collision            | Solution         | Medium |
+| 394. Decode String                 | Solution         | Medium |
+
+[2390]: ./src/page-22/2390.%20Removing%20Stars%20From%20a%20String/removeStars.ts
 
 | Queue                       |          |        |
 | --------------------------- | -------- | ------ |
