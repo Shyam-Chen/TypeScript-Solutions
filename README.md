@@ -149,10 +149,12 @@ Ace Coding Interview with 75 Qs
 [735]: ./src/page-7/735.%20Asteroid%20Collision/asteroidCollision.ts
 [394]: ./src/page-4/394.%20Decode%20String/decodeString.ts
 
-| Queue                       |          |        |
-| --------------------------- | -------- | ------ |
-| 933. Number of Recent Calls | Solution | Easy   |
-| 649. Dota2 Senate           | Solution | Medium |
+| Queue                       |                 |        |
+| --------------------------- | --------------- | ------ |
+| 933. Number of Recent Calls | [Solution][933] | Easy   |
+| 649. Dota2 Senate           | Solution        | Medium |
+
+[933]: ./src/page-9/933.%20Number%20of%20Recent%20Calls/RecentCounter.ts
 
 | Linked List                                   |                 |        |
 | --------------------------------------------- | --------------- | ------ |
