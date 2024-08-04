@@ -143,10 +143,11 @@ Ace Coding Interview with 75 Qs
 | ---------------------------------- | ---------------- | ------ |
 | 2390. Removing Stars From a String | [Solution][2390] | Medium |
 | 735. Asteroid Collision            | [Solution][735]  | Medium |
-| 394. Decode String                 | Solution         | Medium |
+| 394. Decode String                 | [Solution][394]  | Medium |
 
 [2390]: ./src/page-22/2390.%20Removing%20Stars%20From%20a%20String/removeStars.ts
 [735]: ./src/page-7/735.%20Asteroid%20Collision/asteroidCollision.ts
+[394]: ./src/page-4/394.%20Decode%20String/decodeString.ts
 
 | Queue                       |          |        |
 | --------------------------- | -------- | ------ |
