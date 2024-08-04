@@ -152,9 +152,10 @@ Ace Coding Interview with 75 Qs
 | Queue                       |                 |        |
 | --------------------------- | --------------- | ------ |
 | 933. Number of Recent Calls | [Solution][933] | Easy   |
-| 649. Dota2 Senate           | Solution        | Medium |
+| 649. Dota2 Senate           | [Solution][649] | Medium |
 
 [933]: ./src/page-9/933.%20Number%20of%20Recent%20Calls/RecentCounter.ts
+[649]: ./src/page-6/649.%20Dota2%20Senate/predictPartyVictory.ts
 
 | Linked List                                   |                 |        |
 | --------------------------------------------- | --------------- | ------ |
