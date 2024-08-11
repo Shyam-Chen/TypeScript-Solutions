@@ -160,11 +160,12 @@ Ace Coding Interview with 75 Qs
 | Linked List                                   |                  |        |
 | --------------------------------------------- | ---------------- | ------ |
 | 2095. Delete the Middle Node of a Linked List | [Solution][2095] | Medium |
-| 328. Odd Even Linked List                     | Solution         | Medium |
+| 328. Odd Even Linked List                     | [Solution][328]  | Medium |
 | 206. Reverse Linked List                      | [Solution][206]  | Easy   |
 | 2130. Maximum Twin Sum of a Linked List       | Solution         | Medium |
 
 [2095]: ./src/page-19/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/deleteMiddle.ts
+[328]: ./src/page-4/328.%20Odd%20Even%20Linked%20List/oddEvenList.ts
 [206]: ./src/page-2/206.%20Reverse%20Linked%20List/reverseList.ts
 
 | Binary Tree - DFS                            |                 |        |
