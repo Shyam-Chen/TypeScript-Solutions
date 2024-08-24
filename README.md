@@ -174,13 +174,14 @@ Ace Coding Interview with 75 Qs
 | 104. Maximum Depth of Binary Tree            | [Solution][104]  | Easy   |
 | 872. Leaf-Similar Trees                      | [Solution][872]  | Easy   |
 | 1448. Count Good Nodes in Binary Tree        | [Solution][1448] | Medium |
-| 437. Path Sum III                            | Solution         | Medium |
+| 437. Path Sum III                            | [Solution][437]  | Medium |
 | 1372. Longest ZigZag Path in a Binary Tree   | Solution         | Medium |
 | 236. Lowest Common Ancestor of a Binary Tree | Solution         | Medium |
 
 [104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
 [872]: ./src/page-9/872.%20Leaf-Similar%20Trees/leafSimilar.ts
 [1448]: ./src/page-14/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree/goodNodes.ts
+[437]: ./src/page-5/437.%20Path%20Sum%20III/pathSum.ts
 
 | Binary Tree - BFS                        |          |        |
 | ---------------------------------------- | -------- | ------ |
