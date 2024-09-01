@@ -193,10 +193,12 @@ Ace Coding Interview with 75 Qs
 [199]: ./src/page-2/199.%20Binary%20Tree%20Right%20Side%20View/rightSideView.ts
 [1161]: ./src/page-11/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/maxLevelSum.ts
 
-| Binary Search Tree                  |          |        |
-| ----------------------------------- | -------- | ------ |
-| 700. Search in a Binary Search Tree | Solution | Easy   |
-| 450. Delete Node in a BST           | Solution | Medium |
+| Binary Search Tree                  |                 |        |
+| ----------------------------------- | --------------- | ------ |
+| 700. Search in a Binary Search Tree | [Solution][700] | Easy   |
+| 450. Delete Node in a BST           | Solution        | Medium |
+
+[700]: ./src/page-7/700.%20Search%20in%20a%20Binary%20Search%20Tree/searchBST.ts
 
 | Graphs - DFS                                                 |          |        |
 | ------------------------------------------------------------ | -------- | ------ |
