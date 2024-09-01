@@ -185,12 +185,13 @@ Ace Coding Interview with 75 Qs
 [1372]: ./src/page-13/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/longestZigZag.ts
 [236]: ./src/page-3/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/lowestCommonAncestor.ts
 
-| Binary Tree - BFS                        |                 |        |
-| ---------------------------------------- | --------------- | ------ |
-| 199. Binary Tree Right Side View         | [Solution][199] | Medium |
-| 1161. Maximum Level Sum of a Binary Tree | Solution        | Medium |
+| Binary Tree - BFS                        |                  |        |
+| ---------------------------------------- | ---------------- | ------ |
+| 199. Binary Tree Right Side View         | [Solution][199]  | Medium |
+| 1161. Maximum Level Sum of a Binary Tree | [Solution][1161] | Medium |
 
 [199]: ./src/page-2/199.%20Binary%20Tree%20Right%20Side%20View/rightSideView.ts
+[1161]: ./src/page-11/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/maxLevelSum.ts
 
 | Binary Search Tree                  |          |        |
 | ----------------------------------- | -------- | ------ |
