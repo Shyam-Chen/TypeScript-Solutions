@@ -196,9 +196,10 @@ Ace Coding Interview with 75 Qs
 | Binary Search Tree                  |                 |        |
 | ----------------------------------- | --------------- | ------ |
 | 700. Search in a Binary Search Tree | [Solution][700] | Easy   |
-| 450. Delete Node in a BST           | Solution        | Medium |
+| 450. Delete Node in a BST           | [Solution][450] | Medium |
 
 [700]: ./src/page-7/700.%20Search%20in%20a%20Binary%20Search%20Tree/searchBST.ts
+[450]: ./src/page-5/450.%20Delete%20Node%20in%20a%20BST/deleteNode.ts
 
 | Graphs - DFS                                                 |          |        |
 | ------------------------------------------------------------ | -------- | ------ |
