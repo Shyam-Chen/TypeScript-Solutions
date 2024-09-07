@@ -246,14 +246,15 @@ Ace Coding Interview with 75 Qs
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | Solution | Medium |
 | 72. Edit Distance                                         | Solution | Medium |
 
-| Bit Manipulation                              |                 |        |
-| --------------------------------------------- | --------------- | ------ |
-| 338. Counting Bits                            | [Solution][338] | Easy   |
-| 136. Single Number                            | [Solution][136] | Easy   |
-| 1318. Minimum Flips to Make a OR b Equal to c | Solution        | Medium |
+| Bit Manipulation                              |                  |        |
+| --------------------------------------------- | ---------------- | ------ |
+| 338. Counting Bits                            | [Solution][338]  | Easy   |
+| 136. Single Number                            | [Solution][136]  | Easy   |
+| 1318. Minimum Flips to Make a OR b Equal to c | [Solution][1318] | Medium |
 
 [338]: ./src/page-4/338.%20Counting%20Bits/countBits.ts
 [136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
+[1318]: ./src/page-13/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.ts
 
 | Trie                              |          |        |
 | --------------------------------- | -------- | ------ |
