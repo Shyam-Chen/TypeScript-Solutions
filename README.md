@@ -201,12 +201,14 @@ Ace Coding Interview with 75 Qs
 [700]: ./src/page-7/700.%20Search%20in%20a%20Binary%20Search%20Tree/searchBST.ts
 [450]: ./src/page-5/450.%20Delete%20Node%20in%20a%20BST/deleteNode.ts
 
-| Graphs - DFS                                                 |          |        |
-| ------------------------------------------------------------ | -------- | ------ |
-| 841. Keys and Rooms                                          | Solution | Medium |
-| 547. Number of Provinces                                     | Solution | Medium |
-| 1466. Reorder Routes to Make All Paths Lead to the City Zero | Solution | Medium |
-| 399. Evaluate Division                                       | Solution | Medium |
+| Graphs - DFS                                                 |                 |        |
+| ------------------------------------------------------------ | --------------- | ------ |
+| 841. Keys and Rooms                                          | [Solution][841] | Medium |
+| 547. Number of Provinces                                     | Solution        | Medium |
+| 1466. Reorder Routes to Make All Paths Lead to the City Zero | Solution        | Medium |
+| 399. Evaluate Division                                       | Solution        | Medium |
+
+[841]: ./src/page-8/841.%20Keys%20and%20Rooms/canVisitAllRooms.ts
 
 | Graphs - BFS                             |          |        |
 | ---------------------------------------- | -------- | ------ |
