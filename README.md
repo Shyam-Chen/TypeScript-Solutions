@@ -204,11 +204,12 @@ Ace Coding Interview with 75 Qs
 | Graphs - DFS                                                 |                 |        |
 | ------------------------------------------------------------ | --------------- | ------ |
 | 841. Keys and Rooms                                          | [Solution][841] | Medium |
-| 547. Number of Provinces                                     | Solution        | Medium |
+| 547. Number of Provinces                                     | [Solution][547] | Medium |
 | 1466. Reorder Routes to Make All Paths Lead to the City Zero | Solution        | Medium |
 | 399. Evaluate Division                                       | Solution        | Medium |
 
 [841]: ./src/page-8/841.%20Keys%20and%20Rooms/canVisitAllRooms.ts
+[547]: ./src/page-6/547.%20Number%20of%20Provinces/findCircleNum.ts
 
 | Graphs - BFS                             |          |        |
 | ---------------------------------------- | -------- | ------ |
