@@ -213,10 +213,12 @@ Ace Coding Interview with 75 Qs
 [1466]: ./src/page-14/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/minReorder.ts
 [399]: ./src/page-4/399.%20Evaluate%20Division/calcEquation.ts
 
-| Graphs - BFS                             |          |        |
-| ---------------------------------------- | -------- | ------ |
-| 1926. Nearest Exit from Entrance in Maze | Solution | Medium |
-| 994. Rotting Oranges                     | Solution | Medium |
+| Graphs - BFS                             |                  |        |
+| ---------------------------------------- | ---------------- | ------ |
+| 1926. Nearest Exit from Entrance in Maze | [Solution][1926] | Medium |
+| 994. Rotting Oranges                     | Solution         | Medium |
+
+[1926]: ./src/page-18/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze/nearestExit.ts
 
 | Heap / Priority Queue                 |          |        |
 | ------------------------------------- | -------- | ------ |
