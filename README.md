@@ -216,9 +216,10 @@ Ace Coding Interview with 75 Qs
 | Graphs - BFS                             |                  |        |
 | ---------------------------------------- | ---------------- | ------ |
 | 1926. Nearest Exit from Entrance in Maze | [Solution][1926] | Medium |
-| 994. Rotting Oranges                     | Solution         | Medium |
+| 994. Rotting Oranges                     | [Solution][994]  | Medium |
 
 [1926]: ./src/page-18/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze/nearestExit.ts
+[994]: ./src/page-10/994.%20Rotting%20Oranges/orangesRotting.ts
 
 | Heap / Priority Queue                 |          |        |
 | ------------------------------------- | -------- | ------ |
