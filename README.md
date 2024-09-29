@@ -221,12 +221,14 @@ Ace Coding Interview with 75 Qs
 [1926]: ./src/page-18/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze/nearestExit.ts
 [994]: ./src/page-10/994.%20Rotting%20Oranges/orangesRotting.ts
 
-| Heap / Priority Queue                 |          |        |
-| ------------------------------------- | -------- | ------ |
-| 215. Kth Largest Element in an Array  | Solution | Medium |
-| 2336. Smallest Number in Infinite Set | Solution | Medium |
-| 2542. Maximum Subsequence Score       | Solution | Medium |
-| 2462. Total Cost to Hire K Workers    | Solution | Medium |
+| Heap / Priority Queue                 |                 |        |
+| ------------------------------------- | --------------- | ------ |
+| 215. Kth Largest Element in an Array  | [Solution][215] | Medium |
+| 2336. Smallest Number in Infinite Set | Solution        | Medium |
+| 2542. Maximum Subsequence Score       | Solution        | Medium |
+| 2462. Total Cost to Hire K Workers    | Solution        | Medium |
+
+[215]: ./src/page-2/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
 
 | Binary Search                                |          |        |
 | -------------------------------------------- | -------- | ------ |
