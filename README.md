@@ -62,7 +62,11 @@ $ pnpm bench twoSum.bench.ts
 └── vite.config.ts
 ```
 
-## LeetCode 75 (Basic)
+## Beginning - The Algorithms
+
+- [Implements various algorithms and data structures in TypeScript](https://the-algorithms.com/language/typescript)
+
+## Basic - LeetCode 75
 
 Ace Coding Interview with 75 Qs
 
@@ -286,7 +290,7 @@ Ace Coding Interview with 75 Qs
 
 </details>
 
-## Top Interview 150 (Advanced)
+## Advanced - Top Interview 150
 
 Must-do List for Interview Prep
 
