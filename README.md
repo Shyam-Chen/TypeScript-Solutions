@@ -231,12 +231,14 @@ Ace Coding Interview with 75 Qs
 [215]: ./src/page-2/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
 [2336]: ./src/page-22/2336.%20Smallest%20Number%20in%20Infinite%20Set/SmallestInfiniteSet.ts
 
-| Binary Search                                |          |        |
-| -------------------------------------------- | -------- | ------ |
-| 374. Guess Number Higher or Lower            | Solution | Easy   |
-| 2300. Successful Pairs of Spells and Potions | Solution | Medium |
-| 162. Find Peak Element                       | Solution | Medium |
-| 875. Koko Eating Bananas                     | Solution | Medium |
+| Binary Search                                |                 |        |
+| -------------------------------------------- | --------------- | ------ |
+| 374. Guess Number Higher or Lower            | [Solution][374] | Easy   |
+| 2300. Successful Pairs of Spells and Potions | Solution        | Medium |
+| 162. Find Peak Element                       | Solution        | Medium |
+| 875. Koko Eating Bananas                     | Solution        | Medium |
+
+[374]: ./src/page-4/374.%20Guess%20Number%20Higher%20or%20Lower/guessNumber.ts
 
 | Backtracking                              |          |        |
 | ----------------------------------------- | -------- | ------ |
