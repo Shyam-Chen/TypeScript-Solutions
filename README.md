@@ -239,11 +239,12 @@ Ace Coding Interview with 75 Qs
 | -------------------------------------------- | ---------------- | ------ |
 | 374. Guess Number Higher or Lower            | [Solution][374]  | Easy   |
 | 2300. Successful Pairs of Spells and Potions | [Solution][2300] | Medium |
-| 162. Find Peak Element                       | Solution         | Medium |
+| 162. Find Peak Element                       | [Solution][162]  | Medium |
 | 875. Koko Eating Bananas                     | Solution         | Medium |
 
 [374]: ./src/page-4/374.%20Guess%20Number%20Higher%20or%20Lower/guessNumber.ts
 [2300]: ./src/page-21/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/successfulPairs.ts
+[162]: ./src/page-2/162.%20Find%20Peak%20Element/findPeakElement.ts
 
 | Backtracking                              |          |        |
 | ----------------------------------------- | -------- | ------ |
