@@ -70,6 +70,10 @@ $ pnpm bench twoSum.bench.ts
 
 - [圖 (Graph)](./data-structures/graph/README.md)
 
+### Algorithms
+
+- [二分搜尋 (Binary Search)](./algorithms/binary-search/README.md)
+
 ## Basic - LeetCode 75
 
 Ace Coding Interview with 75 Qs

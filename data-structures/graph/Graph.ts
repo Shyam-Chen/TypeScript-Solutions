@@ -2,8 +2,15 @@ class Graph {
   // 鄰接表
   private adjacencyList: Map<string, string[]>;
 
-  constructor() {
+  constructor(initialAdjList?: { [key: string]: string[] }) {
     this.adjacencyList = new Map();
+
+    // 初始化
+    if (initialAdjList) {
+      for (const vertex in initialAdjList) {
+        this.adjacencyList.set(vertex, initialAdjList[vertex]);
+      }
+    }
   }
 
   // 新增頂點
