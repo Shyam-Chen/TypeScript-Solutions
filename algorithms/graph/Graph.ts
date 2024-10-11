@@ -1,6 +1,6 @@
 class Graph {
   // 鄰接表
-  private adjacencyList: Map<string, string[]>;
+  adjacencyList: Map<string, string[]>;
 
   constructor(initialAdjList?: { [key: string]: string[] }) {
     this.adjacencyList = new Map();

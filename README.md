@@ -62,16 +62,9 @@ $ pnpm bench twoSum.bench.ts
 └── vite.config.ts
 ```
 
-## Beginning - The Algorithms
+## Beginning - Algorithms
 
-- [Implements various algorithms and data structures in TypeScript](https://the-algorithms.com/language/typescript)
-
-### Data Structures
-
-- [圖 (Graph)](./data-structures/graph/README.md)
-
-### Algorithms
-
+- [圖 (Graph)](./algorithms/graph/README.md)
 - [二分搜尋 (Binary Search)](./algorithms/binary-search/README.md)
 
 ## Basic - LeetCode 75
