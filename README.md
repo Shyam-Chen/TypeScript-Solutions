@@ -66,6 +66,10 @@ $ pnpm bench twoSum.bench.ts
 
 - [Implements various algorithms and data structures in TypeScript](https://the-algorithms.com/language/typescript)
 
+### Data Structures
+
+- [圖 (Graph)](./data-structures/graph/README.md)
+
 ## Basic - LeetCode 75
 
 Ace Coding Interview with 75 Qs
