@@ -43,7 +43,7 @@ describe('100. Same Tree', () => {
       // 1   2
       const q = generateBinaryTree([1, 1, 2]);
 
-      expect(isSameTree(p, q)).toEqual(false);
+      expect(isSameTree(p, q)).toBe(false);
     }
   });
 });
