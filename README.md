@@ -64,8 +64,20 @@ $ pnpm bench twoSum.bench.ts
 
 ## Beginning - Algorithms
 
+解題前應該學會的思路與技巧
+
+- 鏈結串列 (Linked List)
+- 堆疊 (Stack)
+- 佇列 (Queue)
+- 雜湊表 (Hash Table)
+- 樹 (Tree)
+  - 二元樹 (Binary Tree)
+  - 二元搜尋樹 (Binary Search Tree)
+- 堆積 (Heap)
 - [圖 (Graph)](./algorithms/graph/README.md)
 - [二分搜尋 (Binary Search)](./algorithms/binary-search/README.md)
+- 回溯 (Backtracking)
+- 動態規劃 (Dynamic Programming)
 
 ## Basic - LeetCode 75
 

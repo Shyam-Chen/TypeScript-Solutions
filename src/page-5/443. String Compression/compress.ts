@@ -21,12 +21,14 @@ export const compress: Compress = (chars) => {
     }
 
     // Write the character to the index position
-    chars[index++] = char;
+    chars[index] = char;
+    index += 1;
 
     // If count is more than 1, write the count to the array
     if (count > 1) {
       for (const digit of String(count)) {
-        chars[index++] = digit;
+        chars[index] = digit;
+        index += 1;
       }
     }
   }

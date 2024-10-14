@@ -28,7 +28,8 @@ export const moveZeroes2: MoveZeroes = (nums) => {
 
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] !== 0) {
-      nums[lastNonZeroFoundAt++] = nums[i];
+      nums[lastNonZeroFoundAt] = nums[i];
+      lastNonZeroFoundAt += 1;
     }
   }
 
