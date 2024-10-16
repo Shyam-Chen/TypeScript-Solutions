@@ -78,6 +78,7 @@ $ pnpm bench twoSum.bench.ts
 - [二分搜尋 (Binary Search)](./algorithms/binary-search/README.md)
 - 回溯 (Backtracking)
 - 動態規劃 (Dynamic Programming)
+  - [0-1 背包問題 (0-1 Knapsack Problem)](./algorithms/dynamic-programming/README.md)
 
 ## Basic - LeetCode 75
 
@@ -267,12 +268,14 @@ Ace Coding Interview with 75 Qs
 
 [17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
 
-| DP - 1D                        |          |        |
-| ------------------------------ | -------- | ------ |
-| 1137. N-th Tribonacci Number   | Solution | Easy   |
-| 746. Min Cost Climbing Stairs  | Solution | Easy   |
-| 198. House Robber              | Solution | Medium |
-| 790. Domino and Tromino Tiling | Solution | Medium |
+| DP - 1D                        |                  |        |
+| ------------------------------ | ---------------- | ------ |
+| 1137. N-th Tribonacci Number   | [Solution][1137] | Easy   |
+| 746. Min Cost Climbing Stairs  | Solution         | Easy   |
+| 198. House Robber              | Solution         | Medium |
+| 790. Domino and Tromino Tiling | Solution         | Medium |
+
+[1137]: ./src/page-11/1137.%20N-th%20Tribonacci%20Number/tribonacci.ts
 
 | DP - Multidimensional                                     |          |        |
 | --------------------------------------------------------- | -------- | ------ |
