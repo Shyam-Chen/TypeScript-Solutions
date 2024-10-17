@@ -67,7 +67,7 @@ $ pnpm bench twoSum.bench.ts
 解題前應該學會的思路與技巧
 
 - [鏈結串列 (Linked List)](./algorithms/linked-list/README.md)
-- 堆疊 (Stack)
+- [堆疊 (Stack)](./algorithms/stack/README.md)
 - 佇列 (Queue)
 - 雜湊表 (Hash Table)
 - 堆積 (Heap)

@@ -2,8 +2,9 @@
 
 ## 鄰接表 - 雜湊表方式
 
+- [`Graph.ts`](./Graph.ts)
+
 ```ts
-// Graph.ts
 class Graph {
   // 鄰接表
   adjacencyList: Map<string, string[]>;
@@ -125,6 +126,8 @@ const graph = new Graph({
 
 ## 廣度優先搜尋 (Breadth-first Search)
 
+- [`bfs.ts`](./bfs.ts)
+
 ```ts
 // bfs.ts
 function bfs(adjacencyList: Map<string, string[]>, startVertex: string): void {
@@ -157,6 +160,8 @@ bfs(graph.adjacencyList, 'A');
 ```
 
 ## 深度優先搜尋 (Depth-first Search)
+
+- [`dfs.ts`](./dfs.ts)
 
 ```ts
 function dfs(

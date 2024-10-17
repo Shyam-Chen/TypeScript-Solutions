@@ -2,6 +2,9 @@
 
 ## 單向鏈結串列 (Singly Linked List)
 
+- [`ListNode.ts`](./ListNode.ts)
+- [`LinkedList.ts`](./LinkedList.ts)
+
 ```ts
 class ListNode<T> {
   value: T;
@@ -63,7 +66,7 @@ class LinkedList<T> {
     this.head = null;
   }
 
-  // 新增節點到鏈結串列的尾端
+  // 新增節點到鏈結串列的尾部
   append(value: T): void {
     const newNode = new ListNode(value);
 
@@ -81,14 +84,14 @@ class LinkedList<T> {
     }
   }
 
-  // 將節點插入到鏈結串列的開頭
+  // 新增節點到鏈結串列的頭部
   prepend(value: T): void {
     const newNode = new ListNode(value);
     newNode.next = this.head;
     this.head = newNode;
   }
 
-  // 印出鏈結串列中的所有值
+  // 印出鏈結串列
   print(): void {
     let current = this.head;
     const values: T[] = [];
@@ -127,7 +130,18 @@ flowchart LR
     D --> A
 ```
 
+刪除節點：
+
+`remove(value: T): void`
+
+尋找節點：
+
+`find(value: T): void`
+
 ## 環狀鏈結串列 (Circular Linked List)
+
+- [`ListNode.ts`](./ListNode.ts)
+- [`CircularLinkedList.ts`](./CircularLinkedList.ts)
 
 ```ts
 class CircularLinkedList<T> {
@@ -167,7 +181,7 @@ class CircularLinkedList<T> {
 
     do {
       values.push(current.value);
-      current = current.next! as ListNode<T>;
+      current = current.next as ListNode<T>;
     } while (current !== this.head);
 
     console.log(`${values.join(' -> ')} -> (回到頭)`);
@@ -192,16 +206,105 @@ flowchart LR
 
 ## 雙向鏈結串列 (Doubly Linked List)
 
+- [`DoublyListNode.ts`](./DoublyListNode.ts)
+- [`DoublyLinkedList.ts`](./DoublyLinkedList.ts)
+
+```ts
+class DoublyListNode<T> {
+  value: T;
+  next: DoublyListNode<T> | null;
+  prev: DoublyListNode<T> | null;
+
+  constructor(
+    value: T,
+    next: DoublyListNode<T> | null = null,
+    prev: DoublyListNode<T> | null = null,
+  ) {
+    this.value = value;
+    this.next = next;
+    this.prev = prev;
+  }
+}
+```
+
+```ts
+class DoublyLinkedList<T> {
+  head: DoublyListNode<T> | null;
+  tail: DoublyListNode<T> | null;
+
+  constructor() {
+    this.head = null;
+    this.tail = null;
+  }
+
+  // 新增節點到鏈結串列的尾部
+  append(value: T): void {
+    const newNode = new DoublyListNode(value);
+
+    if (!this.tail) {
+      // 如果鏈結串列是空的
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      // 更新 tail 節點
+      newNode.prev = this.tail;
+      this.tail.next = newNode;
+      this.tail = newNode;
+    }
+  }
+
+  // 新增節點到鏈結串列的頭部
+  prepend(value: T): void {
+    const newNode = new DoublyListNode(value);
+
+    if (!this.head) {
+      // 如果鏈結串列是空的
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      // 更新 head 節點
+      newNode.next = this.head;
+      this.head.prev = newNode;
+      this.head = newNode;
+    }
+  }
+
+  // 印出雙向鏈結串列
+  print(): void {
+    let current = this.head;
+
+    const values: T[] = [];
+
+    while (current) {
+      values.push(current.value);
+      current = current.next;
+    }
+
+    console.log(values.join(' <-> '));
+  }
+}
+```
+
+```ts
+const doublyLinkedList = new DoublyLinkedList<string>();
+
+doublyLinkedList.append('A');
+doublyLinkedList.append('B');
+doublyLinkedList.append('C');
+doublyLinkedList.prepend('D');
+
+doublyLinkedList.print();
+// D <-> A <-> B <-> C
+```
+
 ```mermaid
 flowchart LR
     A((A))
     B((B))
     C((C))
     D((D))
-    E((E))
 
     A <--> B
     B <--> C
-    C <--> D
-    D <--> E
+    D <--> A
 ```

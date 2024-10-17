@@ -1,6 +1,8 @@
-# 二分搜尋（Binary Search）
+# 搜尋 (Searching)
 
-## 雙閉區間
+## 二分搜尋（Binary Search）- 雙閉區間
+
+- [`binarySearch.ts`](./binarySearch.ts)
 
 ```ts
 function binarySearch(arr: number[], target: number): number {

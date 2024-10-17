@@ -7,7 +7,7 @@ export class LinkedList<T> {
     this.head = null;
   }
 
-  // 新增節點到鏈結串列的尾端
+  // 新增節點到鏈結串列的尾部
   append(value: T): void {
     const newNode = new ListNode(value);
 
@@ -25,14 +25,14 @@ export class LinkedList<T> {
     }
   }
 
-  // 將節點插入到鏈結串列的開頭
+  // 新增節點到鏈結串列的頭部
   prepend(value: T): void {
     const newNode = new ListNode(value);
     newNode.next = this.head;
     this.head = newNode;
   }
 
-  // 印出鏈結串列中的所有值
+  // 印出鏈結串列
   print(): void {
     let current = this.head;
     const values: T[] = [];
