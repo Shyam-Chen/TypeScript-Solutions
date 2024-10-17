@@ -104,7 +104,7 @@ const capacity = 4;
 console.log(knapsack(weights, values, capacity)); // 20
 ```
 
-## 完全背包問題 (Unbounded Knapsack Problem)
+## 無界背包問題 (Unbounded Knapsack Problem)
 
 遞推公式：
 
