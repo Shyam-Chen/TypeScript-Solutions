@@ -308,3 +308,62 @@ flowchart LR
     B <--> C
     D <--> A
 ```
+
+## 雙指標 (Two Pointers)
+
+相關名詞：
+
+- 弗洛伊德判圈演算法 (Floyd’s Cycle Detection Algorithm)
+- 龜兔賽跑演算法 (Tortoise and Hare Algorithm)
+- 快慢指標 (Fast and Slow Pointers)
+
+問題：找出鏈結串列的中間節點。
+
+慢指標每次移動一步，快指標每次移動兩步：
+
+```ts
+let slow: ListNode<T> | null = head;
+let fast: ListNode<T> | null = head;
+
+while (fast !== null && fast.next !== null) {
+  slow = slow.next;
+  fast = fast.next.next;
+}
+```
+
+初始狀態：
+
+```ts
+slow
+ ↓
+ 1 -> 2 -> 3 -> 4 -> 5
+ ↑
+fast
+```
+
+第一輪迴圈：
+
+```ts
+     slow
+      ↓
+ 1 -> 2 -> 3 -> 4 -> 5
+           ↑
+          fast
+```
+
+第二輪迴圈：
+
+```ts
+          slow
+           ↓
+ 1 -> 2 -> 3 -> 4 -> 5
+                     ↑
+                    fast
+```
+
+迴圈結束：
+
+- 慢指標 `slow` 在節點 3
+- 快指標 `fast` 在節點 5
+
+此時慢指標 `slow` 為該鏈結串列的中間節點。
