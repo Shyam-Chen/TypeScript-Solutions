@@ -595,3 +595,21 @@ Must-do List for Interview Prep
 [5]: ./src/page-1/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
 
 </details>
+
+## Impactful - Top 100 Liked
+
+100 Best Rated Problems
+
+- 100 most liked problems by LeetCoders
+- Organized based on hot topics that help improve coding skills in interviews
+
+<details>
+  <summary>Problems</summary>
+
+| Backtracking                              |                |        |
+| ----------------------------------------- | -------------- | ------ |
+| 17. Letter Combinations of a Phone Number | [Solution][17] | Medium |
+
+[17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
+
+</details>
