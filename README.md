@@ -37,7 +37,7 @@ $ pnpm test twoSum.test.ts
 - [堆疊 (Stack)](./algorithms/stack/README.md)
 - [佇列 (Queue)](./algorithms/queue/README.md)
 - [雜湊表 (Hash Table)](./algorithms/hash-table/README.md)
-- 樹 (Tree)
+- [樹 (Tree)](./algorithms/tree/README.md)
 - [堆積 (Heap)](./algorithms/heap/README.md)
 - [圖 (Graph)](./algorithms/graph/README.md)
 - 字典樹 (Trie)
