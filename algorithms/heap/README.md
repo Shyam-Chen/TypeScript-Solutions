@@ -1,5 +1,11 @@
 # 堆積 (Heap)
 
+https://jsr.io/@std/data-structures/doc/~/BinaryHeap
+
+```ts
+import { BinaryHeap, ascend, descend } from '@std/data-structures';
+```
+
 ## 小頂堆積 (Min Heap)
 
 父節點的值總是小於或等於其子節點的值。
@@ -19,26 +25,11 @@ graph TD
 ```
 
 ```ts
-type Comparator<T> = (a: T, b: T) => number;
+import { BinaryHeap, ascend } from '@std/data-structures';
 
-class Heap<T> {
-  heap: T[] = [];
-  comparator: Comparator<T>;
+const minHeap = new BinaryHeap<number>(ascend);
 
-  constructor(comparator: Comparator<T>) {
-    this.comparator = comparator;
-  }
-
-  static minComparator<N>(a: N, b: N): number {
-    if (a > b) return 1;
-    if (a < b) return -1;
-    return 0;
-  }
-}
-```
-
-```ts
-const minHeap = new Heap<number>(Heap.minComparator);
+minHeap.push(1, 3, 5, 6, 8, 9, 15);
 ```
 
 ## 大頂堆積 (Max Heap)
@@ -60,37 +51,9 @@ graph TD
 ```
 
 ```ts
-type Comparator<T> = (a: T, b: T) => number;
+import { BinaryHeap, descend } from '@std/data-structures';
 
-class Heap<T> {
-  heap: T[] = [];
-  comparator: Comparator<T>;
+const maxHeap = new BinaryHeap<number>(descend);
 
-  constructor(comparator: Comparator<T>) {
-    this.comparator = comparator;
-  }
-
-  static maxComparator<N>(a: N, b: N): number {
-    if (b > a) return 1;
-    if (b < a) return -1;
-    return 0;
-  }
-
-  // 元素入堆積
-  push(value: T): void {
-    //
-  }
-}
-```
-
-```ts
-const maxHeap = new Heap<number>(Heap.maxComparator);
-
-maxHeap.push(15);
-maxHeap.push(9);
-maxHeap.push(8);
-maxHeap.push(1);
-maxHeap.push(3);
-maxHeap.push(6);
-maxHeap.push(5);
+maxHeap.push(1, 3, 5, 6, 8, 9, 15);
 ```

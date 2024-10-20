@@ -212,11 +212,12 @@ Ace Coding Interview with 75 Qs
 | ------------------------------------- | ---------------- | ------ |
 | 215. Kth Largest Element in an Array  | [Solution][215]  | Medium |
 | 2336. Smallest Number in Infinite Set | [Solution][2336] | Medium |
-| 2542. Maximum Subsequence Score       | Solution         | Medium |
+| 2542. Maximum Subsequence Score       | [Solution][2542] | Medium |
 | 2462. Total Cost to Hire K Workers    | Solution         | Medium |
 
 [215]: ./src/page-2/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
 [2336]: ./src/page-22/2336.%20Smallest%20Number%20in%20Infinite%20Set/SmallestInfiniteSet.ts
+[2542]: ./src/page-24/2542.%20Maximum%20Subsequence%20Score/maxScore.ts
 
 | Binary Search                                |                  |        |
 | -------------------------------------------- | ---------------- | ------ |
