@@ -4,8 +4,7 @@
   "scripts": {
     "lint": "biome check --write ./",
     "check": "tsc --noEmit",
-    "test": "vitest run",
-    "bench": "vitest bench --run"
+    "test": "vitest run"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",
