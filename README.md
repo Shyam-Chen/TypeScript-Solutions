@@ -40,13 +40,13 @@ $ pnpm test twoSum.test.ts
 - [樹 (Tree)](./algorithms/tree/README.md)
 - [堆積 (Heap)](./algorithms/heap/README.md)
 - [圖 (Graph)](./algorithms/graph/README.md)
-- 字典樹 (Trie)
+- [字典樹 (Trie)](./algorithms/trie/README.md)
 - 排序 (Sorting)
 - [搜尋 (Searching)](./algorithms/searching/README.md)
+- 分治 (Divide and Conquer)
+- 回溯 (Backtracking)
 - [動態規劃 (Dynamic Programming)](./algorithms/dynamic-programming/README.md)
 - 貪婪 (Greedy)
-- 回溯 (Backtracking)
-- 分治 (Divide and Conquer)
 - 位元操作 (Bit Manipulation)
 
 ## Basic - LeetCode 75
