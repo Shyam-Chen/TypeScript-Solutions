@@ -32,22 +32,22 @@ $ pnpm test twoSum.test.ts
 
 解題前應該學會的思路與技巧
 
-- [陣列 (Array)](./algorithms/array/README.md)
-- [鏈結串列 (Linked List)](./algorithms/linked-list/README.md)
-- [堆疊 (Stack)](./algorithms/stack/README.md)
-- [佇列 (Queue)](./algorithms/queue/README.md)
-- [雜湊表 (Hash Table)](./algorithms/hash-table/README.md)
-- [樹 (Tree)](./algorithms/tree/README.md)
-- [堆積 (Heap)](./algorithms/heap/README.md)
-- [圖 (Graph)](./algorithms/graph/README.md)
-- [字典樹 (Trie)](./algorithms/trie/README.md)
-- 排序 (Sorting)
-- [搜尋 (Searching)](./algorithms/searching/README.md)
-- 分治 (Divide and Conquer)
-- 回溯 (Backtracking)
-- [動態規劃 (Dynamic Programming)](./algorithms/dynamic-programming/README.md)
-- 貪婪 (Greedy)
-- 位元操作 (Bit Manipulation)
+1. [陣列 (Array)](./algorithms/1.array/README.md)
+2. [鏈結串列 (Linked List)](./algorithms/2.linked-list/README.md)
+3. [堆疊 (Stack)](./algorithms/3.stack/README.md)
+4. [佇列 (Queue)](./algorithms/4.queue/README.md)
+5. [雜湊表 (Hash Table)](./algorithms/5.hash-table/README.md)
+6. [樹 (Tree)](./algorithms/6.tree/README.md)
+7. [堆積 (Heap)](./algorithms/7.heap/README.md)
+8. [圖 (Graph)](./algorithms/8.graph/README.md)
+9. [字典樹 (Trie)](./algorithms/9.trie/README.md)
+10. [排序 (Sorting)](./algorithms/10.sorting/README.md)
+11. [搜尋 (Searching)](./algorithms/11.searching/README.md)
+12. 分治 (Divide and Conquer)
+13. 回溯 (Backtracking)
+14. [動態規劃 (Dynamic Programming)](./algorithms/14.dynamic-programming/README.md)
+15. 貪婪 (Greedy)
+16. 位元操作 (Bit Manipulation)
 
 ## Basic - LeetCode 75
 
@@ -264,10 +264,12 @@ Ace Coding Interview with 75 Qs
 [136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
 [1318]: ./src/page-13/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.ts
 
-| Trie                              |          |        |
-| --------------------------------- | -------- | ------ |
-| 208. Implement Trie (Prefix Tree) | Solution | Medium |
-| 1268. Search Suggestions System   | Solution | Medium |
+| Trie                              |                 |        |
+| --------------------------------- | --------------- | ------ |
+| 208. Implement Trie (Prefix Tree) | [Solution][208] | Medium |
+| 1268. Search Suggestions System   | Solution        | Medium |
+
+[208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
 | Intervals                                       |          |        |
 | ----------------------------------------------- | -------- | ------ |
@@ -458,11 +460,13 @@ Must-do List for Interview Prep
 | 433. Minimum Genetic Mutation | Solution | Medium |
 | 127. Word Ladder              | Solution | Hard   |
 
-| Trie                                            |          |        |
-| ----------------------------------------------- | -------- | ------ |
-| 208. Implement Trie (Prefix Tree)               | Solution | Medium |
-| 211. Design Add and Search Words Data Structure | Solution | Medium |
-| 212. Word Search II                             | Solution | Hard   |
+| Trie                                            |                 |        |
+| ----------------------------------------------- | --------------- | ------ |
+| 208. Implement Trie (Prefix Tree)               | [Solution][208] | Medium |
+| 211. Design Add and Search Words Data Structure | Solution        | Medium |
+| 212. Word Search II                             | Solution        | Hard   |
+
+[208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
 | Backtracking                              |          |        |
 | ----------------------------------------- | -------- | ------ |
@@ -743,9 +747,11 @@ Must-do List for Interview Prep
 [11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
 [283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
 
-| Trie                              |          |        |
-| --------------------------------- | -------- | ------ |
-| 208. Implement Trie (Prefix Tree) | Solution | Medium |
+| Trie                              |                 |        |
+| --------------------------------- | --------------- | ------ |
+| 208. Implement Trie (Prefix Tree) | [Solution][208] | Medium |
+
+[208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
 | Misc                              |                 |        |
 | --------------------------------- | --------------- | ------ |

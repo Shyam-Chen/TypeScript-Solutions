@@ -22,7 +22,7 @@ export class Trie {
     current.isEndOfWord = true;
   }
 
-  // 查找字
+  // 查找字詞
   search(word: string): boolean {
     let current = this.root;
 
