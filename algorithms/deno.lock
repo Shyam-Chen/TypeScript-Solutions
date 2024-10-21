@@ -1,0 +1,16 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/data-structures@^1.0.4": "1.0.4"
+  },
+  "jsr": {
+    "@std/data-structures@1.0.4": {
+      "integrity": "fa0e20c11eb9ba673417450915c750a0001405a784e2a4e0c3725031681684a0"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/data-structures@^1.0.4"
+    ]
+  }
+}

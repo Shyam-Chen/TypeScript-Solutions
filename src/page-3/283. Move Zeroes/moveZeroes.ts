@@ -15,3 +15,23 @@ export const moveZeroes: MoveZeroes = (nums) => {
     }
   }
 };
+
+/**
+ * Accepted
+ */
+export const moveZeroes2: MoveZeroes = (nums) => {
+  let left = 0; // Left pointer, points to the next position where a non-zero element should be placed
+  let right = 0; // Right pointer, traverses the entire array
+
+  while (right < nums.length) {
+    // If the number at the right pointer is not zero
+    if (nums[right] !== 0) {
+      // Swap the numbers at the left and right pointers
+      [nums[left], nums[right]] = [nums[right], nums[left]];
+
+      left += 1; // Move the left pointer to the next position
+    }
+
+    right += 1; // Continue moving the right pointer to the right
+  }
+};
