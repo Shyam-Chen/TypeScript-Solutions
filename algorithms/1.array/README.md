@@ -138,3 +138,39 @@ for (let i = k; i < nums.length; i++) {
 ```ts
 maxSum; // 此時 `maxSum` 為最大和
 ```
+
+## 矩陣 (Matrix)
+
+```ts
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+```
+
+問題：將矩陣的橫行 (Row) 和縱列 (Column) 互換
+
+取得矩陣 `rows` 和 `cols`：
+
+```ts
+const rows = matrix.length;
+const cols = matrix[0].length;
+```
+
+建立一個與原本矩陣橫行和縱列互換的空白新矩陣：
+
+```ts
+const newMatrix = Array.from({ length: cols }, () => Array(rows));
+```
+
+迴圈走訪原本矩陣的所有元素，將其分配到新矩陣上：
+
+```ts
+for (let r = 0; r < rows; r++) {
+  for (let c = 0; c < cols; c++) {
+    // 橫行和縱列互換
+    newMatrix[c][r] = matrix[r][c];
+  }
+}
+```

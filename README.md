@@ -46,8 +46,8 @@ $ pnpm test twoSum.test.ts
 12. [分治 (Divide and Conquer)](./algorithms/12.divide-and-conquer/README.md)
 13. [回溯 (Backtracking)](./algorithms/13.backtracking/README.md)
 14. [動態規劃 (Dynamic Programming)](./algorithms/14.dynamic-programming/README.md)
-15. 貪婪 (Greedy)
-16. 位元操作 (Bit Manipulation)
+15. [貪婪 (Greedy)](./algorithms/15.greedy/README.md)
+16. [位元操作 (Bit Manipulation)](./algorithms/16.bit-manipulation/README.md)
 
 ## Basic - LeetCode 75
 
@@ -470,7 +470,7 @@ Must-do List for Interview Prep
 
 | Backtracking                              |                |        |
 | ----------------------------------------- | -------------- | ------ |
-| 17. Letter Combinations of a Phone Number | Solution       | Medium |
+| 17. Letter Combinations of a Phone Number | [Solution][17] | Medium |
 | 77. Combinations                          | Solution       | Medium |
 | 46. Permutations                          | [Solution][46] | Medium |
 | 39. Combination Sum                       | Solution       | Medium |
@@ -478,6 +478,7 @@ Must-do List for Interview Prep
 | 22. Generate Parentheses                  | Solution       | Medium |
 | 79. Word Search                           | Solution       | Medium |
 
+[17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
 [46]: ./src/page-1/46.%20Permutations/permute.ts
 
 | Divide & Conquer                                |                 |        |
