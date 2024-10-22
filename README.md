@@ -468,15 +468,17 @@ Must-do List for Interview Prep
 
 [208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
-| Backtracking                              |          |        |
-| ----------------------------------------- | -------- | ------ |
-| 17. Letter Combinations of a Phone Number | Solution | Medium |
-| 77. Combinations                          | Solution | Medium |
-| 46. Permutations                          | Solution | Medium |
-| 39. Combination Sum                       | Solution | Medium |
-| 52. N-Queens II                           | Solution | Hard   |
-| 22. Generate Parentheses                  | Solution | Medium |
-| 79. Word Search                           | Solution | Medium |
+| Backtracking                              |                |        |
+| ----------------------------------------- | -------------- | ------ |
+| 17. Letter Combinations of a Phone Number | Solution       | Medium |
+| 77. Combinations                          | Solution       | Medium |
+| 46. Permutations                          | [Solution][46] | Medium |
+| 39. Combination Sum                       | Solution       | Medium |
+| 52. N-Queens II                           | Solution       | Hard   |
+| 22. Generate Parentheses                  | Solution       | Medium |
+| 79. Word Search                           | Solution       | Medium |
+
+[46]: ./src/page-1/46.%20Permutations/permute.ts
 
 | Divide & Conquer                                |                 |        |
 | ----------------------------------------------- | --------------- | ------ |
@@ -584,13 +586,14 @@ Must-do List for Interview Prep
 | 17. Letter Combinations of a Phone Number | [Solution][17] | Medium |
 | 22. Generate Parentheses                  | Solution       | Medium |
 | 39. Combination Sum                       | Solution       | Medium |
-| 46. Permutations                          | Solution       | Medium |
+| 46. Permutations                          | [Solution][46] | Medium |
 | 51. N-Queens                              | Solution       | Hard   |
 | 78. Subsets                               | Solution       | Medium |
 | 79. Word Search                           | Solution       | Medium |
 | 131. Palindrome Partitioning              | Solution       | Medium |
 
 [17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
+[46]: ./src/page-1/46.%20Permutations/permute.ts
 
 | Binary Search                                               |                |        |
 | ----------------------------------------------------------- | -------------- | ------ |
