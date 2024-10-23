@@ -24,6 +24,7 @@ export const letterCombinations: LetterCombinations = (digits) => {
       result.push(combination);
     } else {
       const digit = nextDigits[0];
+
       for (const letter of phone[digit]) {
         backtrack(combination + letter, nextDigits.slice(1));
       }

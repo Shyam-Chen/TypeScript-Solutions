@@ -9,10 +9,10 @@
 ```ts
 const result = [];
 
-function backtrack(state) {
+function backtrack() {
   // 紀錄解
   if (x) {
-    push([...state]);
+    result.push();
     return;
   }
 
@@ -23,8 +23,8 @@ function backtrack(state) {
     // 嘗試
     push();
 
-    // 下一個
-    backtrack(state);
+    // 繼續探索下一個
+    backtrack();
 
     // 回退
     pop();
