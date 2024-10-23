@@ -98,7 +98,7 @@ for (let i = 0; i < nums.length; i++) {
 
 ## 滑動視窗 (Sliding Window)
 
-維持一個固定大小的視窗，並在陣列中移動這個視窗來進行計算。
+維持一個固定長度的視窗，並在陣列中移動這個視窗來進行計算。
 
 問題：找出連續子陣列長度為 `k` 的最大和。
 
@@ -158,13 +158,13 @@ const rows = matrix.length;
 const cols = matrix[0].length;
 ```
 
-建立一個與原本矩陣橫行和縱列互換的空白新矩陣：
+建立一個與原矩陣橫行和縱列互換的空白新矩陣：
 
 ```ts
 const newMatrix = Array.from({ length: cols }, () => Array(rows));
 ```
 
-迴圈走訪原本矩陣的所有元素，將其分配到新矩陣上：
+迴圈走訪原矩陣的所有元素，將其分配到新矩陣上：
 
 ```ts
 for (let r = 0; r < rows; r++) {

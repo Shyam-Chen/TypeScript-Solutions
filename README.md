@@ -231,12 +231,13 @@ Ace Coding Interview with 75 Qs
 [162]: ./src/page-2/162.%20Find%20Peak%20Element/findPeakElement.ts
 [875]: ./src/page-9/875.%20Koko%20Eating%20Bananas/minEatingSpeed.ts
 
-| Backtracking                              |                |        |
-| ----------------------------------------- | -------------- | ------ |
-| 17. Letter Combinations of a Phone Number | [Solution][17] | Medium |
-| 216. Combination Sum III                  | Solution       | Medium |
+| Backtracking                              |                 |        |
+| ----------------------------------------- | --------------- | ------ |
+| 17. Letter Combinations of a Phone Number | [Solution][17]  | Medium |
+| 216. Combination Sum III                  | [Solution][216] | Medium |
 
 [17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
+[216]: ./src/page-2/216.%20Combination%20Sum%20III/combinationSum3.ts
 
 | DP - 1D                        |                  |        |
 | ------------------------------ | ---------------- | ------ |

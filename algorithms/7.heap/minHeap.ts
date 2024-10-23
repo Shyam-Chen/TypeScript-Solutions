@@ -13,7 +13,7 @@ console.log(minHeap.pop()); // 1
 console.log(minHeap.pop()); // 3
 console.log(minHeap.pop()); // 5
 
-// 取得堆積大小
+// 取得堆積長度
 console.log(minHeap.length); // 4
 
 // 判斷堆積是否為空

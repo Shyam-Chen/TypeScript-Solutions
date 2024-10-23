@@ -40,7 +40,7 @@ console.log(minHeap.pop()); // 1
 console.log(minHeap.pop()); // 3
 console.log(minHeap.pop()); // 5
 
-// 取得堆積大小
+// 取得堆積長度
 console.log(minHeap.length); // 4
 
 // 判斷堆積是否為空
@@ -81,7 +81,7 @@ console.log(maxHeap.pop()); // 15
 console.log(maxHeap.pop()); // 9
 console.log(maxHeap.pop()); // 8
 
-// 取得堆積大小
+// 取得堆積長度
 console.log(maxHeap.length); // 4
 
 // 判斷堆積是否為空
