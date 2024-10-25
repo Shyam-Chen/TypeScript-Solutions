@@ -22,8 +22,10 @@ export const twoSum2: TwoSum = (nums, target) => {
   const map = new Map<number, number>();
 
   for (let i = 0; i < nums.length; i++) {
-    const index = map.get(target - nums[i]);
-    if (typeof index === 'number') return [index, i];
+    // nums[i] + x = target
+    // x = target − nums[i]
+    const complement = map.get(target - nums[i]);
+    if (complement !== undefined) return [complement, i];
     map.set(nums[i], i);
   }
 

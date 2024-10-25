@@ -1,4 +1,4 @@
-import { TrieNode } from './TrieNode';
+import { TrieNode } from './TrieNode.ts';
 
 export class Trie {
   root: TrieNode;

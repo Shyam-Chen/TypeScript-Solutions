@@ -23,10 +23,7 @@ export const nearestExit: NearestExit = (maze, entrance) => {
   maze[startRow][startCol] = '+'; // Mark the entrance as visited by converting it to a wall.
 
   while (queue.length > 0) {
-    const current = queue.shift();
-    if (current === undefined) continue; // Safely handle empty queue
-
-    const [row, col, steps] = current;
+    const [row, col, steps] = queue.shift() as [number, number, number];
 
     // Check all four possible directions.
     for (const [dRow, dCol] of directions) {

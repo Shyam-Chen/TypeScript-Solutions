@@ -1,4 +1,4 @@
-import { ListNode } from './ListNode';
+import { ListNode } from './ListNode.ts';
 
 export class LinkedList<T> {
   head: ListNode<T> | null;

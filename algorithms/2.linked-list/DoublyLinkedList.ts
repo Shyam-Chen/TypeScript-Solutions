@@ -1,4 +1,4 @@
-import { DoublyListNode } from './DoublyListNode';
+import { DoublyListNode } from './DoublyListNode.ts';
 
 export class DoublyLinkedList<T> {
   head: DoublyListNode<T> | null;

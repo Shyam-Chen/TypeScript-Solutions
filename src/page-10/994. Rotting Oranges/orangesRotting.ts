@@ -39,10 +39,7 @@ export const orangesRotting: OrangesRotting = (grid) => {
     let rottenInThisMinute = false;
 
     for (let i = 0; i < currentLevelSize; i++) {
-      const current = queue.shift();
-      if (current === undefined) continue; // Safely handle empty queue
-
-      const [row, col] = current;
+      const [row, col] = queue.shift() as [number, number];
 
       // Check all 4-directionally adjacent cells
       for (const [dr, dc] of directions) {
