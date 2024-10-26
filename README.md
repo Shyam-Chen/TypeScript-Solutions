@@ -243,11 +243,12 @@ Ace Coding Interview with 75 Qs
 | DP - 1D                        |                  |        |
 | ------------------------------ | ---------------- | ------ |
 | 1137. N-th Tribonacci Number   | [Solution][1137] | Easy   |
-| 746. Min Cost Climbing Stairs  | Solution         | Easy   |
+| 746. Min Cost Climbing Stairs  | [Solution][746]  | Easy   |
 | 198. House Robber              | Solution         | Medium |
 | 790. Domino and Tromino Tiling | Solution         | Medium |
 
 [1137]: ./src/page-11/1137.%20N-th%20Tribonacci%20Number/tribonacci.ts
+[746]: ./src/page-7/746.%20Min%20Cost%20Climbing%20Stairs/minCostClimbingStairs.ts
 
 | DP - Multidimensional                                     |          |        |
 | --------------------------------------------------------- | -------- | ------ |
