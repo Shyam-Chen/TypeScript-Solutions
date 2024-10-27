@@ -244,11 +244,12 @@ Ace Coding Interview with 75 Qs
 | ------------------------------ | ---------------- | ------ |
 | 1137. N-th Tribonacci Number   | [Solution][1137] | Easy   |
 | 746. Min Cost Climbing Stairs  | [Solution][746]  | Easy   |
-| 198. House Robber              | Solution         | Medium |
+| 198. House Robber              | [Solution][198]  | Medium |
 | 790. Domino and Tromino Tiling | Solution         | Medium |
 
 [1137]: ./src/page-11/1137.%20N-th%20Tribonacci%20Number/tribonacci.ts
 [746]: ./src/page-7/746.%20Min%20Cost%20Climbing%20Stairs/minCostClimbingStairs.ts
+[198]: ./src/page-2/198.%20House%20Robber/rob.ts
 
 | DP - Multidimensional                                     |          |        |
 | --------------------------------------------------------- | -------- | ------ |
@@ -550,15 +551,16 @@ Must-do List for Interview Prep
 [69]: ./src/page-1/69.%20Sqrt(x)/mySqrt.ts
 [50]: ./src/page-1/50.%20Pow(x,%20n)/myPow.ts
 
-| 1D DP                               |                |        |
-| ----------------------------------- | -------------- | ------ |
-| 70. Climbing Stairs                 | [Solution][70] | Easy   |
-| 198. House Robber                   | Solution       | Medium |
-| 139. Word Break                     | Solution       | Medium |
-| 322. Coin Change                    | Solution       | Medium |
-| 300. Longest Increasing Subsequence | Solution       | Medium |
+| 1D DP                               |                 |        |
+| ----------------------------------- | --------------- | ------ |
+| 70. Climbing Stairs                 | [Solution][70]  | Easy   |
+| 198. House Robber                   | [Solution][198] | Medium |
+| 139. Word Break                     | Solution        | Medium |
+| 322. Coin Change                    | Solution        | Medium |
+| 300. Longest Increasing Subsequence | Solution        | Medium |
 
 [70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
+[198]: ./src/page-2/198.%20House%20Robber/rob.ts
 
 | Multidimensional DP                      |               |        |
 | ---------------------------------------- | ------------- | ------ |
@@ -651,7 +653,7 @@ Must-do List for Interview Prep
 | 118. Pascal's Triangle              | [Solution][118] | Easy   |
 | 139. Word Break                     | Solution        | Medium |
 | 152. Maximum Product Subarray       | Solution        | Medium |
-| 198. House Robber                   | Solution        | Medium |
+| 198. House Robber                   | [Solution][198] | Medium |
 | 279. Perfect Squares                | Solution        | Medium |
 | 300. Longest Increasing Subsequence | Solution        | Medium |
 | 322. Coin Change                    | Solution        | Medium |
@@ -661,6 +663,7 @@ Must-do List for Interview Prep
 [5]: ./src/page-1/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
 [70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
 [118]: ./src/page-2/118.%20Pascal's%20Triangle/generate.ts
+[198]: ./src/page-2/198.%20House%20Robber/rob.ts
 
 | Graph                  |                 |        |
 | ---------------------- | --------------- | ------ |
