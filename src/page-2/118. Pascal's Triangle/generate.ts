@@ -4,24 +4,16 @@ type Generate = (numRows: number) => number[][];
  * Accepted
  */
 export const generate: Generate = (numRows) => {
-  if (numRows <= 0) return [];
+  const triangle: number[][] = [];
 
-  const triangle = [[1]]; // first row
+  for (let i = 0; i < numRows; i++) {
+    const row: number[] = Array(i + 1).fill(1);
 
-  if (numRows === 1) return triangle;
-
-  for (let i = 1; i < numRows; i++) {
-    const newRow = [1]; // first item of each row is 1
-    const prevRow = triangle[i - 1];
-
-    for (let j = 1; j <= i; j++) {
-      const prev = prevRow[j - 1];
-      const cur = prevRow[j] || 0; // last item plus 0
-
-      newRow.push(prev + cur);
+    for (let j = 1; j < i; j++) {
+      row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j];
     }
 
-    triangle.push(newRow);
+    triangle.push(row);
   }
 
   return triangle;
