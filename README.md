@@ -252,12 +252,14 @@ Ace Coding Interview with 75 Qs
 [198]: ./src/page-2/198.%20House%20Robber/rob.ts
 [790]: ./src/page-8/790.%20Domino%20and%20Tromino%20Tiling/numTilings.ts
 
-| DP - Multidimensional                                     |          |        |
-| --------------------------------------------------------- | -------- | ------ |
-| 62. Unique Paths                                          | Solution | Medium |
-| 1143. Longest Common Subsequence                          | Solution | Medium |
-| 714. Best Time to Buy and Sell Stock with Transaction Fee | Solution | Medium |
-| 72. Edit Distance                                         | Solution | Medium |
+| DP - Multidimensional                                     |                |        |
+| --------------------------------------------------------- | -------------- | ------ |
+| 62. Unique Paths                                          | [Solution][62] | Medium |
+| 1143. Longest Common Subsequence                          | Solution       | Medium |
+| 714. Best Time to Buy and Sell Stock with Transaction Fee | Solution       | Medium |
+| 72. Edit Distance                                         | Solution       | Medium |
+
+[62]: ./src/page-1/62.%20Unique%20Paths/uniquePaths.ts
 
 | Bit Manipulation                              |                  |        |
 | --------------------------------------------- | ---------------- | ------ |
@@ -647,7 +649,7 @@ Must-do List for Interview Prep
 | ----------------------------------- | --------------- | ------ |
 | 5. Longest Palindromic Substring    | [Solution][5]   | Medium |
 | 32. Longest Valid Parentheses       | Solution        | Hard   |
-| 62. Unique Paths                    | Solution        | Medium |
+| 62. Unique Paths                    | [Solution][62]  | Medium |
 | 64. Minimum Path Sum                | Solution        | Medium |
 | 70. Climbing Stairs                 | [Solution][70]  | Easy   |
 | 72. Edit Distance                   | Solution        | Medium |
@@ -662,6 +664,7 @@ Must-do List for Interview Prep
 | 1143. Longest Common Subsequence    | Solution        | Medium |
 
 [5]: ./src/page-1/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
+[62]: ./src/page-1/62.%20Unique%20Paths/uniquePaths.ts
 [70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
 [118]: ./src/page-2/118.%20Pascal's%20Triangle/generate.ts
 [198]: ./src/page-2/198.%20House%20Robber/rob.ts
