@@ -272,12 +272,13 @@ Ace Coding Interview with 75 Qs
 [136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
 [1318]: ./src/page-13/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.ts
 
-| Trie                              |                 |        |
-| --------------------------------- | --------------- | ------ |
-| 208. Implement Trie (Prefix Tree) | [Solution][208] | Medium |
-| 1268. Search Suggestions System   | Solution        | Medium |
+| Trie                              |                  |        |
+| --------------------------------- | ---------------- | ------ |
+| 208. Implement Trie (Prefix Tree) | [Solution][208]  | Medium |
+| 1268. Search Suggestions System   | [Solution][1268] | Medium |
 
 [208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
+[1268]: ./src/page-12/1268.%20Search%20Suggestions%20System/suggestedProducts.ts
 
 | Intervals                                       |          |        |
 | ----------------------------------------------- | -------- | ------ |
