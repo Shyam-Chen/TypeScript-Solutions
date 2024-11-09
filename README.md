@@ -280,10 +280,12 @@ Ace Coding Interview with 75 Qs
 [208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 [1268]: ./src/page-12/1268.%20Search%20Suggestions%20System/suggestedProducts.ts
 
-| Intervals                                       |          |        |
-| ----------------------------------------------- | -------- | ------ |
-| 435. Non-overlapping Intervals                  | Solution | Medium |
-| 452. Minimum Number of Arrows to Burst Balloons | Solution | Medium |
+| Intervals                                       |                 |        |
+| ----------------------------------------------- | --------------- | ------ |
+| 435. Non-overlapping Intervals                  | [Solution][435] | Medium |
+| 452. Minimum Number of Arrows to Burst Balloons | Solution        | Medium |
+
+[435]: ./src/page-5/435.%20Non-overlapping%20Intervals/eraseOverlapIntervals.ts
 
 | Monotonic Stack         |          |        |
 | ----------------------- | -------- | ------ |
