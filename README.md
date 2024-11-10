@@ -283,9 +283,10 @@ Ace Coding Interview with 75 Qs
 | Intervals                                       |                 |        |
 | ----------------------------------------------- | --------------- | ------ |
 | 435. Non-overlapping Intervals                  | [Solution][435] | Medium |
-| 452. Minimum Number of Arrows to Burst Balloons | Solution        | Medium |
+| 452. Minimum Number of Arrows to Burst Balloons | [Solution][452] | Medium |
 
 [435]: ./src/page-5/435.%20Non-overlapping%20Intervals/eraseOverlapIntervals.ts
+[452]: ./src/page-5/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/findMinArrowShots.ts
 
 | Monotonic Stack         |          |        |
 | ----------------------- | -------- | ------ |
@@ -385,12 +386,14 @@ Must-do List for Interview Prep
 
 [1]: ./src/page-1/1.%20Two%20Sum/twoSum.ts
 
-| Intervals                                       |          |        |
-| ----------------------------------------------- | -------- | ------ |
-| 228. Summary Ranges                             | Solution | Easy   |
-| 56. Merge Intervals                             | Solution | Medium |
-| 57. Insert Interval                             | Solution | Medium |
-| 452. Minimum Number of Arrows to Burst Balloons | Solution | Medium |
+| Intervals                                       |                 |        |
+| ----------------------------------------------- | --------------- | ------ |
+| 228. Summary Ranges                             | Solution        | Easy   |
+| 56. Merge Intervals                             | Solution        | Medium |
+| 57. Insert Interval                             | Solution        | Medium |
+| 452. Minimum Number of Arrows to Burst Balloons | [Solution][452] | Medium |
+
+[452]: ./src/page-5/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/findMinArrowShots.ts
 
 | Stack                                 |                 |        |
 | ------------------------------------- | --------------- | ------ |
