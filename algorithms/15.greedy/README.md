@@ -1,5 +1,7 @@
 # 貪婪 (Greedy)
 
+在問題的每個決策階段 都選擇當前看起來最優的選擇，以期望能得到全域的最優解。
+
 ## 分數背包問題 (Fractional Knapsack Problem)
 
 給定一個背包，背包的容量是有限的，你可以選擇將物品裝入背包。每個物品有一個重量和價值，但你可以選擇將物品切割，部分裝入背包。目標是最大化裝入背包中的物品的總價值。
@@ -39,3 +41,5 @@ values[i - 1] / weights[i - 1];
 ```ts
 items.sort((a, b) => b.value / b.weight - a.value / a.weight);
 ```
+
+16
