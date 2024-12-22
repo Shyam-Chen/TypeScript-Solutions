@@ -4,16 +4,16 @@ type MergeAlternately = (word1: string, word2: string) => string;
  * Accepted
  */
 export const mergeAlternately: MergeAlternately = (word1, word2) => {
-  const array1 = Array.from(word1);
-  const array2 = Array.from(word2);
+  const chars1 = Array.from(word1);
+  const chars2 = Array.from(word2);
 
-  let zip = array1.flatMap((cv, i) => [cv, array2[i]]);
+  let mergedChars = chars1.flatMap((char, index) => [char, chars2[index]]);
 
-  if (array2.length > array1.length) {
-    zip = [...zip, ...array2.slice(array1.length)];
+  if (chars2.length > chars1.length) {
+    mergedChars = [...mergedChars, ...chars2.slice(chars1.length)];
   }
 
-  return zip.join('');
+  return mergedChars.join('');
 };
 
 /**
@@ -22,18 +22,18 @@ export const mergeAlternately: MergeAlternately = (word1, word2) => {
 export const mergeAlternately2: MergeAlternately = (word1, word2) => {
   let result = '';
 
-  let w1i = 0;
-  let w2i = 0;
+  let pointer1 = 0;
+  let pointer2 = 0;
 
-  while (w1i < word1.length || w2i < word2.length) {
-    if (w1i < word1.length) {
-      result += word1[w1i];
-      w1i += 1;
+  while (pointer1 < word1.length || pointer2 < word2.length) {
+    if (pointer1 < word1.length) {
+      result += word1[pointer1];
+      pointer1 += 1;
     }
 
-    if (w2i < word2.length) {
-      result += word2[w2i];
-      w2i += 1;
+    if (pointer2 < word2.length) {
+      result += word2[pointer2];
+      pointer2 += 1;
     }
   }
 
