@@ -289,10 +289,12 @@ Ace Coding Interview with 75 Qs
 [435]: ./src/page-5/435.%20Non-overlapping%20Intervals/eraseOverlapIntervals.ts
 [452]: ./src/page-5/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/findMinArrowShots.ts
 
-| Monotonic Stack         |          |        |
-| ----------------------- | -------- | ------ |
-| 739. Daily Temperatures | Solution | Medium |
-| 901. Online Stock Span  | Solution | Medium |
+| Monotonic Stack         |                 |        |
+| ----------------------- | --------------- | ------ |
+| 739. Daily Temperatures | [Solution][739] | Medium |
+| 901. Online Stock Span  | Solution        | Medium |
+
+[739]: ./src/page-7/739.%20Daily%20Temperatures/dailyTemperatures.ts
 
 </details>
 
