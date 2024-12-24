@@ -253,15 +253,17 @@ Ace Coding Interview with 75 Qs
 [198]: ./src/page-2/198.%20House%20Robber/rob.ts
 [790]: ./src/page-8/790.%20Domino%20and%20Tromino%20Tiling/numTilings.ts
 
-| DP - Multidimensional                                     |                  |        |
-| --------------------------------------------------------- | ---------------- | ------ |
-| 62. Unique Paths                                          | [Solution][62]   | Medium |
-| 1143. Longest Common Subsequence                          | [Solution][1143] | Medium |
-| 714. Best Time to Buy and Sell Stock with Transaction Fee | Solution         | Medium |
-| 72. Edit Distance                                         | Solution         | Medium |
+| DP - Multidimensional                                     |                  |        |                         |
+| --------------------------------------------------------- | ---------------- | ------ | ----------------------- |
+| 62. Unique Paths                                          | [Solution][62]   | Medium | 詳解                    |
+| 1143. Longest Common Subsequence                          | [Solution][1143] | Medium | 詳解                    |
+| 714. Best Time to Buy and Sell Stock with Transaction Fee | [Solution][714]  | Medium | [詳解][714-explanation] |
+| 72. Edit Distance                                         | Solution         | Medium | 詳解                    |
 
 [62]: ./src/page-1/62.%20Unique%20Paths/uniquePaths.ts
 [1143]: ./src/page-11/1143.%20Longest%20Common%20Subsequence/longestCommonSubsequence.ts
+[714]: ./src/page-7/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee/maxProfit.ts
+[714-explanation]: ./src/page-7/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee/README.md
 
 | Bit Manipulation                              |                  |        |
 | --------------------------------------------- | ---------------- | ------ |
