@@ -22,7 +22,7 @@ export const maxProfit2: MaxProfit = (prices, fee) => {
   let profit = 0;
   let prevPrice = prices[0];
 
-  for (let i = 0; i < prices.length; i++) {
+  for (let i = 1; i < prices.length; i++) {
     if (prices[i] > prevPrice + fee) {
       profit += prices[i] - prevPrice - fee;
       prevPrice = prices[i] - fee;

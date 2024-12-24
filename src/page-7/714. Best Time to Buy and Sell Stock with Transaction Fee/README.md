@@ -104,19 +104,26 @@ export const maxProfit: MaxProfit = (prices, fee) => {
 
 使用貪婪 (Greedy)
 
+決策：
+
+- 何時賣出：當當前價格與之前的買入價格之差超過交易費時賣出，以鎖定利潤。
+- 何時更新「買入價」：如果找到比目前追踪的 `prevPrice` 更低的價格，就更新 `prevPrice`，以便減少成本。
+
 ```ts
 export const maxProfit2: MaxProfit = (prices, fee) => {
-  let profit = 0;
-  let prevPrice = prices[0];
+  let profit = 0; // 總利潤
+  let prevPrice = prices[0]; // 追踪有效的「買入價」
 
-  for (let i = 0; i < prices.length; i++) {
+  for (let i = 1; i < prices.length; i++) {
+    // 如果達到賣出的利潤門檻
     if (prices[i] > prevPrice + fee) {
       profit += prices[i] - prevPrice - fee;
-      prevPrice = prices[i] - fee;
+      prevPrice = prices[i] - fee; // 更新「買入價」以便後續交易
     }
 
+    // 如果當前價格低於「買入價」
     if (prices[i] < prevPrice) {
-      prevPrice = prices[i];
+      prevPrice = prices[i]; // 更新「買入價」
     }
   }
 
