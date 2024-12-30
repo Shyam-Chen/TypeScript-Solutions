@@ -6,7 +6,7 @@
 
 範例 1：
 
-```ts
+```coffee
 輸入: word1 = "abc", word2 = "pqr"
 輸出: "apbqcr"
 說明: 字串合併情況如下所示：
@@ -17,7 +17,7 @@ word2:   p   q   r
 
 範例 2：
 
-```ts
+```coffee
 輸入: word1 = "ab", word2 = "pqrs"
 輸出: "apbqrs"
 說明: 注意，word2 比 word1 長，"rs" 需要追加到合併後字串的結尾。
@@ -28,7 +28,7 @@ word2:   p   q   r   s
 
 範例 3：
 
-```ts
+```coffee
 輸入: word1 = "abcd", word2 = "pq"
 輸出: "apbqcd"
 說明: 注意，word1 比 word2 長，"cd" 需要追加到合併後字串的結尾。
