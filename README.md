@@ -295,9 +295,10 @@ Problems:
 | Monotonic Stack         |                 |        |      |
 | ----------------------- | --------------- | ------ | ---- |
 | 739. Daily Temperatures | [Solution][739] | Medium | 詳解 |
-| 901. Online Stock Span  | Solution        | Medium | 詳解 |
+| 901. Online Stock Span  | [Solution][901] | Medium | 詳解 |
 
 [739]: ./src/page-7/739.%20Daily%20Temperatures/dailyTemperatures.ts
+[901]: ./src/page-9/901.%20Online%20Stock%20Span/StockSpanner.ts
 
 ## Advanced - Top Interview 150
 
