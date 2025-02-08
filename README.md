@@ -82,14 +82,15 @@ Problems:
 [334]: ./src/page-4/334.%20Increasing%20Triplet%20Subsequence/increasingTriplet.ts
 [443]: ./src/page-5/443.%20String%20Compression/compress.ts
 
-| Two Pointers                    |                  |        |      |
-| ------------------------------- | ---------------- | ------ | ---- |
-| 283. Move Zeroes                | [Solution][283]  | Easy   | 詳解 |
-| 392. Is Subsequence             | [Solution][392]  | Easy   | 詳解 |
-| 11. Container With Most Water   | [Solution][11]   | Medium | 詳解 |
-| 1679. Max Number of K-Sum Pairs | [Solution][1679] | Medium | 詳解 |
+| Two Pointers                    |                  |        |                         |
+| ------------------------------- | ---------------- | ------ | ----------------------- |
+| 283. Move Zeroes                | [Solution][283]  | Easy   | [詳解][283-explanation] |
+| 392. Is Subsequence             | [Solution][392]  | Easy   | 詳解                    |
+| 11. Container With Most Water   | [Solution][11]   | Medium | 詳解                    |
+| 1679. Max Number of K-Sum Pairs | [Solution][1679] | Medium | 詳解                    |
 
 [283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
+[283-explanation]: ./src/page-3/283.%20Move%20Zeroes/README.md
 [392]: ./src/page-4/392.%20Is%20Subsequence/isSubsequence.ts
 [11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
 [1679]: ./src/page-16/1679.%20Max%20Number%20of%20K-Sum%20Pairs/maxOperations.ts
@@ -778,15 +779,16 @@ Problems:
 [394]: ./src/page-4/394.%20Decode%20String/decodeString.ts
 [739]: ./src/page-7/739.%20Daily%20Temperatures/dailyTemperatures.ts
 
-| Two Pointers                  |                 |        |      |
-| ----------------------------- | --------------- | ------ | ---- |
-| 11. Container With Most Water | [Solution][11]  | Medium | 詳解 |
-| 15. 3Sum                      | Solution        | Medium | 詳解 |
-| 42. Trapping Rain Water       | Solution        | Hard   | 詳解 |
-| 283. Move Zeroes              | [Solution][283] | Easy   | 詳解 |
+| Two Pointers                  |                 |        |                         |
+| ----------------------------- | --------------- | ------ | ----------------------- |
+| 11. Container With Most Water | [Solution][11]  | Medium | 詳解                    |
+| 15. 3Sum                      | Solution        | Medium | 詳解                    |
+| 42. Trapping Rain Water       | Solution        | Hard   | 詳解                    |
+| 283. Move Zeroes              | [Solution][283] | Easy   | [詳解][283-explanation] |
 
 [11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
 [283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
+[283-explanation]: ./src/page-3/283.%20Move%20Zeroes/README.md
 
 | Trie                              |                 |        |      |
 | --------------------------------- | --------------- | ------ | ---- |
