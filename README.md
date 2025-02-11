@@ -581,12 +581,13 @@ Problems:
 | ----------------------------------- | --------------- | ------ | ---- |
 | 70. Climbing Stairs                 | [Solution][70]  | Easy   | 詳解 |
 | 198. House Robber                   | [Solution][198] | Medium | 詳解 |
-| 139. Word Break                     | Solution        | Medium | 詳解 |
+| 139. Word Break                     | [Solution][139] | Medium | 詳解 |
 | 322. Coin Change                    | Solution        | Medium | 詳解 |
 | 300. Longest Increasing Subsequence | Solution        | Medium | 詳解 |
 
 [70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
 [198]: ./src/page-2/198.%20House%20Robber/rob.ts
+[139]: ./src/page-2/139.%20Word%20Break/wordBreak.ts
 
 | Multidimensional DP                      |                |        |                        |
 | ---------------------------------------- | -------------- | ------ | ---------------------- |
@@ -676,7 +677,7 @@ Problems:
 | 70. Climbing Stairs                 | [Solution][70]   | Easy   | 詳解                   |
 | 72. Edit Distance                   | [Solution][72]   | Medium | [詳解][72-explanation] |
 | 118. Pascal's Triangle              | [Solution][118]  | Easy   | 詳解                   |
-| 139. Word Break                     | Solution         | Medium | 詳解                   |
+| 139. Word Break                     | [Solution][139]  | Medium | 詳解                   |
 | 152. Maximum Product Subarray       | Solution         | Medium | 詳解                   |
 | 198. House Robber                   | [Solution][198]  | Medium | 詳解                   |
 | 279. Perfect Squares                | Solution         | Medium | 詳解                   |
@@ -691,6 +692,7 @@ Problems:
 [72]: ./src/page-1/72.%20Edit%20Distance/minDistance.ts
 [72-explanation]: ./src/page-1/72.%20Edit%20Distance/README.md
 [118]: ./src/page-2/118.%20Pascal's%20Triangle/generate.ts
+[139]: ./src/page-2/139.%20Word%20Break/wordBreak.ts
 [198]: ./src/page-2/198.%20House%20Robber/rob.ts
 [1143]: ./src/page-11/1143.%20Longest%20Common%20Subsequence/longestCommonSubsequence.ts
 
