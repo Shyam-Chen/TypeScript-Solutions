@@ -5,7 +5,7 @@ type MinCostClimbingStairs = (cost: number[]) => number;
  */
 export const minCostClimbingStairs: MinCostClimbingStairs = (cost) => {
   const n = cost.length;
-  const dp: number[] = new Array(n + 1).fill(0);
+  const dp: number[] = Array(n + 1).fill(0);
 
   // Populate dp array using the state transition
   for (let i = 2; i <= n; i++) {

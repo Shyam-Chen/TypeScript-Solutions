@@ -56,6 +56,12 @@ arr; // ['A', 'B', 'D', 'E']
 
 ## 雙指標 (Two Pointers)
 
+相關名詞：
+
+- 弗洛伊德判圈演算法 (Floyd’s Cycle Detection Algorithm)
+- 龜兔賽跑演算法 (Tortoise and Hare Algorithm)
+- 快慢指標 (Fast and Slow Pointers)
+
 問題：移動數字 0 至末尾。
 
 ```ts
