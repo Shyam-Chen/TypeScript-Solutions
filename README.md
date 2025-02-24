@@ -798,21 +798,22 @@ Problems:
 
 [208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
-| Misc                              |                 |        |      |
-| --------------------------------- | --------------- | ------ | ---- |
-| 31. Next Permutation              | Solution        | Medium | 詳解 |
-| 41. First Missing Positive        | Solution        | Hard   | 詳解 |
-| 53. Maximum Subarray              | [Solution][53]  | Medium | 詳解 |
-| 56. Merge Intervals               | Solution        | Medium | 詳解 |
-| 75. Sort Colors                   | Solution        | Medium | 詳解 |
-| 136. Single Number                | [Solution][136] | Easy   | 詳解 |
-| 169. Majority Element             | Solution        | Easy   | 詳解 |
-| 189. Rotate Array                 | [Solution][189] | Medium | 詳解 |
-| 238. Product of Array Except Self | [Solution][238] | Medium | 詳解 |
-| 287. Find the Duplicate Number    | [Solution][287] | Medium | 詳解 |
+| Misc                              |                 |        |                         |
+| --------------------------------- | --------------- | ------ | ----------------------- |
+| 31. Next Permutation              | Solution        | Medium | 詳解                    |
+| 41. First Missing Positive        | Solution        | Hard   | 詳解                    |
+| 53. Maximum Subarray              | [Solution][53]  | Medium | 詳解                    |
+| 56. Merge Intervals               | Solution        | Medium | 詳解                    |
+| 75. Sort Colors                   | Solution        | Medium | 詳解                    |
+| 136. Single Number                | [Solution][136] | Easy   | 詳解                    |
+| 169. Majority Element             | Solution        | Easy   | 詳解                    |
+| 189. Rotate Array                 | [Solution][189] | Medium | 詳解                    |
+| 238. Product of Array Except Self | [Solution][238] | Medium | 詳解                    |
+| 287. Find the Duplicate Number    | [Solution][287] | Medium | [詳解][287-explanation] |
 
 [53]: ./src/page-1/53.%20Maximum%20Subarray/maxSubArray.ts
 [136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
 [189]: ./src/page-2/189.%20Rotate%20Array/rotate.ts
 [238]: ./src/page-3/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
 [287]: ./src/page-3/287.%20Find%20the%20Duplicate%20Number/findDuplicate.ts
+[287-explanation]: ./src/page-3/287.%20Find%20the%20Duplicate%20Number/README.md
