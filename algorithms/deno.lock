@@ -1,16 +1,30 @@
 {
-  "version": "4",
+  "version": "5",
   "specifiers": {
-    "jsr:@std/data-structures@^1.0.4": "1.0.4"
+    "jsr:@std/assert@^1.0.13": "1.0.15",
+    "jsr:@std/data-structures@^1.0.9": "1.0.9",
+    "jsr:@std/internal@^1.0.12": "1.0.12"
   },
   "jsr": {
-    "@std/data-structures@1.0.4": {
-      "integrity": "fa0e20c11eb9ba673417450915c750a0001405a784e2a4e0c3725031681684a0"
+    "@std/assert@1.0.15": {
+      "integrity": "d64018e951dbdfab9777335ecdb000c0b4e3df036984083be219ce5941e4703b",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/data-structures@1.0.9": {
+      "integrity": "033d6e17e64bf1f84a614e647c1b015fa2576ae3312305821e1a4cb20674bb4d",
+      "dependencies": [
+        "jsr:@std/assert"
+      ]
+    },
+    "@std/internal@1.0.12": {
+      "integrity": "972a634fd5bc34b242024402972cd5143eac68d8dffaca5eaa4dba30ce17b027"
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/data-structures@^1.0.4"
+      "jsr:@std/data-structures@^1.0.9"
     ]
   }
 }

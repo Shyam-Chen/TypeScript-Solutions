@@ -1,4 +1,4 @@
-import { BinaryHeap, ascend } from '@std/data-structures';
+import { ascend, BinaryHeap } from '@std/data-structures';
 
 const minHeap = new BinaryHeap<number>(ascend);
 

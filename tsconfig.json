@@ -12,7 +12,7 @@
       "~/*": ["src/*"]
     },
     "resolveJsonModule": true,
-    "types": ["vite/client", "vitest/globals"],
+    "types": ["vite/client", "vitest/config", "vitest/globals"],
 
     "noEmit": true,
 
@@ -28,5 +28,5 @@
 
     "skipLibCheck": true
   },
-  "exclude": ["node_modules", "coverage", "algorithms"]
+  "include": ["src", "vite.config.ts"]
 }

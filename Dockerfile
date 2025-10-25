@@ -1,9 +1,8 @@
-FROM node:22-slim
+FROM node:24-slim
 
 WORKDIR /usr/src/app
 ADD . .
 
-ENV COREPACK_INTEGRITY_KEYS="0"
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable pnpm

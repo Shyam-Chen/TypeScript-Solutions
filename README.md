@@ -37,17 +37,19 @@ $ pnpm test twoSum.test.ts
 3. [堆疊 (Stack)](./algorithms/3.stack/README.md)
 4. [佇列 (Queue)](./algorithms/4.queue/README.md)
 5. [雜湊表 (Hash Table)](./algorithms/5.hash-table/README.md)
-6. [樹 (Tree)](./algorithms/6.tree/README.md)
-7. [堆積 (Heap)](./algorithms/7.heap/README.md)
-8. [圖 (Graph)](./algorithms/8.graph/README.md)
-9. [字典樹 (Trie)](./algorithms/9.trie/README.md)
-10. [排序 (Sorting)](./algorithms/10.sorting/README.md)
-11. [搜尋 (Searching)](./algorithms/11.searching/README.md)
-12. [分治 (Divide and Conquer)](./algorithms/12.divide-and-conquer/README.md)
-13. [回溯 (Backtracking)](./algorithms/13.backtracking/README.md)
-14. [動態規劃 (Dynamic Programming)](./algorithms/14.dynamic-programming/README.md)
-15. [貪婪 (Greedy)](./algorithms/15.greedy/README.md)
-16. [位元操作 (Bit Manipulation)](./algorithms/16.bit-manipulation/README.md)
+6. [二元樹 (Binary Tree)](./algorithms/6.tree/README.md)
+7. 二元搜尋樹 (Binary Search Tree)
+8. 平衡樹 (AVL / Red-Black Tree)
+9. [堆積 (Heap)](./algorithms/7.heap/README.md)
+10. [字典樹 (Trie)](./algorithms/9.trie/README.md)
+11. [圖 (Graph)](./algorithms/8.graph/README.md)
+12. [排序 (Sorting)](./algorithms/10.sorting/README.md)
+13. [搜尋 (Searching)](./algorithms/11.searching/README.md)
+14. [分治 (Divide and Conquer)](./algorithms/12.divide-and-conquer/README.md)
+15. [回溯 (Backtracking)](./algorithms/13.backtracking/README.md)
+16. [動態規劃 (Dynamic Programming)](./algorithms/14.dynamic-programming/README.md)
+17. [貪婪 (Greedy)](./algorithms/15.greedy/README.md)
+18. [位元操作 (Bit Manipulation)](./algorithms/16.bit-manipulation/README.md)
 
 ## Basic - LeetCode 75
 
@@ -759,12 +761,12 @@ Problems:
 
 [54]: ./src/page-1/54.%20Spiral%20Matrix/spiralOrder.ts
 
-| Sliding Window                                    |          |        |      |
-| ------------------------------------------------- | -------- | ------ | ---- |
-| 3. Longest Substring Without Repeating Characters | Solution | Medium | 詳解 |
-| 76. Minimum Window Substring                      | Solution | Hard   | 詳解 |
-| 239. Sliding Window Maximum                       | Solution | Hard   | 詳解 |
-| 438. Find All Anagrams in a String                | Solution | Medium | 詳解 |
+| Sliding Window                                    |               |        |      |
+| ------------------------------------------------- | ------------- | ------ | ---- |
+| 3. Longest Substring Without Repeating Characters | [Solution][3] | Medium | 詳解 |
+| 76. Minimum Window Substring                      | Solution      | Hard   | 詳解 |
+| 239. Sliding Window Maximum                       | Solution      | Hard   | 詳解 |
+| 438. Find All Anagrams in a String                | Solution      | Medium | 詳解 |
 
 [3]: ./src/page-1/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.ts
 

@@ -1,7 +1,15 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
-    "ignore": ["**/coverage", "**/@std/data-structures"]
+    "includes": ["**", "!**/@std/data-structures"]
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noAssignInExpressions": "off",
+        "noExplicitAny": "warn"
+      }
+    }
   },
   "formatter": {
     "indentStyle": "space",
