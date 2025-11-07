@@ -30,9 +30,13 @@ $ pnpm test twoSum.test.ts
 
 ## 程式設計 (Programming)
 
+Ecosystem: Deno
+
 [Read Me](./programming/README.md)
 
 ## 演算法 (Algorithms)
+
+Ecosystem: Node -> Deno (WIP)
 
 ### Beginning - Data Structures and Algorithms
 
@@ -828,16 +832,24 @@ Problems:
 
 ## 網頁應用 (Web Applications)
 
+Ecosystem: Node
+
 Vue
 
 ## 伺服器應用 (Server Applications)
+
+Ecosystem: Bun
 
 Elysia
 
 ## 雲端應用 (Cloud Applications)
 
+Ecosystem: Node + `tsx`
+
 Pulumi
 
 ## 原生應用 (Native Applications)
+
+Ecosystem: Node + Rust
 
 Tauri
