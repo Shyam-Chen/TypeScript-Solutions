@@ -28,30 +28,36 @@ $ pnpm test <FILE_NAME>
 $ pnpm test twoSum.test.ts
 ```
 
-## Beginning - Algorithms
+## 程式設計 (Programming)
+
+[Read Me](./programming/README.md)
+
+## 演算法 (Algorithms)
+
+### Beginning - Data Structures and Algorithms
 
 解題前應該學會的思路與技巧
 
-1. [陣列 (Array)](./algorithms/1.array/README.md)
-2. [鏈結串列 (Linked List)](./algorithms/2.linked-list/README.md)
-3. [堆疊 (Stack)](./algorithms/3.stack/README.md)
-4. [佇列 (Queue)](./algorithms/4.queue/README.md)
-5. [雜湊表 (Hash Table)](./algorithms/5.hash-table/README.md)
-6. [二元樹 (Binary Tree)](./algorithms/6.tree/README.md)
-7. 二元搜尋樹 (Binary Search Tree)
-8. 平衡樹 (AVL / Red-Black Tree)
-9. [堆積 (Heap)](./algorithms/7.heap/README.md)
-10. [字典樹 (Trie)](./algorithms/9.trie/README.md)
-11. [圖 (Graph)](./algorithms/8.graph/README.md)
-12. [排序 (Sorting)](./algorithms/10.sorting/README.md)
-13. [搜尋 (Searching)](./algorithms/11.searching/README.md)
-14. [分治 (Divide and Conquer)](./algorithms/12.divide-and-conquer/README.md)
-15. [回溯 (Backtracking)](./algorithms/13.backtracking/README.md)
-16. [動態規劃 (Dynamic Programming)](./algorithms/14.dynamic-programming/README.md)
-17. [貪婪 (Greedy)](./algorithms/15.greedy/README.md)
-18. [位元操作 (Bit Manipulation)](./algorithms/16.bit-manipulation/README.md)
+1. [陣列 (Array)](./algorithms/array/README.md)
+2. [鏈結串列 (Linked List)](./algorithms/linked-list/README.md)
+3. [堆疊 (Stack)](./algorithms/stack/README.md)
+4. [佇列 (Queue)](./algorithms/queue/README.md)
+5. [雜湊表 (Hash Table)](./algorithms/hash-table/README.md)
+6. [二元樹 (Binary Tree)](./algorithms/binary-tree/README.md)
+7. [二元搜尋樹 (Binary Search Tree)](./algorithms/binary-search-tree/README.md)
+8. [平衡樹 (Balanced Tree, AVL / Red-Black Tree)](./algorithms/balanced-tree/README.md)
+9. [堆積 (Heap)](./algorithms/heap/README.md)
+10. [字典樹 (Trie)](./algorithms/trie/README.md)
+11. [圖 (Graph)](./algorithms/graph/README.md)
+12. [排序 (Sorting)](./algorithms/sorting/README.md)
+13. [搜尋 (Searching)](./algorithms/searching/README.md)
+14. [分治 (Divide and Conquer)](./algorithms/divide-and-conquer/README.md)
+15. [回溯 (Backtracking)](./algorithms/backtracking/README.md)
+16. [動態規劃 (Dynamic Programming)](./algorithms/dynamic-programming/README.md)
+17. [貪婪 (Greedy)](./algorithms/greedy/README.md)
+18. [位元操作 (Bit Manipulation)](./algorithms/bit-manipulation/README.md)
 
-## Basic - LeetCode 75
+### Basic - LeetCode 75
 
 Ace Coding Interview with 75 Qs
 
@@ -303,7 +309,7 @@ Problems:
 [739]: ./src/page-7/739.%20Daily%20Temperatures/dailyTemperatures.ts
 [901]: ./src/page-9/901.%20Online%20Stock%20Span/StockSpanner.ts
 
-## Advanced - Top Interview 150
+### Advanced - Top Interview 150
 
 Must-do List for Interview Prep
 
@@ -607,7 +613,7 @@ Problems:
 [72]: ./src/page-1/72.%20Edit%20Distance/minDistance.ts
 [72-explanation]: ./src/page-1/72.%20Edit%20Distance/README.md
 
-## Impactful - Top 100 Liked
+### Impactful - Top 100 Liked
 
 100 Best Rated Problems
 
@@ -819,3 +825,19 @@ Problems:
 [238]: ./src/page-3/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
 [287]: ./src/page-3/287.%20Find%20the%20Duplicate%20Number/findDuplicate.ts
 [287-explanation]: ./src/page-3/287.%20Find%20the%20Duplicate%20Number/README.md
+
+## 網頁應用 (Web Applications)
+
+Vue
+
+## 伺服器應用 (Server Applications)
+
+Elysia
+
+## 雲端應用 (Cloud Applications)
+
+Pulumi
+
+## 原生應用 (Native Applications)
+
+Tauri

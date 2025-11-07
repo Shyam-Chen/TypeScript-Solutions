@@ -1,6 +1,6 @@
 # 排序 (Sorting)
 
-## 泡沫排序 (Bubble Sort)
+## 冒泡排序 (Bubble Sort)
 
 依次比較相鄰的兩個元素，並將較大的元素交換到後面。
 
