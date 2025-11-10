@@ -1,0 +1,26 @@
+services:
+  local-mongo:
+    image: mongo:8
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpasswd
+      MONGO_INITDB_DATABASE: mydb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-data:/data
+      - ./db:/docker-entrypoint-initdb.d:ro
+
+  local-redis:
+    image: redis:8
+    restart: always
+    command: redis-server --save 60 1 --loglevel warning
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data
+
+volumes:
+  mongo-data:
+  redis-data:
