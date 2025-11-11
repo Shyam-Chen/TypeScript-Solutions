@@ -10,7 +10,6 @@ services:
       - 27017:27017
     volumes:
       - mongo-data:/data
-      - ./db:/docker-entrypoint-initdb.d:ro
 
   local-redis:
     image: redis:8

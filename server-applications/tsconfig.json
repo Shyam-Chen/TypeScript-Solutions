@@ -1,34 +1,38 @@
 {
   "compilerOptions": {
-    // Environment setup & latest features
+    /* 1) JS 語言目標與模組格式 */
     "target": "ESNext",
     "module": "Preserve",
     "lib": ["ESNext"],
     "jsx": "react-jsx",
+
+    /* 2) 執行平台與型別（Bun） */
     "types": ["@types/bun"],
 
-    // Bundler mode
+    /* 3) 模組解析與導入行為（Bun 友善） */
     "moduleResolution": "bundler",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
+
+    /* 4) 路徑對應 */
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]
     },
 
-    // 环境支持和代码处理
+    /* 5) JS/TS 混用與輸出 */
     "allowJs": true,
     "noEmit": true,
 
-    // Best practices
+    /* 6) 型別嚴格性 */
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
 
-    // Some stricter flags (disabled by default)
+    /* 7) 可選「雜訊控制」— 保持你目前習慣 */
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
