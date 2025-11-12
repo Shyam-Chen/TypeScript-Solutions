@@ -1,4 +1,4 @@
-import { ListNode } from '../2.linked-list/ListNode.ts';
+import { ListNode } from '../linked-list/ListNode.ts';
 
 export class LinkedListStack<T> {
   private head: ListNode<T> | null = null;

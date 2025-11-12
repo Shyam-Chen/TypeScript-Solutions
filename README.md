@@ -46,7 +46,7 @@ Environment: Deno
 - [Generics (泛型)](./programming/README.md#generics-泛型)
 - [Type Assertion (型別斷言)](./programming/README.md#type-assertion-型別斷言)
 - [Exponentiation Operators (冪運算子)](./programming/README.md#exponentiation-operators-冪運算子)
-- [Mixins (混入)](./programming/README.md#mixins-混入)
+- [實作 (Implements)](./programming/README.md#實作-implements)
 - [Declaration Merging (合併宣告)](./programming/README.md#declaration-merging-合併宣告)
 - [Set (似陣列)](./programming/README.md#set-似陣列)
 - [Map (似物件)](./programming/README.md#map-似物件)

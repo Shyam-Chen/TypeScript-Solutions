@@ -1,4 +1,4 @@
-function bfs(adjacencyList: Map<string, string[]>, startVertex: string): void {
+export function bfs(adjacencyList: Map<string, string[]>, startVertex: string): void {
   const queue: string[] = [startVertex]; // 使用陣列作為佇列
   const visited = new Set<string>(); // 記錄已訪問的頂點
 

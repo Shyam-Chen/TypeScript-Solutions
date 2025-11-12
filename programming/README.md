@@ -18,7 +18,7 @@
 - [Generics (泛型)](#generics-泛型)
 - [Type Assertion (型別斷言)](#type-assertion-型別斷言)
 - [Exponentiation Operators (冪運算子)](#exponentiation-operators-冪運算子)
-- [Mixins (混入)](#mixins-混入)
+- [實作 (Implements)](#實作-implements)
 - [Declaration Merging (合併宣告)](#declaration-merging-合併宣告)
 - [Set (似陣列)](#set-似陣列)
 - [Map (似物件)](#map-似物件)
@@ -105,12 +105,12 @@ foo; // 123
 ```ts
 const bar = 123;
 bar; // 123
-bar = 456; // Error
+bar = 456; // ❌ Error
 ```
 
 ```ts
 const foo = { bar: 123 };
-foo = { bar: 456 }; // Error
+foo = { bar: 456 }; // ❌ Error
 foo.bar = 456; // OK
 foo; // { bar: 456 }
 ```
@@ -354,10 +354,10 @@ function foo(thing: number): void {
 
 ```ts
 let foo: string;
-foo; // Error
+foo; // ❌ Error
 
 let bar: string | null;
-bar; // Error
+bar; // ❌ Error
 
 let baz: string | undefined;
 baz; // OK
@@ -385,8 +385,8 @@ const value = response?.foo?.bar?.baz;
 ### Never (從未)
 
 ```ts
-function error(message: string): never {
-  throw new Error(message);
+function ❌ Error(message: string): never {
+  throw new ❌ Error(message);
 }
 ```
 
@@ -445,8 +445,8 @@ function getSomeThing(): Some | Thing {
 }
 let st = getSomeThing();
 
-st.foo(); // Error
-st.bar(); // Error
+st.foo(); // ❌ Error
+st.bar(); // ❌ Error
 st.baz(); // OK
 ```
 
@@ -458,7 +458,7 @@ let foo: ThingType;
 
 foo = 'abc'; // OK
 foo = 123; // OK
-foo = true; // Error
+foo = true; // ❌ Error
 ```
 
 String literal types (字串實字型別)
@@ -621,7 +621,7 @@ function thing(foo: Foo) {
 }
 
 thing({ bar: 123 }); // OK
-thing({ baz: 'abc' }); // Error
+thing({ baz: 'abc' }); // ❌ Error
 thing({ bar: 123, baz: 'abc' }); // OK
 ```
 
@@ -708,18 +708,59 @@ const addition = (a: number, b: number): number => {
 const addition = (a: number, b: number): number => a + b;
 
 addition(1, 1); // 2
-addition('1', '1'); // Error
+addition('1', '1'); // ❌ Error
+```
+
+物件實字中的方法 (Methods in Object Literals):
+
+```ts
+const calculator = {
+  add: function (a, b) {
+    return a + b;
+  },
+  // or
+  bar: (parameter) => {
+    return a + b;
+  },
+  // or
+  bar: (parameter) => a + b,
+  // or
+  bar(parameter) {
+    return a + b;
+  },
+};
 ```
 
 ```ts
-// object literal (物件實字)
-const foo: object = {
-  bar: function (parameter) {},
-  // or
-  bar: parameter => {}
-  // or
-  bar(parameter) {}
+const user = {
+  name: 'Alice',
+  greet() {
+    console.log(`Hi, I'm ${this.name}`);
+  },
 };
+
+user.greet();
+// Hi, I'm Alice
+
+const greetFn = user.greet;
+greetFn(); // ❌ this 變成 undefined，因為 this 綁定取決於呼叫方式，不是定義位置。
+// Hi, I'm
+```
+
+```ts
+const user = {
+  name: 'Alice',
+  greet() {
+    console.log(`Hi, I'm ${user.name}`); // 直接使用用 user 變數
+  },
+};
+
+user.greet();
+// Hi, I'm Alice
+
+const greetFn = user.greet;
+greetFn();
+// Hi, I'm Alice
 ```
 
 ### Optional Parameters (可選參數)
@@ -731,7 +772,7 @@ const thing = function (a: string, b: string, c?: string): string {
 
 thing('foo', 'bar', 'baz'); // foo bar baz
 thing('foo', 'bar'); // foo bar undefined
-thing('foo'); // Error
+thing('foo'); // ❌ Error
 ```
 
 ```ts
@@ -742,7 +783,7 @@ const thing = function (a: string, b: string, c?: string): string {
 
 thing('foo', 'bar', 'baz'); // foo bar baz
 thing('foo', 'bar'); // foo bar
-thing('foo'); // Error
+thing('foo'); // ❌ Error
 ```
 
 ### Default Parameters (預設參數)
@@ -848,7 +889,7 @@ class Name {
   }
 }
 
-new Name('Hale').name; // Error: 'name' is private
+new Name('Hale').name; // ❌ Error: 'name' is private
 ```
 
 ```ts
@@ -984,38 +1025,36 @@ interface Foo {
 type K1 = keyof Foo; // "bar" | "baz"
 ```
 
-映射
+型別轉換
+
+```ts
+Readonly<Type>;
+```
 
 ```ts
 interface Foo {
   thing: string;
 }
 
-interface Bar {
+type Optional<T> = {
+  [key in keyof T]?: T[key];
+};
+
+type Bar = Optional<Foo>;
+// type Bar = {
+//     thing?: string | undefined;
+// }
+```
+
+```ts
+interface Foo {
   thing: string;
 }
 
-type Foo<T> = {
-  [F in keyof T]?: T[F];
-};
-
-type Bar = Foo<Foo>;
-```
-
-型別轉換
-
-```ts
-type Readonly<T> = {
-  readonly [F in keyof T]: T[F];
-};
-```
-
-```ts
-Partial;
-```
-
-```ts
-Record;
+type Bar = Partial<Foo>;
+// type Bar = {
+//     thing?: string | undefined;
+// }
 ```
 
 ```ts
@@ -1044,8 +1083,8 @@ class Thing<T> {
   bar: Thing<T>;
 }
 
-let nt = new Thing<number>();
-let st = new Thing<string>();
+const nt = new Thing<number>();
+const st = new Thing<string>();
 
 nt.foo = new Thing<boolean>();
 ```
@@ -1056,7 +1095,7 @@ class Thing<T, U> {
   value: U;
 }
 
-let thing = new Thing<string, boolean>();
+const thing = new Thing<string, boolean>();
 
 thing.key = 'foo'; // OK
 thing.value = true; // OK
@@ -1070,10 +1109,9 @@ interface Foo {
   baz: string;
 }
 
-let foo = {} as Foo;
+const foo = {} as Foo;
 foo.bar = 123;
 foo.baz = 'abc';
-
 foo; // { bar: 123, baz: 'abc' }
 ```
 
@@ -1083,10 +1121,9 @@ interface Foo {
   baz: string;
 }
 
-let foo = <Foo>{};
+const foo = <Foo>{};
 foo.bar = 123;
 foo.baz = 'abc';
-
 foo; // { bar: 123, baz: 'abc' }
 ```
 
@@ -1097,12 +1134,12 @@ interface Foo {
   ts: string;
 }
 
-let foo = <Foo>{
+const foo = <Foo>{
   bar: 123,
   baz: 'abc',
 };
-foo.ts = 'TypeScript';
 
+foo.ts = 'TypeScript';
 foo; // { bar: 123, baz: 'abc', ts: 'TypeScript' }
 ```
 
@@ -1112,7 +1149,7 @@ interface Foo {
   baz: string;
 }
 
-let foo: Foo = {
+const foo: Foo = {
   bar: 123,
   baz: 'abc',
 };
@@ -1140,44 +1177,42 @@ x;  // -8
 let y = (-2) ** 3;
 y;  // -8
 
-// Error
+// ❌ Error
 let z = -2 ** 3;
 z;
 ```
 
-## Mixins (混入)
+## 實作 (Implements)
 
 ```ts
-class Disposable {
-  isDisposed: boolean;
-  dispose() {
-    this.isDisposed = true;
+interface Person {
+  name: string;
+  greet(): void;
+}
+
+class User implements Person {
+  name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  greet(): void {
+    console.log(`Hello, I'm ${this.name}`);
   }
 }
 
-class Activatable {
-  isActive: boolean;
-  activate() {
-    this.isActive = true;
-  }
-  deactivate() {
-    this.isActive = false;
-  }
-}
-
-class SmartObject implements Disposable, Activatable {}
+const alice = new User('Alice');
+alice.greet();
+// Hello, I'm Alice
 ```
 
-```ts
-interface IFoo {
-  add(): number;
-}
+將 `greet(): void;` 改成 `greet(): string;` 就會報錯:
 
-class Foo implements IFoo {
-  public add() {
-    // 混入後，就不用再給型別了
-    return 123;
-  }
+```ts
+interface Person {
+  name: string;
+  greet(): string;
 }
 ```
 
@@ -1324,7 +1359,7 @@ Promise.race([
 ```ts
 foo()
   .then(() => console.log(4))
-  .catch((error) => console.error(error));
+  .catch((❌ Error) => console.❌ Error(❌ Error));
 ```
 
 鏈接
@@ -1334,7 +1369,12 @@ foo()
   .then(() => console.log(4))
   .then(() => console.log(6))
   .then(() => console.log(8))
-  .catch((error) => console.error(error));
+  .catch((❌ Error) => console.❌ Error(❌ Error))
+  .finally(() => console.log('Fulfilled or Rejected'));
+```
+
+```ts
+allSettled;
 ```
 
 ## Iterators (迭代器)

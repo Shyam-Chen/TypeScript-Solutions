@@ -1,4 +1,4 @@
-function binarySearch(arr: number[], target: number): number {
+export function binarySearch(arr: number[], target: number): number {
   let low = 0;
   let high = arr.length - 1;
 

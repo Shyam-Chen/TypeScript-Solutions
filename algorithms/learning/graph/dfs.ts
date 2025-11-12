@@ -1,4 +1,4 @@
-function dfs(
+export function dfs(
   adjacencyList: Map<string, string[]>,
   startVertex: string,
   visited: Set<string>,

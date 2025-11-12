@@ -1,4 +1,4 @@
-class Graph {
+export class Graph {
   // 鄰接表
   adjacencyList: Map<string, string[]>;
 
