@@ -1,14 +1,10 @@
-Date: Jul 21, 2021
-
-# TypeScript
-
-TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+# 程式設計 (Programming)
 
 ---
 
-### Table of Contents (目錄)
+### 目錄 (Table of Contents)
 
-- [Getting Started (起手式)](#getting-started-起手式)
+- [起手式 (Getting Started)](#起手式-getting-started)
 - [Variable Declarations (變數宣告)](#variable-declarations-變數宣告)
 - [Destructuring (分割代入)](#destructuring-分割代入)
 - [Types (型別)](#types-型別)
@@ -33,55 +29,58 @@ TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 - [Generators (產生器)](#generators-產生器)
 - [Async Functions (非同步函式)](#async-functions-非同步函式)
 - [Decorators (修飾器)](#decorators-修飾器)
-- Unit Testing (單元測試)
+- [測試 (Testing)](#測試-testing)
 
 ---
 
-## Getting Started (起手式)
+## 起手式 (Getting Started)
 
-Prerequisites (先決條件)
+先決條件 (Prerequisites):
 
-```bash
-$ node -v
-v8.12.0
+```sh
+# Windows (WinGet)
+>_ winget install --id=DenoLand.Deno  -e
 
-$ yarn -v
-1.10.1
+# macOS (Homebrew)
+$ brew install deno
+
+# Linux (Devbox via Nix)
+$ devbox global add deno
 ```
 
-Create a start project (建立起始專案)
-
-```bash
-$ mkdir typescript-starter
-$ cd typescript-starter
-$ yarn init -y
-
-# open code with current directory (在當前目錄打開程式碼)
-$ code .
+```sh
+$ deno -v
+deno 2.5.6
 ```
 
-```coffee
-.
-├── src
-│   └── index.ts
-├── jest.config.js
-├── package.json
-├── tsconfig.json
-├── tslint.json
-├── webpack.config.js
-└── yarn.lock
+建立起始專案 (Create a start project):
+
+```sh
+$ deno init my-project
 ```
 
-```js
-// webpack.config.js
-const SOURCE_ROOT = path.join(__dirname, 'src');
-const DISTRIBUTION_ROOT = path.join(__dirname, 'dist');
+執行:
 
-distribution files?
+```sh
+$ deno run main.ts --watch
+```
 
-module.exports = ({ prod = false } = {}) => ({
-  mode: prod ? 'production' : 'development',
-});
+格式化:
+
+```sh
+$ deno fmt
+```
+
+語法檢查:
+
+```sh
+$ deno lint
+```
+
+型別檢查:
+
+```sh
+$ deno check
 ```
 
 ## Variable Declarations (變數宣告)
@@ -176,17 +175,6 @@ const [a, , b] = foo();
 
 a; // 1
 b; // 3
-```
-
-```js
-const path = require('path');
-
-path.join(__dirname, 'thing');
-
-// destructuring
-const { join } = require('path');
-
-join(__dirname, 'thing');
 ```
 
 ## Types (型別)
@@ -337,6 +325,15 @@ declare enum Thing5 {
 }
 ```
 
+```ts
+const enum StatusEnum {
+  pendding,
+  completed,
+}
+
+type Status = keyof typeof StatusEnum;
+```
+
 ### Any (任意值)
 
 ```ts
@@ -478,6 +475,42 @@ function thing(): 0 | 1 {
 }
 ```
 
+### 映射型別 (Mapped Types)
+
+```ts
+type Platform = 'aws' | 'az' | 'gcloud';
+
+type Quantity = {
+  [key in Platform]: string;
+} & {
+  [key in `_${Platform}`]: number;
+};
+// type Quantity = {
+//     aws: string;
+//     az: string;
+//     gcloud: string;
+// } & {
+//     _aws: number;
+//     _az: number;
+//     _gcloud: number;
+// }
+```
+
+```ts
+type OnlyId<T> = {
+  [K in keyof T as K extends `${string}Id` ? K : never]: T[K];
+};
+
+type Data = {
+  userId: number;
+  name: string;
+  productId: number;
+};
+
+type IdOnly = OnlyId<Data>;
+// type IdOnly = { userId: number; productId: number }
+```
+
 ## Namespaces (命名空間)
 
 ```ts
@@ -520,7 +553,7 @@ export const numberRegexp = /^[0-9]+$/;
 
 ```ts
 // bar.ts
-import { Foo } from './foo';
+import { Foo } from './foo.ts';
 
 export class Bar {
   // ...
@@ -534,16 +567,16 @@ export default thing;
 
 ```ts
 // foo.ts
-export class Angular {
+export class Foo {
   // ...
 }
 ```
 
 ```ts
 // bar.ts
-import { Angular as Ng } from './foo'; // 對導入的內容重新命名
+import { Foo as MyFoo } from './foo.ts'; // 對導入的內容重新命名
 
-let ng = new Ng();
+const foo = new MyFoo();
 ```
 
 ```ts
@@ -559,17 +592,19 @@ declare module 'thing-module' {
 import * as thing from 'thing-module';
 ```
 
-Install the module definition via Types (透過 Types 安裝模組定義)
-
-```bash
-$ npm i @types/node -D
-# or
-$ yarn add @types/node -D
-```
-
 ```ts
 // script.ts
 import { join } from 'path'; // OK
+```
+
+```ts
+import path from 'path';
+
+path.join(import.meta.dirname, 'thing');
+
+import { join } from 'path';
+
+join(import.meta.dirname, 'thing');
 ```
 
 ## Interfaces (介面)
@@ -595,7 +630,7 @@ interface Thing {
   [index: number]: string;
 }
 
-let thing: Thing = ['a', 'b', 'c'];
+const thing: Thing = ['a', 'b', 'c'];
 
 let foo: string = thing[1]; // 'b'
 ```
@@ -610,7 +645,7 @@ function createSquare(square: Square): { color: string; area: number } {
   // ...
 }
 
-let cs = createSquare({ width: 100, opacity: 0.5 } as Square);
+const cs = createSquare({ width: 100, opacity: 0.5 } as Square);
 ```
 
 ```ts
@@ -788,6 +823,16 @@ const b = new B(); // logs "B"
 class Thing {
   public foo: string;
   private bar: string;
+  protected baz: string;
+
+  readonly num: number;
+}
+```
+
+```ts
+class Thing {
+  foo: string; // public
+  #bar: string; // private
   protected baz: string;
 
   readonly num: number;
@@ -1136,7 +1181,7 @@ class Foo implements IFoo {
 }
 ```
 
-## 合併宣告
+## Declaration Merging (合併宣告)
 
 ```ts
 // 合併介面
@@ -1441,6 +1486,13 @@ async function foo(x) {
 // 還有一個 Observable，如果要在現在環境使用 Observable，需要透過 RxJS 來實現
 ```
 
+```ts
+async function read() {
+  await using text = await Deno.readFile('input.txt');
+  console.log(text);
+}
+```
+
 ## Decorators (修飾器)
 
 ### Class Decorators (類別修飾器)
@@ -1559,4 +1611,25 @@ const Foo = (value: any) => {
 class Thing {
   @Foo('bar') public baz: string;
 }
+```
+
+## 測試 (Testing)
+
+```sh
+$ deno add @std/assert -D
+```
+
+```ts
+import { assertEquals } from '@std/assert';
+
+Deno.test('simple test', () => {
+  const x = 1 + 2;
+  assertEquals(x, 3);
+});
+```
+
+```sh
+$ deno test
+
+$ deno test --coverage
 ```

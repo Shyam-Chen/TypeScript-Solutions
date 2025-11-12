@@ -1,10 +1,12 @@
 # 回溯 (Backtracking)
 
-- 狀態
-- 嘗試
-- 回退
-- 紀錄解
-- 剪枝
+回溯法策略:
+
+1. 狀態 (State): 目前的解或部分解
+2. 嘗試 (Try / Choice): 針對下一步的可行選擇
+3. 回退 (Backtrack): 嘗試之後，還原狀態，以便探索其他選擇
+4. 紀錄解 (Record / Solution): 當達到目標條件時，保存結果
+5. 剪枝 (Pruning): 提前排除不可能的路徑，提高效率
 
 ```ts
 const result = [];
@@ -31,7 +33,45 @@ function backtrack() {
   }
 }
 
-backtrack([]);
+backtrack();
+```
+
+全排列:
+
+```ts
+const permutationLength = 3; // 每個排列要有幾個元素
+const maxNumber = 3; // 可選數字的最大值
+
+const current: number[] = []; // 當前狀態
+const solutions: number[][] = []; // 紀錄解
+
+function backtrack(current: number[], solutions: number[][]): void {
+  // 達到目標長度，紀錄解
+  if (current.length === permutationLength) {
+    solutions.push([...current]);
+    return;
+  }
+
+  // 嘗試每一個可能選擇
+  for (let i = 1; i <= maxNumber; i++) {
+    // 如果已經在 current 中，跳過 (剪枝)
+    if (current.includes(i)) continue;
+
+    // 嘗試
+    current.push(i);
+
+    // 繼續探索下一個
+    backtrack(current, solutions);
+
+    // 回退
+    current.pop();
+  }
+}
+
+backtrack(current, solutions);
+
+console.log('所有解: ', solutions);
+// 所有解: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
 ```
 
 問題：給定一個不同數字的候選陣列 `candidates` 和一個整數目標 `target`，根據候選陣列內的值加總等於整數目標的所有唯一組合的排列。
