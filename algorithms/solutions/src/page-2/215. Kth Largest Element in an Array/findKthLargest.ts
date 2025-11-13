@@ -1,4 +1,4 @@
-import { ascend, BinaryHeap } from '../../@std/data-structures';
+import { ascend, BinaryHeap } from '@std/data-structures';
 
 type findKthLargest = (nums: number[], k: number) => number;
 

@@ -1,5 +1,10 @@
 {
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "test": "deno test \"src/1. Two Sum\""
+  },
   "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.15",
     "@std/data-structures": "jsr:@std/data-structures@^1.0.9"
   },
   "fmt": {

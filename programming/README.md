@@ -62,7 +62,9 @@ $ deno init my-project
 執行:
 
 ```sh
-$ deno run main.ts --watch
+$ deno run --watch main.ts
+# or
+$ deno task dev
 ```
 
 格式化:

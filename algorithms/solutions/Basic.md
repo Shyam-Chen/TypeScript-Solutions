@@ -20,8 +20,8 @@ Problems:
 | 334. Increasing Triplet Subsequence            | [Solution][334]  | Medium | 詳解                     |
 | 443. String Compression                        | [Solution][443]  | Medium | 詳解                     |
 
-[1768]: ./src/page-17/1768.%20Merge%20Strings%20Alternately/mergeAlternately.ts
-[1768-explanation]: ./src/page-17/1768.%20Merge%20Strings%20Alternately/README.md
+[1768]: ./src/1768.%20Merge%20Strings%20Alternately/mergeAlternately.ts
+[1768-explanation]: ./src/1768.%20Merge%20Strings%20Alternately/README.md
 [1071]: ./src/page-11/1071.%20Greatest%20Common%20Divisor%20of%20Strings/gcdOfStrings.ts
 [1431]: ./src/page-14/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies/kidsWithCandies.ts
 [605]: ./src/page-6/605.%20Can%20Place%20Flowers/canPlaceFlowers.ts

@@ -1,4 +1,4 @@
-import { ascend, BinaryHeap } from '../../@std/data-structures';
+import { ascend, BinaryHeap } from '@std/data-structures';
 
 type MaxScore = (nums1: number[], nums2: number[], k: number) => number;
 

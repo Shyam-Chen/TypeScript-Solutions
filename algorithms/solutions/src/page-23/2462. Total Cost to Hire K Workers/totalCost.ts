@@ -1,4 +1,4 @@
-import { BinaryHeap } from '../../@std/data-structures';
+import { BinaryHeap } from '@std/data-structures';
 
 type TotalCost = (costs: number[], k: number, candidates: number) => number;
 
