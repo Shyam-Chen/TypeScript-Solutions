@@ -76,6 +76,14 @@ Environment: Node
 
 ## 伺服器應用 (Server Applications)
 
+Environment: Node
+
+[Fastify Starter](https://github.com/Shyam-Chen/Fastify-Starter)
+
+Environment: Deno
+
+Hono
+
 Environment: Bun
 
 Elysia
@@ -83,19 +91,34 @@ Elysia
 - 起手式 (Getting Started)
 - 應用程式 (Application)
 
-Environment: Node
-
-[Fastify Starter](https://github.com/Shyam-Chen/Fastify-Starter)
-
 ---
 
 ## 雲端應用 (Cloud Applications)
 
 Environment: Node
 
-- 跨平台叢集管理 + Rancher
-
 [Pulumi Starter](https://github.com/Shyam-Chen/Pulumi-Starter)
+
+- 應用程式 (Application)
+- 程式碼儲存庫 + GitLab
+  - GitLab Runner
+- 映像檔儲存庫 + Harbor
+- HashiCorp Vault
+- Lens
+- Prometheus/Loki + Grafana
+- Velero + MinIO
+- Longhorn
+- MetalLB + Istio
+- CUDA (NVIDIA Device Plugin, NVIDIA Container Toolkit)
+- 叢集管理 + Rancher
+- 部署
+  - Front-end App 前端應用
+  - Back-end App 後端應用
+  - MongoDB 文件資料庫
+  - MinIO 檔案儲存
+  - Redis 快取和佇列服務
+  - Background Worker 佇列處理
+  - Qdrant 向量資料庫
 
 ---
 
@@ -104,3 +127,12 @@ Environment: Node
 Environment: Node + Rust (No-code/Low-code)
 
 [Tauri Starter](https://github.com/Shyam-Chen/Tauri-Starter)
+
+- Windows
+- macOS
+- Android
+- iOS
+- Linux
+  - Ubuntu Desktop
+  - Raspberry Pi + Yahboom 7 inch HD capacitive touch screen
+  - Jetson Orin Nano + Yahboom 7 inch HD capacitive touch screen
