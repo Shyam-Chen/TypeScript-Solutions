@@ -1,8 +1,8 @@
-import { canPlaceFlowers } from './canPlaceFlowers';
+import { assertEquals } from '@std/assert';
 
-describe('605. Can Place Flowers', () => {
-  test('canPlaceFlowers', () => {
-    expect(canPlaceFlowers([1, 0, 0, 0, 1], 1)).toBe(true);
-    expect(canPlaceFlowers([1, 0, 0, 0, 1], 2)).toBe(false);
-  });
+import { canPlaceFlowers } from './canPlaceFlowers.ts';
+
+Deno.test('canPlaceFlowers', () => {
+  assertEquals(canPlaceFlowers([1, 0, 0, 0, 1], 1), true);
+  assertEquals(canPlaceFlowers([1, 0, 0, 0, 1], 2), false);
 });
