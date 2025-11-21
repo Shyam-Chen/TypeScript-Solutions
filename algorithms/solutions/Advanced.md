@@ -202,7 +202,7 @@ Problems:
 | 22. Generate Parentheses                  | Solution       | Medium | 詳解 |
 | 79. Word Search                           | Solution       | Medium | 詳解 |
 
-[17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
+[17]: ./src/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
 [46]: ./src/page-1/46.%20Permutations/permute.ts
 [39]: ./src/page-1/39.%20Combination%20Sum/combinationSum.ts
 

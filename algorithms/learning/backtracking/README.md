@@ -11,29 +11,30 @@
 ```ts
 const result = [];
 
-function backtrack() {
+function backtrack(/* ... */) {
   // 紀錄解
-  if (x) {
+  if (/* ... */) {
     result.push();
     return;
   }
 
-  for (y) {
+  // 嘗試每一個可能選擇
+  for (/* ... */) {
     // 剪枝
-    if (z) continue;
+    if (/* ... */) continue;
 
     // 嘗試
     push();
 
     // 繼續探索下一個
-    backtrack();
+    backtrack(/* ... */);
 
     // 回退
     pop();
   }
 }
 
-backtrack();
+backtrack(/* ... */);
 ```
 
 全排列:
@@ -70,7 +71,7 @@ function backtrack(current: number[], solutions: number[][]): void {
 
 backtrack(current, solutions);
 
-console.log('所有解: ', solutions);
+console.log("所有解: ", solutions);
 // 所有解: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
 ```
 

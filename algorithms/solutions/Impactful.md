@@ -10,17 +10,19 @@ Problems:
 | Backtracking                              |                |        |      |
 | ----------------------------------------- | -------------- | ------ | ---- |
 | 17. Letter Combinations of a Phone Number | [Solution][17] | Medium | 詳解 |
-| 22. Generate Parentheses                  | Solution       | Medium | 詳解 |
+| 22. Generate Parentheses                  | [Solution][22] | Medium | 詳解 |
 | 39. Combination Sum                       | [Solution][39] | Medium | 詳解 |
 | 46. Permutations                          | [Solution][46] | Medium | 詳解 |
-| 51. N-Queens                              | Solution       | Hard   | 詳解 |
+| 51. N-Queens                              | [Solution][51] | Hard   | 詳解 |
 | 78. Subsets                               | Solution       | Medium | 詳解 |
 | 79. Word Search                           | Solution       | Medium | 詳解 |
 | 131. Palindrome Partitioning              | Solution       | Medium | 詳解 |
 
-[17]: ./src/page-1/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
-[39]: ./src/page-1/39.%20Combination%20Sum/combinationSum.ts
-[46]: ./src/page-1/46.%20Permutations/permute.ts
+[17]: ./src/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
+[22]: ./src/22.%20Generate%20Parentheses/generateParenthesis.ts
+[39]: ./src/39.%20Combination%20Sum/combinationSum.ts
+[46]: ./src/46.%20Permutations/permute.ts
+[51]: ./src/51.%20N-Queens/solveNQueens.ts
 
 | Binary Search                                               |                |        |      |
 | ----------------------------------------------------------- | -------------- | ------ | ---- |
@@ -32,7 +34,7 @@ Problems:
 | 124. Binary Tree Maximum Path Sum                           | Solution       | Hard   | 詳解 |
 | 153. Find Minimum in Rotated Sorted Array                   | Solution       | Medium | 詳解 |
 
-[4]: ./src/page-1/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
+[4]: ./src/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
 [34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/searchRange.ts
 [35]: ./src/page-1/35.%20Search%20Insert%20Position/searchInsert.ts
 
