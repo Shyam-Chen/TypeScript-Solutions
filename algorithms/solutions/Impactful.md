@@ -35,8 +35,8 @@ Problems:
 | 153. Find Minimum in Rotated Sorted Array                   | Solution       | Medium | 詳解 |
 
 [4]: ./src/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
-[34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/searchRange.ts
-[35]: ./src/page-1/35.%20Search%20Insert%20Position/searchInsert.ts
+[34]: ./src/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/searchRange.ts
+[35]: ./src/35.%20Search%20Insert%20Position/searchInsert.ts
 
 | Binary Tree                                                    |                 |        |      |
 | -------------------------------------------------------------- | --------------- | ------ | ---- |
@@ -55,13 +55,13 @@ Problems:
 | 437. Path Sum III                                              | [Solution][437] | Medium | 詳解 |
 | 543. Diameter of Binary Tree                                   | Solution        | Easy   | 詳解 |
 
-[94]: ./src/page-1/94.%20Binary%20Tree%20Inorder%20Traversal/inorderTraversal.ts
-[101]: ./src/page-2/101.%20Symmetric%20Tree/isSymmetric.ts
-[104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
-[108]: ./src/page-2/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/sortedArrayToBST.ts
-[199]: ./src/page-2/199.%20Binary%20Tree%20Right%20Side%20View/rightSideView.ts
-[236]: ./src/page-3/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/lowestCommonAncestor.ts
-[437]: ./src/page-5/437.%20Path%20Sum%20III/pathSum.ts
+[94]: ./src/94.%20Binary%20Tree%20Inorder%20Traversal/inorderTraversal.ts
+[101]: ./src/101.%20Symmetric%20Tree/isSymmetric.ts
+[104]: ./src/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
+[108]: ./src/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/sortedArrayToBST.ts
+[199]: ./src/199.%20Binary%20Tree%20Right%20Side%20View/rightSideView.ts
+[236]: ./src/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/lowestCommonAncestor.ts
+[437]: ./src/437.%20Path%20Sum%20III/pathSum.ts
 
 | Dynamic Programming                 |                  |        |                        |
 | ----------------------------------- | ---------------- | ------ | ---------------------- |
@@ -81,15 +81,15 @@ Problems:
 | 416. Partition Equal Subset Sum     | Solution         | Medium | 詳解                   |
 | 1143. Longest Common Subsequence    | [Solution][1143] | Medium | 詳解                   |
 
-[5]: ./src/page-1/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
-[62]: ./src/page-1/62.%20Unique%20Paths/uniquePaths.ts
-[70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
-[72]: ./src/page-1/72.%20Edit%20Distance/minDistance.ts
-[72-explanation]: ./src/page-1/72.%20Edit%20Distance/README.md
-[118]: ./src/page-2/118.%20Pascal's%20Triangle/generate.ts
-[139]: ./src/page-2/139.%20Word%20Break/wordBreak.ts
-[198]: ./src/page-2/198.%20House%20Robber/rob.ts
-[1143]: ./src/page-11/1143.%20Longest%20Common%20Subsequence/longestCommonSubsequence.ts
+[5]: ./src/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
+[62]: ./src/62.%20Unique%20Paths/uniquePaths.ts
+[70]: ./src/70.%20Climbing%20Stairs/climbStairs.ts
+[72]: ./src/72.%20Edit%20Distance/minDistance.ts
+[72-explanation]: ./src/72.%20Edit%20Distance/README.md
+[118]: ./src/118.%20Pascal's%20Triangle/generate.ts
+[139]: ./src/139.%20Word%20Break/wordBreak.ts
+[198]: ./src/198.%20House%20Robber/rob.ts
+[1143]: ./src/1143.%20Longest%20Common%20Subsequence/longestCommonSubsequence.ts
 
 | Graph                  |                 |        |      |
 | ---------------------- | --------------- | ------ | ---- |
@@ -97,7 +97,7 @@ Problems:
 | 207. Course Schedule   | Solution        | Medium | 詳解 |
 | 994. Rotting Oranges   | [Solution][994] | Medium | 詳解 |
 
-[994]: ./src/page-10/994.%20Rotting%20Oranges/orangesRotting.ts
+[994]: ./src/994.%20Rotting%20Oranges/orangesRotting.ts
 
 | Greedy                               |          |        |      |
 | ------------------------------------ | -------- | ------ | ---- |
@@ -113,7 +113,7 @@ Problems:
 | 128. Longest Consecutive Sequence | Solution      | Medium | 詳解 |
 | 560. Subarray Sum Equals K        | Solution      | Medium | 詳解 |
 
-[1]: ./src/page-1/1.%20Two%20Sum/twoSum.ts
+[1]: ./src/1.%20Two%20Sum/twoSum.ts
 
 | Heap                                 |                 |        |      |
 | ------------------------------------ | --------------- | ------ | ---- |
@@ -121,7 +121,7 @@ Problems:
 | 295. Find Median from Data Stream    | Solution        | Hard   | 詳解 |
 | 347. Top K Frequent Elements         | Solution        | Medium | 詳解 |
 
-[215]: ./src/page-2/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
+[215]: ./src/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
 
 | Linked Lists                          |                 |        |      |
 | ------------------------------------- | --------------- | ------ | ---- |
@@ -140,10 +140,10 @@ Problems:
 | 206. Reverse Linked List              | [Solution][206] | Easy   | 詳解 |
 | 234. Palindrome Linked List           | Solution        | Easy   | 詳解 |
 
-[2]: ./src/page-1/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
-[21]: ./src/page-1/21.%20Merge%20Two%20Sorted%20Lists/mergeTwoLists.ts
-[141]: ./src/page-2/141.%20Linked%20List%20Cycle/hasCycle.ts
-[206]: ./src/page-2/206.%20Reverse%20Linked%20List/reverseList.ts
+[2]: ./src/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
+[21]: ./src/21.%20Merge%20Two%20Sorted%20Lists/mergeTwoLists.ts
+[141]: ./src/141.%20Linked%20List%20Cycle/hasCycle.ts
+[206]: ./src/206.%20Reverse%20Linked%20List/reverseList.ts
 
 | Matrix                     |                |        |      |
 | -------------------------- | -------------- | ------ | ---- |
@@ -152,7 +152,7 @@ Problems:
 | 73. Set Matrix Zeroes      | Solution       | Medium | 詳解 |
 | 240. Search a 2D Matrix II | Solution       | Medium | 詳解 |
 
-[54]: ./src/page-1/54.%20Spiral%20Matrix/spiralOrder.ts
+[54]: ./src/54.%20Spiral%20Matrix/spiralOrder.ts
 
 | Sliding Window                                    |               |        |      |
 | ------------------------------------------------- | ------------- | ------ | ---- |
@@ -161,7 +161,7 @@ Problems:
 | 239. Sliding Window Maximum                       | Solution      | Hard   | 詳解 |
 | 438. Find All Anagrams in a String                | Solution      | Medium | 詳解 |
 
-[3]: ./src/page-1/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.ts
+[3]: ./src/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.ts
 
 | Stack                              |                 |        |      |
 | ---------------------------------- | --------------- | ------ | ---- |
@@ -171,10 +171,10 @@ Problems:
 | 394. Decode String                 | [Solution][394] | Medium | 詳解 |
 | 739. Daily Temperatures            | [Solution][739] | Medium | 詳解 |
 
-[20]: ./src/page-1/20.%20Valid%20Parentheses/isValid.ts
-[155]: ./src/page-2/155.%20Min%20Stack/MinStack.ts
-[394]: ./src/page-4/394.%20Decode%20String/decodeString.ts
-[739]: ./src/page-7/739.%20Daily%20Temperatures/dailyTemperatures.ts
+[20]: ./src/20.%20Valid%20Parentheses/isValid.ts
+[155]: ./src/155.%20Min%20Stack/MinStack.ts
+[394]: ./src/394.%20Decode%20String/decodeString.ts
+[739]: ./src/739.%20Daily%20Temperatures/dailyTemperatures.ts
 
 | Two Pointers                  |                 |        |                         |
 | ----------------------------- | --------------- | ------ | ----------------------- |
@@ -183,15 +183,15 @@ Problems:
 | 42. Trapping Rain Water       | Solution        | Hard   | 詳解                    |
 | 283. Move Zeroes              | [Solution][283] | Easy   | [詳解][283-explanation] |
 
-[11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
-[283]: ./src/page-3/283.%20Move%20Zeroes/moveZeroes.ts
-[283-explanation]: ./src/page-3/283.%20Move%20Zeroes/README.md
+[11]: ./src/11.%20Container%20With%20Most%20Water/maxArea.ts
+[283]: ./src/283.%20Move%20Zeroes/moveZeroes.ts
+[283-explanation]: ./src/283.%20Move%20Zeroes/README.md
 
 | Trie                              |                 |        |      |
 | --------------------------------- | --------------- | ------ | ---- |
 | 208. Implement Trie (Prefix Tree) | [Solution][208] | Medium | 詳解 |
 
-[208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
+[208]: ./src/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
 | Misc                              |                 |        |                         |
 | --------------------------------- | --------------- | ------ | ----------------------- |
@@ -206,9 +206,9 @@ Problems:
 | 238. Product of Array Except Self | [Solution][238] | Medium | 詳解                    |
 | 287. Find the Duplicate Number    | [Solution][287] | Medium | [詳解][287-explanation] |
 
-[53]: ./src/page-1/53.%20Maximum%20Subarray/maxSubArray.ts
-[136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
-[189]: ./src/page-2/189.%20Rotate%20Array/rotate.ts
-[238]: ./src/page-3/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
-[287]: ./src/page-3/287.%20Find%20the%20Duplicate%20Number/findDuplicate.ts
-[287-explanation]: ./src/page-3/287.%20Find%20the%20Duplicate%20Number/README.md
+[53]: ./src/53.%20Maximum%20Subarray/maxSubArray.ts
+[136]: ./src/136.%20Single%20Number/singleNumber.ts
+[189]: ./src/189.%20Rotate%20Array/rotate.ts
+[238]: ./src/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
+[287]: ./src/287.%20Find%20the%20Duplicate%20Number/findDuplicate.ts
+[287-explanation]: ./src/287.%20Find%20the%20Duplicate%20Number/README.md

@@ -1336,7 +1336,7 @@ foo().then(() => console.log(4));
 // 4
 ```
 
-平行
+等到全部履行 (或有一個拒絕):
 
 ```ts
 Promise.all([p1(), p2()]).then((data) => {
@@ -1345,7 +1345,7 @@ Promise.all([p1(), p2()]).then((data) => {
 });
 ```
 
-平行且競賽
+競賽:
 
 ```ts
 Promise.race([
@@ -1356,7 +1356,7 @@ Promise.race([
 });
 ```
 
-錯誤處理
+錯誤處理:
 
 ```ts
 foo()
@@ -1364,7 +1364,7 @@ foo()
   .catch((❌ Error) => console.❌ Error(❌ Error));
 ```
 
-鏈接
+鏈接:
 
 ```ts
 foo()
@@ -1375,8 +1375,13 @@ foo()
   .finally(() => console.log('Fulfilled or Rejected'));
 ```
 
+等到全部結束:
+
 ```ts
-allSettled;
+Promise.allSettled([p1(), p2()]).then((data) => {
+  console.log(data[0]); // p1 結果
+  console.log(data[1]); // p2 結果
+});
 ```
 
 ## Iterators (迭代器)

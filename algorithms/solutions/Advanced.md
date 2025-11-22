@@ -36,18 +36,18 @@ Problems:
 | 28. Find the Index of the First Occurrence in a String | [Solution][28]  | Easy   | 詳解 |
 | 68. Text Justification                                 | [Solution][68]  | Hard   | 詳解 |
 
-[88]: ./src/page-1//88.%20Merge%20Sorted%20Array/merge.ts
-[27]: ./src/page-1/27.%20Remove%20Element/removeElement.ts
-[26]: ./src/page-1/26.%20Remove%20Duplicates%20from%20Sorted%20Array/removeDuplicates.ts
-[189]: ./src/page-2/189.%20Rotate%20Array/rotate.ts
-[238]: ./src/page-3/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
-[13]: ./src/page-1/13.%20Roman%20to%20Integer/romanToInt.ts
-[58]: ./src/page-1/58.%20Length%20of%20Last%20Word/lengthOfLastWord.ts
-[14]: ./src/page-1/14.%20Longest%20Common%20Prefix/longestCommonPrefix.ts
-[151]: ./src/page-2/151.%20Reverse%20Words%20in%20a%20String/reverseWords.ts
-[6]: ./src/page-1/6.%20Zigzag%20Conversion/convert.ts
-[28]: ./src/page-1/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/strStr.ts
-[68]: ./src/page-1/68.%20Text%20Justification/fullJustify.ts
+[88]: ./src/88.%20Merge%20Sorted%20Array/merge.ts
+[27]: ./src/27.%20Remove%20Element/removeElement.ts
+[26]: ./src/26.%20Remove%20Duplicates%20from%20Sorted%20Array/removeDuplicates.ts
+[189]: ./src/189.%20Rotate%20Array/rotate.ts
+[238]: ./src/238.%20Product%20of%20Array%20Except%20Self/productExceptSelf.ts
+[13]: ./src/13.%20Roman%20to%20Integer/romanToInt.ts
+[58]: ./src/58.%20Length%20of%20Last%20Word/lengthOfLastWord.ts
+[14]: ./src/14.%20Longest%20Common%20Prefix/longestCommonPrefix.ts
+[151]: ./src/151.%20Reverse%20Words%20in%20a%20String/reverseWords.ts
+[6]: ./src/6.%20Zigzag%20Conversion/convert.ts
+[28]: ./src/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/strStr.ts
+[68]: ./src/68.%20Text%20Justification/fullJustify.ts
 
 | Two Pointers                            |                 |        |      |
 | --------------------------------------- | --------------- | ------ | ---- |
@@ -57,8 +57,8 @@ Problems:
 | 11. Container With Most Water           | [Solution][11]  | Medium | 詳解 |
 | 15. 3Sum                                | Solution        | Medium | 詳解 |
 
-[392]: ./src/page-4/392.%20Is%20Subsequence/isSubsequence.ts
-[11]: ./src/page-1/11.%20Container%20With%20Most%20Water/maxArea.ts
+[392]: ./src/392.%20Is%20Subsequence/isSubsequence.ts
+[11]: ./src/11.%20Container%20With%20Most%20Water/maxArea.ts
 
 | Sliding Window                                    |               |        |      |
 | ------------------------------------------------- | ------------- | ------ | ---- |
@@ -67,7 +67,7 @@ Problems:
 | 30. Substring with Concatenation of All Words     | Solution      | Hard   | 詳解 |
 | 76. Minimum Window Substring                      | Solution      | Hard   | 詳解 |
 
-[3]: ./src/page-1/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.ts
+[3]: ./src/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.ts
 
 | Matrix                |          |        |      |
 | --------------------- | -------- | ------ | ---- |
@@ -89,7 +89,7 @@ Problems:
 | 219. Contains Duplicate II        | Solution      | Easy   | 詳解 |
 | 128. Longest Consecutive Sequence | Solution      | Medium | 詳解 |
 
-[1]: ./src/page-1/1.%20Two%20Sum/twoSum.ts
+[1]: ./src/1.%20Two%20Sum/twoSum.ts
 
 | Intervals                                       |                 |        |      |
 | ----------------------------------------------- | --------------- | ------ | ---- |
@@ -98,7 +98,7 @@ Problems:
 | 57. Insert Interval                             | Solution        | Medium | 詳解 |
 | 452. Minimum Number of Arrows to Burst Balloons | [Solution][452] | Medium | 詳解 |
 
-[452]: ./src/page-5/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/findMinArrowShots.ts
+[452]: ./src/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/findMinArrowShots.ts
 
 | Stack                                 |                 |        |      |
 | ------------------------------------- | --------------- | ------ | ---- |
@@ -108,8 +108,8 @@ Problems:
 | 150. Evaluate Reverse Polish Notation | Solution        | Medium | 詳解 |
 | 224. Basic Calculator                 | Solution        | Hard   | 詳解 |
 
-[20]: ./src/page-1/20.%20Valid%20Parentheses/isValid.ts
-[155]: ./src/page-2/155.%20Min%20Stack/MinStack.ts
+[20]: ./src/20.%20Valid%20Parentheses/isValid.ts
+[155]: ./src/155.%20Min%20Stack/MinStack.ts
 
 | Linked List                               |                 |        |      |
 | ----------------------------------------- | --------------- | ------ | ---- |
@@ -125,9 +125,9 @@ Problems:
 | 86. Partition List                        | Solution        | Medium | 詳解 |
 | 146. LRU Cache                            | Solution        | Medium | 詳解 |
 
-[141]: ./src/page-2/141.%20Linked%20List%20Cycle/hasCycle.ts
-[2]: ./src/page-1/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
-[21]: ./src/page-1/21.%20Merge%20Two%20Sorted%20Lists/mergeTwoLists.ts
+[141]: ./src/141.%20Linked%20List%20Cycle/hasCycle.ts
+[2]: ./src/2.%20Add%20Two%20Numbers/addTwoNumbers.ts
+[21]: ./src/21.%20Merge%20Two%20Sorted%20Lists/mergeTwoLists.ts
 
 | Binary Tree General                                             |                 |        |      |
 | --------------------------------------------------------------- | --------------- | ------ | ---- |
@@ -146,11 +146,11 @@ Problems:
 | 222. Count Complete Tree Nodes                                  | Solution        | Easy   | 詳解 |
 | 236. Lowest Common Ancestor of a Binary Tree                    | [Solution][236] | Medium | 詳解 |
 
-[104]: ./src/page-2/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
-[100]: ./src/page-1/100.%20Same%20Tree/isSameTree.ts
-[101]: ./src/page-2/101.%20Symmetric%20Tree/isSymmetric.ts
-[112]: ./src/page-2/112.%20Path%20Sum/hasPathSum.ts
-[236]: ./src/page-3/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/lowestCommonAncestor.ts
+[104]: ./src/104.%20Maximum%20Depth%20of%20Binary%20Tree/maxDepth.ts
+[100]: ./src/100.%20Same%20Tree/isSameTree.ts
+[101]: ./src/101.%20Symmetric%20Tree/isSymmetric.ts
+[112]: ./src/112.%20Path%20Sum/hasPathSum.ts
+[236]: ./src/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/lowestCommonAncestor.ts
 
 | Binary Tree BFS                               |                 |        |      |
 | --------------------------------------------- | --------------- | ------ | ---- |
@@ -159,7 +159,7 @@ Problems:
 | 102. Binary Tree Level Order Traversal        | Solution        | Medium | 詳解 |
 | 103. Binary Tree Zigzag Level Order Traversal | Solution        | Medium | 詳解 |
 
-[199]: ./src/page-2/199.%20Binary%20Tree%20Right%20Side%20View/rightSideView.ts
+[199]: ./src/199.%20Binary%20Tree%20Right%20Side%20View/rightSideView.ts
 
 | Binary Search Tree                      |          |        |      |
 | --------------------------------------- | -------- | ------ | ---- |
@@ -176,7 +176,7 @@ Problems:
 | 207. Course Schedule    | Solution        | Medium | 詳解 |
 | 210. Course Schedule II | Solution        | Medium | 詳解 |
 
-[399]: ./src/page-4/399.%20Evaluate%20Division/calcEquation.ts
+[399]: ./src/399.%20Evaluate%20Division/calcEquation.ts
 
 | Graph BFS                     |          |        |      |
 | ----------------------------- | -------- | ------ | ---- |
@@ -190,7 +190,7 @@ Problems:
 | 211. Design Add and Search Words Data Structure | Solution        | Medium | 詳解 |
 | 212. Word Search II                             | Solution        | Hard   | 詳解 |
 
-[208]: ./src/page-2/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
+[208]: ./src/208.%20Implement%20Trie%20(Prefix%20Tree)/Trie.ts
 
 | Backtracking                              |                |        |      |
 | ----------------------------------------- | -------------- | ------ | ---- |
@@ -203,8 +203,8 @@ Problems:
 | 79. Word Search                           | Solution       | Medium | 詳解 |
 
 [17]: ./src/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.ts
-[46]: ./src/page-1/46.%20Permutations/permute.ts
-[39]: ./src/page-1/39.%20Combination%20Sum/combinationSum.ts
+[46]: ./src/46.%20Permutations/permute.ts
+[39]: ./src/39.%20Combination%20Sum/combinationSum.ts
 
 | Divide & Conquer                                |                 |        |      |
 | ----------------------------------------------- | --------------- | ------ | ---- |
@@ -213,14 +213,14 @@ Problems:
 | 427. Construct Quad Tree                        | Solution        | Medium | 詳解 |
 | 23. Merge k Sorted Lists                        | Solution        | Hard   | 詳解 |
 
-[108]: ./src/page-2/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/sortedArrayToBST.ts
+[108]: ./src/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/sortedArrayToBST.ts
 
 | Kadane's Algorithm                 |                |        |      |
 | ---------------------------------- | -------------- | ------ | ---- |
 | 53. Maximum Subarray               | [Solution][53] | Medium | 詳解 |
 | 918. Maximum Sum Circular Subarray | Solution       | Medium | 詳解 |
 
-[53]: ./src/page-1/53.%20Maximum%20Subarray/maxSubArray.ts
+[53]: ./src/53.%20Maximum%20Subarray/maxSubArray.ts
 
 | Binary Search                                               |                 |        |      |
 | ----------------------------------------------------------- | --------------- | ------ | ---- |
@@ -232,10 +232,10 @@ Problems:
 | 153. Find Minimum in Rotated Sorted Array                   | Solution        | Medium | 詳解 |
 | 4. Median of Two Sorted Arrays                              | [Solution][4]   | Hard   | 詳解 |
 
-[35]: ./src/page-1/35.%20Search%20Insert%20Position/searchInsert.ts
-[162]: ./src/page-2/162.%20Find%20Peak%20Element/findPeakElement.ts
-[34]: ./src/page-1/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/searchRange.ts
-[4]: ./src/page-1/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
+[35]: ./src/35.%20Search%20Insert%20Position/searchInsert.ts
+[162]: ./src/162.%20Find%20Peak%20Element/findPeakElement.ts
+[34]: ./src/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/searchRange.ts
+[4]: ./src/4.%20Median%20of%20Two%20Sorted%20Arrays/findMedianSortedArrays.ts
 
 | Heap                                 |                 |        |      |
 | ------------------------------------ | --------------- | ------ | ---- |
@@ -244,7 +244,7 @@ Problems:
 | 373. Find K Pairs with Smallest Sums | Solution        | Medium | 詳解 |
 | 295. Find Median from Data Stream    | Solution        | Hard   | 詳解 |
 
-[215]: ./src/page-2/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
+[215]: ./src/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.ts
 
 | Bit Manipulation                  |                 |        |      |
 | --------------------------------- | --------------- | ------ | ---- |
@@ -255,10 +255,10 @@ Problems:
 | 137. Single Number II             | Solution        | Medium | 詳解 |
 | 201. Bitwise AND of Numbers Range | Solution        | Medium | 詳解 |
 
-[67]: ./src/page-1/67.%20Add%20Binary/addBinary.ts
-[190]: ./src/page-2/190.%20Reverse%20Bits/reverseBits.ts
-[191]: ./src/page-2/191.%20Number%20of%201%20Bits/hammingWeight.ts
-[136]: ./src/page-2/136.%20Single%20Number/singleNumber.ts
+[67]: ./src/67.%20Add%20Binary/addBinary.ts
+[190]: ./src/190.%20Reverse%20Bits/reverseBits.ts
+[191]: ./src/191.%20Number%20of%201%20Bits/hammingWeight.ts
+[136]: ./src/136.%20Single%20Number/singleNumber.ts
 
 | Math                           |                |        |      |
 | ------------------------------ | -------------- | ------ | ---- |
@@ -269,10 +269,10 @@ Problems:
 | 50. Pow(x, n)                  | [Solution][50] | Medium | 詳解 |
 | 149. Max Points on a Line      | Solution       | Hard   | 詳解 |
 
-[9]: ./src/page-1/9.%20Palindrome%20Number/isPalindrome.ts
-[66]: ./src/page-1/66.%20Plus%20One/plusOne.ts
-[69]: ./src/page-1/69.%20Sqrt(x)/mySqrt.ts
-[50]: ./src/page-1/50.%20Pow(x,%20n)/myPow.ts
+[9]: ./src/9.%20Palindrome%20Number/isPalindrome.ts
+[66]: ./src/66.%20Plus%20One/plusOne.ts
+[69]: ./src/69.%20Sqrt(x)/mySqrt.ts
+[50]: ./src/50.%20Pow(x,%20n)/myPow.ts
 
 | 1D DP                               |                 |        |      |
 | ----------------------------------- | --------------- | ------ | ---- |
@@ -282,9 +282,9 @@ Problems:
 | 322. Coin Change                    | Solution        | Medium | 詳解 |
 | 300. Longest Increasing Subsequence | Solution        | Medium | 詳解 |
 
-[70]: ./src/page-1/70.%20Climbing%20Stairs/climbStairs.ts
-[198]: ./src/page-2/198.%20House%20Robber/rob.ts
-[139]: ./src/page-2/139.%20Word%20Break/wordBreak.ts
+[70]: ./src/70.%20Climbing%20Stairs/climbStairs.ts
+[198]: ./src/198.%20House%20Robber/rob.ts
+[139]: ./src/139.%20Word%20Break/wordBreak.ts
 
 | Multidimensional DP                      |                |        |                        |
 | ---------------------------------------- | -------------- | ------ | ---------------------- |
@@ -298,6 +298,6 @@ Problems:
 | 188. Best Time to Buy and Sell Stock IV  | Solution       | Hard   | 詳解                   |
 | 221. Maximal Square                      | Solution       | Medium | 詳解                   |
 
-[5]: ./src/page-1/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
-[72]: ./src/page-1/72.%20Edit%20Distance/minDistance.ts
-[72-explanation]: ./src/page-1/72.%20Edit%20Distance/README.md
+[5]: ./src/5.%20Longest%20Palindromic%20Substring/longestPalindrome.ts
+[72]: ./src/72.%20Edit%20Distance/minDistance.ts
+[72-explanation]: ./src/72.%20Edit%20Distance/README.md

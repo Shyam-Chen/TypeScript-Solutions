@@ -1,6 +1,6 @@
-# TypeScript Solutions
+# TypeScript Journey
 
-🔷 TypeScript Journey: From Zero to Hero, Open Source to Business Applications
+🟦 From Zero to Hero, Open Source to Business Applications
 
 ---
 
